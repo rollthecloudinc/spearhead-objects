@@ -34,10 +34,28 @@
 	"panels": [
 		{
 			"columnSetting": {
-				"settings": []
+				"settings": [ ]
 			},
-			"panes": [],
-			"settings": [],
+			"label": "",
+			"name": "",
+			"panes": [
+				{
+					"contentPlugin": "mfe1_download",
+					"label": "",
+					"linkedPageId": "",
+					"locked": false,
+					"name": "",
+					"rule": {
+						"condition": "",
+						"field": "",
+						"operator": "",
+						"rules": [ ],
+						"value": ""
+					},
+					"settings": [ ]
+				}
+			],
+			"settings": [ ],
 			"stylePlugin": ""
 		}
 	],
