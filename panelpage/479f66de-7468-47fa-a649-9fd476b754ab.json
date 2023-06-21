@@ -40,7 +40,7 @@
 			"name": "",
 			"panes": [
 				{
-					"contentPlugin": "mfe1_download",
+					"contentPlugin": "amcharts5_json_chart",
 					"label": "",
 					"linkedPageId": "",
 					"locked": false,
