@@ -221,19 +221,19 @@
 				},
 				{
 					"attributes": [],
-					"computedValue": "",
+					"computedValue": "1",
 					"displayName": "Flex Shrink",
 					"name": "flexShrink",
 					"type": 1,
-					"value": ""
+					"value": "1"
 				},
 				{
 					"attributes": [],
-					"computedValue": "",
+					"computedValue": "1",
 					"displayName": "Flex Basis",
 					"name": "flexBasis",
 					"type": 1,
-					"value": ""
+					"value": "1"
 				},
 				{
 					"attributes": [],
