@@ -35,14 +35,32 @@
 		}
 	},
 	"layoutSetting": {
-		"settings": []
+		"settings": [
+			{
+				"attributes": [],
+				"computedValue": "column",
+				"displayName": "Direction",
+				"name": "direction",
+				"type": 1,
+				"value": "column"
+			}
+		]
 	},
 	"layoutType": "split",
 	"name": "plugin-amcharts-refs-test-1",
 	"panels": [
 		{
 			"columnSetting": {
-				"settings": []
+				"settings": [
+					{
+						"attributes": [],
+						"computedValue": "100%",
+						"displayName": "Height",
+						"name": "height",
+						"type": 1,
+						"value": "100%"
+					}
+				]
 			},
 			"panes": [
 				{
@@ -192,7 +210,48 @@
 	},
 	"rowSettings": [
 		{
-			"settings": []
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "1",
+					"displayName": "Flex Grow",
+					"name": "flexGrow",
+					"type": 1,
+					"value": "1"
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "Flex Shrink",
+					"name": "flexShrink",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "Flex Basis",
+					"name": "flexBasis",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"computedValue": "100%",
+					"displayName": "Height",
+					"name": "height",
+					"type": 1,
+					"value": "100%"
+				},
+				{
+					"attributes": [],
+					"computedValue": "row",
+					"displayName": "Direction",
+					"name": "direction",
+					"type": 1,
+					"value": "row"
+				}
+			]
 		},
 		{
 			"settings": []
