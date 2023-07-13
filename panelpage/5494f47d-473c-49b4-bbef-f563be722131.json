@@ -19,7 +19,15 @@
 		],
 		"writeUserIds": []
 	},
-	"gridItems": [],
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
 	"id": "5494f47d-473c-49b4-bbef-f563be722131",
 	"interactions": {
 		"interactions": {
@@ -29,7 +37,7 @@
 	"layoutSetting": {
 		"settings": []
 	},
-	"layoutType": "gridless",
+	"layoutType": "split",
 	"name": "plugin-amcharts-refs-test-1",
 	"panels": [
 		{
@@ -166,6 +174,14 @@
 			],
 			"settings": [],
 			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
 		}
 	],
 	"path": "/plugin-amcharts-refs-test-1",
@@ -175,6 +191,9 @@
 		}
 	},
 	"rowSettings": [
+		{
+			"settings": []
+		},
 		{
 			"settings": []
 		}
