@@ -19,15 +19,7 @@
 		],
 		"writeUserIds": []
 	},
-	"gridItems": [
-		{
-			"cols": 100,
-			"rows": 1,
-			"weight": 0,
-			"x": 0,
-			"y": 0
-		}
-	],
+	"gridItems": [],
 	"id": "5494f47d-473c-49b4-bbef-f563be722131",
 	"interactions": {
 		"interactions": {
@@ -46,7 +38,7 @@
 			}
 		]
 	},
-	"layoutType": "split",
+	"layoutType": "gridless",
 	"name": "plugin-amcharts-refs-test-1",
 	"panels": [
 		{
