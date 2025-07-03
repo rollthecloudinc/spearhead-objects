@@ -55,11 +55,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "[body]",
+							"computedValue": "[.body]",
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "[body]"
+							"value": "[.body]"
 						},
 						{
 							"attributes": [],
