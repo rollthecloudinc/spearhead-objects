@@ -32,6 +32,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -43,11 +47,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "Hellow World 123",
+							"computedValue": "Hellow World 123 345",
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "Hellow World 123"
+							"value": "Hellow World 123 345"
 						},
 						{
 							"attributes": [],
