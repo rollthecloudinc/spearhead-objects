@@ -47,6 +47,10 @@
 					"label": "Search",
 					"locked": false,
 					"name": "search",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [
@@ -203,6 +207,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "form_input"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -358,11 +387,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "page",
+							"computedValue": "form",
 							"displayName": "displayType",
 							"name": "displayType",
 							"type": 1,
-							"value": "page"
+							"value": "form"
 						},
 						{
 							"attributes": [],
@@ -415,6 +444,14 @@
 											"name": "settings",
 											"type": 2,
 											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 0,
+											"value": "undefined"
 										}
 									],
 									"computedValue": null,
