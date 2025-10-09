@@ -27,379 +27,42 @@
 			},
 			"panes": [
 				{
-					"contentPlugin": "panel",
+					"contentPlugin": "form_input",
 					"contexts": [],
-					"label": "516048f0-ca24-4f70-8044-3e4a54b68283",
+					"label": "Title",
 					"locked": false,
-					"name": "516048f0-ca24-4f70-8044-3e4a54b68283",
-					"rule": {
-						"condition": "",
-						"rules": []
-					},
+					"name": "title",
 					"settings": [
 						{
 							"attributes": [],
-							"computedValue": null,
-							"displayName": "gridItems",
-							"name": "gridItems",
-							"type": 4,
-							"value": null
-						},
-						{
-							"attributes": [
-								{
-									"attributes": [
-										{
-											"attributes": [],
-											"computedValue": null,
-											"displayName": "settings",
-											"name": "settings",
-											"type": 2,
-											"value": null
-										},
-										{
-											"attributes": [
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "text/html",
-																	"displayName": "Content Type",
-																	"name": "contentType",
-																	"type": 1,
-																	"value": "text/html"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": "Create a new ad",
-																	"displayName": "Content",
-																	"name": "content",
-																	"type": 1,
-																	"value": "Create a new ad"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "jsScript",
-																	"name": "jsScript",
-																	"type": 1,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "text",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": "text"
-														},
-														{
-															"attributes": [],
-															"computedValue": "Text",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": "Text"
-														},
-														{
-															"attributes": [],
-															"computedValue": "snippet",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "snippet"
-														}
-													],
-													"computedValue": null,
-													"displayName": "0",
-													"name": "0",
-													"type": 2,
-													"value": null
-												}
-											],
-											"computedValue": null,
-											"displayName": "panes",
-											"name": "panes",
-											"type": 4,
-											"value": null
-										},
-										{
-											"attributes": [],
-											"computedValue": "undefined",
-											"displayName": "name",
-											"name": "name",
-											"type": 0,
-											"value": "undefined"
-										},
-										{
-											"attributes": [],
-											"computedValue": "undefined",
-											"displayName": "label",
-											"name": "label",
-											"type": 0,
-											"value": "undefined"
-										},
-										{
-											"attributes": [],
-											"computedValue": "",
-											"displayName": "stylePlugin",
-											"name": "stylePlugin",
-											"type": 1,
-											"value": ""
-										},
-										{
-											"attributes": [
-												{
-													"attributes": [],
-													"computedValue": null,
-													"displayName": "settings",
-													"name": "settings",
-													"type": 2,
-													"value": null
-												}
-											],
-											"computedValue": null,
-											"displayName": "columnSetting",
-											"name": "columnSetting",
-											"type": 2,
-											"value": null
-										}
-									],
-									"computedValue": null,
-									"displayName": "0",
-									"name": "0",
-									"type": 2,
-									"value": null
-								}
-							],
-							"computedValue": null,
-							"displayName": "panels",
-							"name": "panels",
-							"type": 4,
-							"value": null
-						},
-						{
-							"attributes": [],
-							"computedValue": null,
-							"displayName": "contexts",
-							"name": "contexts",
-							"type": 4,
-							"value": null
-						},
-						{
-							"attributes": [
-								{
-									"attributes": [
-										{
-											"attributes": [],
-											"computedValue": null,
-											"displayName": "settings",
-											"name": "settings",
-											"type": 2,
-											"value": null
-										}
-									],
-									"computedValue": null,
-									"displayName": "0",
-									"name": "0",
-									"type": 2,
-									"value": null
-								}
-							],
-							"computedValue": null,
-							"displayName": "rowSettings",
-							"name": "rowSettings",
-							"type": 4,
-							"value": null
+							"computedValue": "Title",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": "Title"
 						},
 						{
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": null,
-									"displayName": "readUserIds",
-									"name": "readUserIds",
-									"type": 4,
-									"value": null
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
 								},
 								{
 									"attributes": [],
-									"computedValue": null,
-									"displayName": "writeUserIds",
-									"name": "writeUserIds",
-									"type": 4,
-									"value": null
-								},
-								{
-									"attributes": [],
-									"computedValue": null,
-									"displayName": "deleteUserIds",
-									"name": "deleteUserIds",
-									"type": 4,
-									"value": null
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
 								}
 							],
 							"computedValue": null,
-							"displayName": "entityPermissions",
-							"name": "entityPermissions",
-							"type": 2,
-							"value": null
-						},
-						{
-							"attributes": [],
-							"computedValue": "undefined",
-							"displayName": "id",
-							"name": "id",
-							"type": 0,
-							"value": "undefined"
-						},
-						{
-							"attributes": [],
-							"computedValue": "gridless",
-							"displayName": "layoutType",
-							"name": "layoutType",
-							"type": 1,
-							"value": "gridless"
-						},
-						{
-							"attributes": [],
-							"computedValue": "page",
-							"displayName": "displayType",
-							"name": "displayType",
-							"type": 1,
-							"value": "page"
-						},
-						{
-							"attributes": [],
-							"computedValue": "undefined",
-							"displayName": "name",
-							"name": "name",
-							"type": 0,
-							"value": "undefined"
-						},
-						{
-							"attributes": [],
-							"computedValue": "undefined",
-							"displayName": "title",
-							"name": "title",
-							"type": 0,
-							"value": "undefined"
-						},
-						{
-							"attributes": [],
-							"computedValue": "spearhead",
-							"displayName": "site",
-							"name": "site",
-							"type": 1,
-							"value": "spearhead"
-						},
-						{
-							"attributes": [],
-							"computedValue": "undefined",
-							"displayName": "userId",
-							"name": "userId",
-							"type": 0,
-							"value": "undefined"
-						},
-						{
-							"attributes": [],
-							"computedValue": "undefined",
-							"displayName": "path",
-							"name": "path",
-							"type": 0,
-							"value": "undefined"
-						},
-						{
-							"attributes": [
-								{
-									"attributes": [
-										{
-											"attributes": [],
-											"computedValue": null,
-											"displayName": "settings",
-											"name": "settings",
-											"type": 2,
-											"value": null
-										}
-									],
-									"computedValue": null,
-									"displayName": "dataduct",
-									"name": "dataduct",
-									"type": 2,
-									"value": null
-								}
-							],
-							"computedValue": null,
-							"displayName": "persistence",
-							"name": "persistence",
-							"type": 2,
-							"value": null
-						},
-						{
-							"attributes": [
-								{
-									"attributes": [
-										{
-											"attributes": [],
-											"computedValue": null,
-											"displayName": "listeners",
-											"name": "listeners",
-											"type": 4,
-											"value": null
-										}
-									],
-									"computedValue": null,
-									"displayName": "interactions",
-									"name": "interactions",
-									"type": 2,
-									"value": null
-								}
-							],
-							"computedValue": null,
-							"displayName": "interactions",
-							"name": "interactions",
-							"type": 2,
-							"value": null
-						},
-						{
-							"attributes": [
-								{
-									"attributes": [],
-									"computedValue": null,
-									"displayName": "settings",
-									"name": "settings",
-									"type": 2,
-									"value": null
-								}
-							],
-							"computedValue": null,
-							"displayName": "layoutSetting",
-							"name": "layoutSetting",
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
 							"type": 2,
 							"value": null
 						}
@@ -413,7 +76,31 @@
 	"path": "/post",
 	"persistence": {
 		"dataduct": {
-			"settings": []
+			"plugin": "entity",
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "test-out-ad",
+					"displayName": "entityName",
+					"name": "entityName",
+					"type": 1,
+					"value": "test-out-ad"
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "queryString",
+					"name": "queryString",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"displayName": "params",
+					"name": "params",
+					"type": 4
+				}
+			]
 		}
 	},
 	"rowSettings": [
