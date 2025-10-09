@@ -32,6 +32,10 @@
 					"label": "516048f0-ca24-4f70-8044-3e4a54b68283",
 					"locked": false,
 					"name": "516048f0-ca24-4f70-8044-3e4a54b68283",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
