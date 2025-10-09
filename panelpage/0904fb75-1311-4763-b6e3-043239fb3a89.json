@@ -40,6 +40,10 @@
 					"label": "Ads",
 					"locked": false,
 					"name": "ads",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -126,6 +130,116 @@
 									"value": "pane"
 								},
 								{
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "pane",
+													"displayName": "type",
+													"name": "type",
+													"type": 1,
+													"value": "pane"
+												},
+												{
+													"attributes": [],
+													"computedValue": "selectHits",
+													"displayName": "id",
+													"name": "id",
+													"type": 1,
+													"value": "selectHits"
+												}
+											],
+											"computedValue": null,
+											"displayName": "0",
+											"name": "0",
+											"type": 2,
+											"value": null
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "pane",
+													"displayName": "type",
+													"name": "type",
+													"type": 1,
+													"value": "pane"
+												},
+												{
+													"attributes": [],
+													"computedValue": "adDescription",
+													"displayName": "id",
+													"name": "id",
+													"type": 1,
+													"value": "adDescription"
+												}
+											],
+											"computedValue": null,
+											"displayName": "1",
+											"name": "1",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Select Hits",
+					"locked": false,
+					"name": "selectHits",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "select",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "select"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "$[0].hits",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": "$[0].hits"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
 									"attributes": [],
 									"computedValue": null,
 									"displayName": "bindings",
@@ -138,6 +252,39 @@
 							"displayName": "renderer",
 							"name": "renderer",
 							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "Ad Description",
+					"locked": false,
+					"name": "adDescription",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "Description: [.description]",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "Description: [.description]"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
 							"value": null
 						}
 					]
