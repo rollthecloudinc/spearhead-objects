@@ -800,13 +800,47 @@
 				}
 			],
 			"settings": [],
-			"stylePlugin": ""
+			"stylePlugin": "virtuallist"
 		},
 		{
 			"columnSetting": {
 				"settings": []
 			},
-			"panes": [],
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "Description",
+					"locked": false,
+					"name": "description",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "This is where the description will go,",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "This is where the description will go,"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
 			"settings": [],
 			"stylePlugin": ""
 		},
@@ -815,7 +849,34 @@
 				"settings": []
 			},
 			"panes": [],
-			"settings": [],
+			"settings": [
+				{
+					"attributes": [
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "mapping",
+									"name": "mapping",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "0",
+							"name": "0",
+							"type": 2,
+							"value": null
+						}
+					],
+					"computedValue": null,
+					"displayName": "labels",
+					"name": "labels",
+					"type": 4,
+					"value": null
+				}
+			],
 			"stylePlugin": ""
 		}
 	],
