@@ -15,6 +15,13 @@
 			"weight": 0,
 			"x": 0,
 			"y": 0
+		},
+		{
+			"cols": 50,
+			"rows": 1,
+			"weight": 1,
+			"x": 1,
+			"y": 0
 		}
 	],
 	"id": "0904fb75-1311-4763-b6e3-043239fb3a89",
@@ -29,6 +36,14 @@
 	"layoutType": "split",
 	"name": "homes",
 	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
 		{
 			"columnSetting": {
 				"settings": []
@@ -203,6 +218,10 @@
 					"label": "Select Hits",
 					"locked": false,
 					"name": "selectHits",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -262,6 +281,10 @@
 					"label": "Ad Description",
 					"locked": false,
 					"name": "adDescription",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
