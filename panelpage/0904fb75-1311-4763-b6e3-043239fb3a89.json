@@ -800,7 +800,7 @@
 				}
 			],
 			"settings": [],
-			"stylePlugin": "virtuallist"
+			"stylePlugin": ""
 		},
 		{
 			"columnSetting": {
@@ -813,6 +813,10 @@
 					"label": "Description",
 					"locked": false,
 					"name": "description",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
