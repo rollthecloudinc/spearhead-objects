@@ -504,6 +504,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "datasource"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -586,6 +611,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -677,6 +727,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "form_select"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
