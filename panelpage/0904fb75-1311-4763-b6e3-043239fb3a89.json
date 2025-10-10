@@ -1727,11 +1727,11 @@
 									"attributes": [
 										{
 											"attributes": [],
-											"computedValue": "{\n  \"query\": {\n  \"index\": \"property-listing-ad-location-category\",\n\t\"composite\": {\n\t\t\"location\": \"detroit\",\n\t\t\"category\": \"general\"\n\t },\n\"bool\": {\n  \"all\": [\n    {\n       \"matchPhrase\": {\n          \"field\": \"description\",\n          \"value\": \"[:textSearch]\"\n      }\n    },\n   {\n      \"filter\": {\n        \"field\": \"property.beds\",\n         \"value\": \"[:bedsSearch]\"\n      }\n   }\n  ]\n}\n}}",
+											"computedValue": "{\n  \"query\": {\n  \"index\": \"property-listing-ad-location-category\",\n\t\"composite\": {\n\t\t\"location\": \"detroit\",\n\t\t\"category\": \"general\"\n\t },\n\"bool\": {\n  \"all\": [\n    {\n       \"matchPhrase\": {\n          \"field\": \"description\",\n          \"value\": \"[:textSearch]\"\n      }\n    },\n   {\n      \"filter\": {\n        \"field\": \"property.bedrooms\",\n         \"value\": \"[:bedsSearch]\"\n      }\n   }\n  ]\n}\n}}",
 											"displayName": "content",
 											"name": "content",
 											"type": 1,
-											"value": "{\n  \"query\": {\n  \"index\": \"property-listing-ad-location-category\",\n\t\"composite\": {\n\t\t\"location\": \"detroit\",\n\t\t\"category\": \"general\"\n\t },\n\"bool\": {\n  \"all\": [\n    {\n       \"matchPhrase\": {\n          \"field\": \"description\",\n          \"value\": \"[:textSearch]\"\n      }\n    },\n   {\n      \"filter\": {\n        \"field\": \"property.beds\",\n         \"value\": \"[:bedsSearch]\"\n      }\n   }\n  ]\n}\n}}"
+											"value": "{\n  \"query\": {\n  \"index\": \"property-listing-ad-location-category\",\n\t\"composite\": {\n\t\t\"location\": \"detroit\",\n\t\t\"category\": \"general\"\n\t },\n\"bool\": {\n  \"all\": [\n    {\n       \"matchPhrase\": {\n          \"field\": \"description\",\n          \"value\": \"[:textSearch]\"\n      }\n    },\n   {\n      \"filter\": {\n        \"field\": \"property.bedrooms\",\n         \"value\": \"[:bedsSearch]\"\n      }\n   }\n  ]\n}\n}}"
 										},
 										{
 											"attributes": [],
