@@ -1,5 +1,47 @@
 {
-	"contexts": [],
+	"contexts": [
+		{
+			"adaptor": "rest",
+			"name": "ad",
+			"plugin": "rest",
+			"rest": {
+				"body": {
+					"content": "{}",
+					"contentType": "application/json"
+				},
+				"method": "get",
+				"params": [
+					{
+						"flags": [
+							{
+								"enabled": false,
+								"name": "page"
+							},
+							{
+								"enabled": false,
+								"name": "limit"
+							},
+							{
+								"enabled": false,
+								"name": "offset"
+							},
+							{
+								"enabled": false,
+								"name": "searchString"
+							}
+						],
+						"mapping": {
+							"context": "",
+							"testValue": "de35f42f-a551-11f0-89d0-1ac36c6edc87",
+							"type": "route",
+							"value": "arg1"
+						}
+					}
+				],
+				"url": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/shapeshifter/property-listing-ad/:id"
+			}
+		}
+	],
 	"displayType": "page",
 	"entityPermissions": {
 		"deleteUserIds": [],
@@ -317,7 +359,259 @@
 							"value": null
 						},
 						{
-							"attributes": [],
+							"attributes": [
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "ad",
+											"displayName": "name",
+											"name": "name",
+											"type": 1,
+											"value": "ad"
+										},
+										{
+											"attributes": [],
+											"computedValue": "rest",
+											"displayName": "adaptor",
+											"name": "adaptor",
+											"type": 1,
+											"value": "rest"
+										},
+										{
+											"attributes": [],
+											"computedValue": "rest",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 1,
+											"value": "rest"
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/shapeshifter/property-listing-ad/:id",
+													"displayName": "url",
+													"name": "url",
+													"type": 1,
+													"value": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/shapeshifter/property-listing-ad/:id"
+												},
+												{
+													"attributes": [],
+													"computedValue": "get",
+													"displayName": "method",
+													"name": "method",
+													"type": 1,
+													"value": "get"
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "route",
+																			"displayName": "type",
+																			"name": "type",
+																			"type": 1,
+																			"value": "route"
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": "arg1",
+																			"displayName": "value",
+																			"name": "value",
+																			"type": 1,
+																			"value": "arg1"
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": "de35f42f-a551-11f0-89d0-1ac36c6edc87",
+																			"displayName": "testValue",
+																			"name": "testValue",
+																			"type": 1,
+																			"value": "de35f42f-a551-11f0-89d0-1ac36c6edc87"
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": "",
+																			"displayName": "context",
+																			"name": "context",
+																			"type": 1,
+																			"value": ""
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "mapping",
+																	"name": "mapping",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "page",
+																					"displayName": "name",
+																					"name": "name",
+																					"type": 1,
+																					"value": "page"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "false",
+																					"displayName": "enabled",
+																					"name": "enabled",
+																					"type": 5,
+																					"value": "false"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "0",
+																			"name": "0",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "limit",
+																					"displayName": "name",
+																					"name": "name",
+																					"type": 1,
+																					"value": "limit"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "false",
+																					"displayName": "enabled",
+																					"name": "enabled",
+																					"type": 5,
+																					"value": "false"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "1",
+																			"name": "1",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "offset",
+																					"displayName": "name",
+																					"name": "name",
+																					"type": 1,
+																					"value": "offset"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "false",
+																					"displayName": "enabled",
+																					"name": "enabled",
+																					"type": 5,
+																					"value": "false"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "2",
+																			"name": "2",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "searchString",
+																					"displayName": "name",
+																					"name": "name",
+																					"type": 1,
+																					"value": "searchString"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "false",
+																					"displayName": "enabled",
+																					"name": "enabled",
+																					"type": 5,
+																					"value": "false"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "3",
+																			"name": "3",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "flags",
+																	"name": "flags",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "0",
+															"name": "0",
+															"type": 2,
+															"value": null
+														}
+													],
+													"computedValue": null,
+													"displayName": "params",
+													"name": "params",
+													"type": 4,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [],
+															"computedValue": "{}",
+															"displayName": "content",
+															"name": "content",
+															"type": 1,
+															"value": "{}"
+														},
+														{
+															"attributes": [],
+															"computedValue": "application/json",
+															"displayName": "contentType",
+															"name": "contentType",
+															"type": 1,
+															"value": "application/json"
+														}
+													],
+													"computedValue": null,
+													"displayName": "body",
+													"name": "body",
+													"type": 2,
+													"value": null
+												}
+											],
+											"computedValue": null,
+											"displayName": "rest",
+											"name": "rest",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "0",
+									"name": "0",
+									"type": 2,
+									"value": null
+								}
+							],
 							"computedValue": null,
 							"displayName": "contexts",
 							"name": "contexts",
@@ -997,11 +1291,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "This is where the description will go,",
+							"computedValue": "[ad.description]",
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "This is where the description will go,"
+							"value": "[ad.description]"
 						},
 						{
 							"attributes": [],
