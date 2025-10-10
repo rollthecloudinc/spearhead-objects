@@ -709,11 +709,11 @@
 																		},
 																		{
 																			"attributes": [],
-																			"computedValue": "[.label]",
+																			"computedValue": "[.title]",
 																			"displayName": "labelMapping",
 																			"name": "labelMapping",
 																			"type": 1,
-																			"value": "[.label]"
+																			"value": "[.title]"
 																		},
 																		{
 																			"attributes": [],
