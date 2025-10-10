@@ -1107,11 +1107,11 @@
 												},
 												{
 													"attributes": [],
-													"computedValue": "selectHits",
+													"computedValue": "adDescription",
 													"displayName": "id",
 													"name": "id",
 													"type": 1,
-													"value": "selectHits"
+													"value": "adDescription"
 												}
 											],
 											"computedValue": null,
@@ -1132,11 +1132,11 @@
 												},
 												{
 													"attributes": [],
-													"computedValue": "adDescription",
+													"computedValue": "selectHits",
 													"displayName": "id",
 													"name": "id",
 													"type": 1,
-													"value": "adDescription"
+													"value": "selectHits"
 												}
 											],
 											"computedValue": null,
