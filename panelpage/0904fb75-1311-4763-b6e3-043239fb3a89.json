@@ -709,19 +709,19 @@
 																		},
 																		{
 																			"attributes": [],
-																			"computedValue": "",
+																			"computedValue": "[.label]",
 																			"displayName": "labelMapping",
 																			"name": "labelMapping",
 																			"type": 1,
-																			"value": ""
+																			"value": "[.label]"
 																		},
 																		{
 																			"attributes": [],
-																			"computedValue": "",
+																			"computedValue": "[.id]",
 																			"displayName": "valueMapping",
 																			"name": "valueMapping",
 																			"type": 1,
-																			"value": ""
+																			"value": "[.id]"
 																		},
 																		{
 																			"attributes": [],
