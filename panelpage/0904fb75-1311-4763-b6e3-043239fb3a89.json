@@ -353,16 +353,7 @@
 						{
 							"attributes": [
 								{
-									"attributes": [
-										{
-											"attributes": [],
-											"computedValue": "",
-											"displayName": "0",
-											"name": "0",
-											"type": 1,
-											"value": ""
-										}
-									],
+									"attributes": [],
 									"computedValue": null,
 									"displayName": "readUserIds",
 									"name": "readUserIds",
@@ -960,11 +951,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "<classifieds-ui-page-router-link href=\"[_page.path]/character/[.id]\" text=\"[.description]\"></classifieds-ui-page-router-link>",
+							"computedValue": "<classifieds-ui-page-router-link href=\"[_page.path]/listing/[.id]\" text=\"[.description]\"></classifieds-ui-page-router-link>",
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "<classifieds-ui-page-router-link href=\"[_page.path]/character/[.id]\" text=\"[.description]\"></classifieds-ui-page-router-link>"
+							"value": "<classifieds-ui-page-router-link href=\"[_page.path]/listing/[.id]\" text=\"[.description]\"></classifieds-ui-page-router-link>"
 						},
 						{
 							"attributes": [],
