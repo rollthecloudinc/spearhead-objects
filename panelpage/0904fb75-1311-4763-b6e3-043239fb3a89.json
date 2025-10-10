@@ -418,19 +418,19 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "undefined",
+							"computedValue": "searchForm",
 							"displayName": "name",
 							"name": "name",
-							"type": 0,
-							"value": "undefined"
+							"type": 1,
+							"value": "searchForm"
 						},
 						{
 							"attributes": [],
-							"computedValue": "undefined",
+							"computedValue": "Search Form",
 							"displayName": "title",
 							"name": "title",
-							"type": 0,
-							"value": "undefined"
+							"type": 1,
+							"value": "Search Form"
 						},
 						{
 							"attributes": [],
