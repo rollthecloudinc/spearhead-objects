@@ -186,6 +186,88 @@
 															"attributes": [
 																{
 																	"attributes": [],
+																	"computedValue": "text/html",
+																	"displayName": "Content Type",
+																	"name": "contentType",
+																	"type": 1,
+																	"value": "text/html"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "Search Phrase",
+																	"displayName": "Content",
+																	"name": "content",
+																	"type": 1,
+																	"value": "Search Phrase"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "jsScript",
+																	"name": "jsScript",
+																	"type": 1,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "textSearchLabel",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "textSearchLabel"
+														},
+														{
+															"attributes": [],
+															"computedValue": "Text Search Label",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": "Text Search Label"
+														},
+														{
+															"attributes": [],
+															"computedValue": "snippet",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "snippet"
+														}
+													],
+													"computedValue": null,
+													"displayName": "0",
+													"name": "0",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
 																	"computedValue": "",
 																	"displayName": "value",
 																	"name": "value",
@@ -291,8 +373,8 @@
 														}
 													],
 													"computedValue": null,
-													"displayName": "0",
-													"name": "0",
+													"displayName": "1",
+													"name": "1",
 													"type": 2,
 													"value": null
 												}
