@@ -403,6 +403,287 @@
 													"name": "1",
 													"type": 2,
 													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "data",
+																	"displayName": "plugin",
+																	"name": "plugin",
+																	"type": 1,
+																	"value": "data"
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "[\n{\"title\": \"All\", \"value\": \"\"},\n{\"title\": \"1\", \"value\": \"1\"},\n{\"title\": \"1.5\", \"value\": \"1.5\"},\n{\"title\": \"2\", \"value\": \"2\"},\n{\"title\": \"2.5\", \"value\": \"2.5\"},\n{\"title\": \"3\", \"value\": \"3\"}\n]",
+																			"displayName": "data",
+																			"name": "data",
+																			"type": 1,
+																			"value": "[\n{\"title\": \"All\", \"value\": \"\"},\n{\"title\": \"1\", \"value\": \"1\"},\n{\"title\": \"1.5\", \"value\": \"1.5\"},\n{\"title\": \"2\", \"value\": \"2\"},\n{\"title\": \"2.5\", \"value\": \"2.5\"},\n{\"title\": \"3\", \"value\": \"3\"}\n]"
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "settings",
+																	"name": "settings",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "pane",
+																			"displayName": "type",
+																			"name": "type",
+																			"type": 1,
+																			"value": "pane"
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "bindings",
+																			"name": "bindings",
+																			"type": 4,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "renderer",
+																	"name": "renderer",
+																	"type": 2,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "beds",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "beds"
+														},
+														{
+															"attributes": [],
+															"computedValue": "Beds",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": "Beds"
+														},
+														{
+															"attributes": [],
+															"computedValue": "datasource",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "datasource"
+														}
+													],
+													"computedValue": null,
+													"displayName": "2",
+													"name": "2",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "text/html",
+																	"displayName": "Content Type",
+																	"name": "contentType",
+																	"type": 1,
+																	"value": "text/html"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "Beds",
+																	"displayName": "Content",
+																	"name": "content",
+																	"type": 1,
+																	"value": "Beds"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "jsScript",
+																	"name": "jsScript",
+																	"type": 1,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "bedsSearchLabel",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "bedsSearchLabel"
+														},
+														{
+															"attributes": [],
+															"computedValue": "Beds Search Label",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": "Beds Search Label"
+														},
+														{
+															"attributes": [],
+															"computedValue": "snippet",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "snippet"
+														}
+													],
+													"computedValue": null,
+													"displayName": "3",
+													"name": "3",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "value",
+																	"name": "value",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "pane",
+																			"displayName": "type",
+																			"name": "type",
+																			"type": 1,
+																			"value": "pane"
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": "beds",
+																			"displayName": "id",
+																			"name": "id",
+																			"type": 1,
+																			"value": "beds"
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "datasourceBinding",
+																	"name": "datasourceBinding",
+																	"type": 2,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "bedsSearch",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "bedsSearch"
+														},
+														{
+															"attributes": [],
+															"computedValue": "Beds Search",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": "Beds Search"
+														},
+														{
+															"attributes": [],
+															"computedValue": "form_select",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "form_select"
+														}
+													],
+													"computedValue": null,
+													"displayName": "4",
+													"name": "4",
+													"type": 2,
+													"value": null
 												}
 											],
 											"computedValue": null,
