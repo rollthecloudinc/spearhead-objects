@@ -71,11 +71,16 @@
 					"price"
 				],
 				"type": "object"
+			},
+			"title": {
+				"description": "The title of the property listing.",
+				"type": "string"
 			}
 		},
 		"required": [
 			"property",
 			"description",
+			"title",
 			"location",
 			"category"
 		]
