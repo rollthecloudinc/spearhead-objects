@@ -186,11 +186,11 @@
 															"attributes": [
 																{
 																	"attributes": [],
-																	"computedValue": "Search",
+																	"computedValue": "",
 																	"displayName": "value",
 																	"name": "value",
 																	"type": 1,
-																	"value": "Search"
+																	"value": ""
 																},
 																{
 																	"attributes": [
