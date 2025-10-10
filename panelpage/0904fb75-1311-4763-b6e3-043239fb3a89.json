@@ -960,11 +960,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "Description: [.description]",
+							"computedValue": "<classifieds-ui-page-router-link href=\"[_page.path]/character/[.id]\" text=\"[.description]\"></classifieds-ui-page-router-link>",
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "Description: [.description]"
+							"value": "<classifieds-ui-page-router-link href=\"[_page.path]/character/[.id]\" text=\"[.description]\"></classifieds-ui-page-router-link>"
 						},
 						{
 							"attributes": [],
