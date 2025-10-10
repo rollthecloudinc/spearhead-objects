@@ -58,9 +58,9 @@
 				{
 					"contentPlugin": "panel",
 					"contexts": [],
-					"label": "Search",
+					"label": "Search Form",
 					"locked": false,
-					"name": "search",
+					"name": "searchForm",
 					"rule": {
 						"condition": "",
 						"rules": []
@@ -353,7 +353,16 @@
 						{
 							"attributes": [
 								{
-									"attributes": [],
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "0",
+											"name": "0",
+											"type": 1,
+											"value": ""
+										}
+									],
 									"computedValue": null,
 									"displayName": "readUserIds",
 									"name": "readUserIds",
@@ -574,7 +583,167 @@
 									"value": "https://77iwvhc4mf.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/search"
 								},
 								{
-									"attributes": [],
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [
+														{
+															"attributes": [],
+															"computedValue": "form",
+															"displayName": "type",
+															"name": "type",
+															"type": 1,
+															"value": "form"
+														},
+														{
+															"attributes": [],
+															"computedValue": "searchForm.textSearch",
+															"displayName": "value",
+															"name": "value",
+															"type": 1,
+															"value": "searchForm.textSearch"
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "testValue",
+															"name": "testValue",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "context",
+															"name": "context",
+															"type": 1,
+															"value": ""
+														}
+													],
+													"computedValue": null,
+													"displayName": "mapping",
+													"name": "mapping",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "page",
+																	"displayName": "name",
+																	"name": "name",
+																	"type": 1,
+																	"value": "page"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "false",
+																	"displayName": "enabled",
+																	"name": "enabled",
+																	"type": 5,
+																	"value": "false"
+																}
+															],
+															"computedValue": null,
+															"displayName": "0",
+															"name": "0",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "limit",
+																	"displayName": "name",
+																	"name": "name",
+																	"type": 1,
+																	"value": "limit"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "false",
+																	"displayName": "enabled",
+																	"name": "enabled",
+																	"type": 5,
+																	"value": "false"
+																}
+															],
+															"computedValue": null,
+															"displayName": "1",
+															"name": "1",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "offset",
+																	"displayName": "name",
+																	"name": "name",
+																	"type": 1,
+																	"value": "offset"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "false",
+																	"displayName": "enabled",
+																	"name": "enabled",
+																	"type": 5,
+																	"value": "false"
+																}
+															],
+															"computedValue": null,
+															"displayName": "2",
+															"name": "2",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "searchString",
+																	"displayName": "name",
+																	"name": "name",
+																	"type": 1,
+																	"value": "searchString"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "false",
+																	"displayName": "enabled",
+																	"name": "enabled",
+																	"type": 5,
+																	"value": "false"
+																}
+															],
+															"computedValue": null,
+															"displayName": "3",
+															"name": "3",
+															"type": 2,
+															"value": null
+														}
+													],
+													"computedValue": null,
+													"displayName": "flags",
+													"name": "flags",
+													"type": 4,
+													"value": null
+												}
+											],
+											"computedValue": null,
+											"displayName": "0",
+											"name": "0",
+											"type": 2,
+											"value": null
+										}
+									],
 									"computedValue": null,
 									"displayName": "params",
 									"name": "params",
@@ -585,11 +754,11 @@
 									"attributes": [
 										{
 											"attributes": [],
-											"computedValue": "{\n  \"query\": {\n  \"index\": \"property-listing-ad-location-category\",\n\t\"composite\": {\n\t\t\"location\": \"detroit\",\n\t\t\"category\": \"general\"\n\t }\n}}",
+											"computedValue": "{\n  \"query\": {\n  \"index\": \"property-listing-ad-location-category\",\n\t\"composite\": {\n\t\t\"location\": \"detroit\",\n\t\t\"category\": \"general\"\n\t },\n\"bool\": {\n  \"all\": [\n    {\n       \"matchPhrase\": {\n          \"field\": \"description\",\n          \"value\": \"[:textSearch]\"\n      }\n    }\n  ]\n}\n}}",
 											"displayName": "content",
 											"name": "content",
 											"type": 1,
-											"value": "{\n  \"query\": {\n  \"index\": \"property-listing-ad-location-category\",\n\t\"composite\": {\n\t\t\"location\": \"detroit\",\n\t\t\"category\": \"general\"\n\t }\n}}"
+											"value": "{\n  \"query\": {\n  \"index\": \"property-listing-ad-location-category\",\n\t\"composite\": {\n\t\t\"location\": \"detroit\",\n\t\t\"category\": \"general\"\n\t },\n\"bool\": {\n  \"all\": [\n    {\n       \"matchPhrase\": {\n          \"field\": \"description\",\n          \"value\": \"[:textSearch]\"\n      }\n    }\n  ]\n}\n}}"
 										},
 										{
 											"attributes": [],
