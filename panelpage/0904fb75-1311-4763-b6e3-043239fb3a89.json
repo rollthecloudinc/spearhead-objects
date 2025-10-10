@@ -1184,11 +1184,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "$..hits",
+									"computedValue": "$.hits",
 									"displayName": "query",
 									"name": "query",
 									"type": 1,
-									"value": "$..hits"
+									"value": "$.hits"
 								}
 							],
 							"computedValue": null,
