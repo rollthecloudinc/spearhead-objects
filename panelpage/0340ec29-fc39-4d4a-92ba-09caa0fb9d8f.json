@@ -1,5 +1,16 @@
 {
-	"contexts": [],
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./GalleryModule",
+				"moduleName": "GalleryModule",
+				"remoteEntry": "http://localhost:3000/remoteEntry.js"
+			},
+			"name": "gallery",
+			"plugin": "module"
+		}
+	],
 	"displayType": "page",
 	"entityPermissions": {
 		"deleteUserIds": [],
