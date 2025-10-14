@@ -40,6 +40,16 @@
 				],
 				"url": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/shapeshifter/property-listing-ad/:id"
 			}
+		},
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./GalleryModule",
+				"moduleName": "GalleryModule",
+				"remoteEntry": "http://localhost:3000/remoteEntry.js"
+			},
+			"name": "gallery",
+			"plugin": "module"
 		}
 	],
 	"cssFile": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/media/test.css",
@@ -1139,6 +1149,72 @@
 									"name": "0",
 									"type": 2,
 									"value": null
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "gallery",
+											"displayName": "name",
+											"name": "name",
+											"type": 1,
+											"value": "gallery"
+										},
+										{
+											"attributes": [],
+											"computedValue": "data",
+											"displayName": "adaptor",
+											"name": "adaptor",
+											"type": 1,
+											"value": "data"
+										},
+										{
+											"attributes": [],
+											"computedValue": "module",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 1,
+											"value": "module"
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "http://localhost:3000/remoteEntry.js",
+													"displayName": "remoteEntry",
+													"name": "remoteEntry",
+													"type": 1,
+													"value": "http://localhost:3000/remoteEntry.js"
+												},
+												{
+													"attributes": [],
+													"computedValue": "./GalleryModule",
+													"displayName": "exposedModule",
+													"name": "exposedModule",
+													"type": 1,
+													"value": "./GalleryModule"
+												},
+												{
+													"attributes": [],
+													"computedValue": "GalleryModule",
+													"displayName": "moduleName",
+													"name": "moduleName",
+													"type": 1,
+													"value": "GalleryModule"
+												}
+											],
+											"computedValue": null,
+											"displayName": "data",
+											"name": "data",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "1",
+									"name": "1",
+									"type": 2,
+									"value": null
 								}
 							],
 							"computedValue": null,
@@ -1991,6 +2067,65 @@
 							"displayName": "jsScript",
 							"name": "jsScript",
 							"type": 1,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Gallery Data",
+					"locked": false,
+					"name": "gallery_data",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "[]",
+									"displayName": "data",
+									"name": "data",
+									"type": 1,
+									"value": "[]"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
 							"value": null
 						}
 					]
