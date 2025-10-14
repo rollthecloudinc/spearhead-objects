@@ -1,0 +1,55 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			""
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "0340ec29-fc39-4d4a-92ba-09caa0fb9d8f",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-gallery-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-gallery-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Gallery int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
