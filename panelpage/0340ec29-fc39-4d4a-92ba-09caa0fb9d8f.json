@@ -26,6 +26,27 @@
 			"weight": 0,
 			"x": 0,
 			"y": 0
+		},
+		{
+			"cols": 50,
+			"rows": 1,
+			"weight": 1,
+			"x": 1,
+			"y": 0
+		},
+		{
+			"cols": 33,
+			"rows": 1,
+			"weight": 2,
+			"x": 2,
+			"y": 0
+		},
+		{
+			"cols": 25,
+			"rows": 1,
+			"weight": 3,
+			"x": 3,
+			"y": 0
 		}
 	],
 	"id": "0340ec29-fc39-4d4a-92ba-09caa0fb9d8f",
@@ -44,6 +65,22 @@
 			"columnSetting": {
 				"settings": []
 			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
 			"panes": [
 				{
 					"contentPlugin": "datasource",
@@ -51,6 +88,10 @@
 					"label": "Data",
 					"locked": false,
 					"name": "data",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -110,6 +151,10 @@
 					"label": "gallery",
 					"locked": false,
 					"name": "gallery",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -146,6 +191,14 @@
 					]
 				}
 			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
 		}
