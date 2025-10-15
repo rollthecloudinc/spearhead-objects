@@ -194,11 +194,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "$.images.*",
+									"computedValue": "$..images.*",
 									"displayName": "query",
 									"name": "query",
 									"type": 1,
-									"value": "$.images.*"
+									"value": "$..images.*"
 								}
 							],
 							"computedValue": null,
@@ -247,11 +247,11 @@
 					"settings": [
 						{
 							"attributes": [],
-							"computedValue": "selectImages",
+							"computedValue": "data",
 							"displayName": "bindingOption",
 							"name": "bindingOption",
 							"type": 1,
-							"value": "selectImages"
+							"value": "data"
 						},
 						{
 							"attributes": [],
