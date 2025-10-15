@@ -239,11 +239,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "$.images.*",
+									"computedValue": "$.results.images.*",
 									"displayName": "query",
 									"name": "query",
 									"type": 1,
-									"value": "$.images.*"
+									"value": "$.results.images.*"
 								}
 							],
 							"computedValue": null,
