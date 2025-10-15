@@ -1434,11 +1434,11 @@
 				"settings": [
 					{
 						"attributes": [],
-						"computedValue": "100%",
+						"computedValue": "",
 						"displayName": "Height",
 						"name": "height",
 						"type": 1,
-						"value": "100%"
+						"value": ""
 					}
 				]
 			},
@@ -2040,6 +2040,10 @@
 					"label": "Gallery Dummy Data",
 					"locked": false,
 					"name": "galleryDummyData",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -2099,6 +2103,10 @@
 					"label": "Gallery",
 					"locked": false,
 					"name": "gallery",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -2246,11 +2254,11 @@
 				},
 				{
 					"attributes": [],
-					"computedValue": "100%",
+					"computedValue": "",
 					"displayName": "Height",
 					"name": "height",
 					"type": 1,
-					"value": "100%"
+					"value": ""
 				},
 				{
 					"attributes": [],
