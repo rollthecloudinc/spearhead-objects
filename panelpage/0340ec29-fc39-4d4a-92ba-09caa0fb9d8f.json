@@ -105,11 +105,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "{\n\"images\": [\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"}\n]\n}",
+									"computedValue": "[\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"}\n]",
 									"displayName": "data",
 									"name": "data",
 									"type": 1,
-									"value": "{\n\"images\": [\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"}\n]\n}"
+									"value": "[\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"}\n]"
 								}
 							],
 							"computedValue": null,
