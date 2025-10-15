@@ -257,11 +257,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "$.opti.*",
+									"computedValue": "$.options.*",
 									"displayName": "query",
 									"name": "query",
 									"type": 1,
-									"value": "$.opti.*"
+									"value": "$.options.*"
 								}
 							],
 							"computedValue": null,
