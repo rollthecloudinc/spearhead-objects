@@ -83,6 +83,51 @@
 			},
 			"panes": [
 				{
+					"contentPlugin": "gallery_gallery_item",
+					"contexts": [],
+					"label": "gallery",
+					"locked": false,
+					"name": "gallery",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "bindingOption",
+							"name": "bindingOption",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "query",
+							"name": "query",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "[.type]",
+							"displayName": "typeMapping",
+							"name": "typeMapping",
+							"type": 1,
+							"value": "[.type]"
+						},
+						{
+							"attributes": [],
+							"computedValue": "[.src]",
+							"displayName": "imageMapping",
+							"name": "imageMapping",
+							"type": 1,
+							"value": "[.src]"
+						}
+					]
+				},
+				{
 					"contentPlugin": "datasource",
 					"contexts": [],
 					"label": "Data",
@@ -168,51 +213,6 @@
 							"name": "renderer",
 							"type": 2,
 							"value": null
-						}
-					]
-				},
-				{
-					"contentPlugin": "gallery_gallery_item",
-					"contexts": [],
-					"label": "gallery",
-					"locked": false,
-					"name": "gallery",
-					"rule": {
-						"condition": "",
-						"rules": []
-					},
-					"settings": [
-						{
-							"attributes": [],
-							"computedValue": "data",
-							"displayName": "bindingOption",
-							"name": "bindingOption",
-							"type": 1,
-							"value": "data"
-						},
-						{
-							"attributes": [],
-							"computedValue": "",
-							"displayName": "query",
-							"name": "query",
-							"type": 1,
-							"value": ""
-						},
-						{
-							"attributes": [],
-							"computedValue": "[.type]",
-							"displayName": "typeMapping",
-							"name": "typeMapping",
-							"type": 1,
-							"value": "[.type]"
-						},
-						{
-							"attributes": [],
-							"computedValue": "[.src]",
-							"displayName": "imageMapping",
-							"name": "imageMapping",
-							"type": 1,
-							"value": "[.src]"
 						}
 					]
 				},
