@@ -1434,11 +1434,11 @@
 				"settings": [
 					{
 						"attributes": [],
-						"computedValue": "",
+						"computedValue": "100%",
 						"displayName": "Height",
 						"name": "height",
 						"type": 1,
-						"value": ""
+						"value": "100%"
 					}
 				]
 			},
@@ -2031,7 +2031,16 @@
 		},
 		{
 			"columnSetting": {
-				"settings": []
+				"settings": [
+					{
+						"attributes": [],
+						"computedValue": "100%",
+						"displayName": "Height",
+						"name": "height",
+						"type": 1,
+						"value": "100%"
+					}
+				]
 			},
 			"panes": [
 				{
@@ -2254,11 +2263,11 @@
 				},
 				{
 					"attributes": [],
-					"computedValue": "",
+					"computedValue": "100%",
 					"displayName": "Height",
 					"name": "height",
 					"type": 1,
-					"value": ""
+					"value": "100%"
 				},
 				{
 					"attributes": [],
