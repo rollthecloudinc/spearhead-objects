@@ -150,11 +150,96 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]",
+									"computedValue": "{\"media\":[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]}",
 									"displayName": "data",
 									"name": "data",
 									"type": 1,
-									"value": "[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]"
+									"value": "{\"media\":[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]}"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "pane",
+													"displayName": "type",
+													"name": "type",
+													"type": 1,
+													"value": "pane"
+												},
+												{
+													"attributes": [],
+													"computedValue": "selectMedia",
+													"displayName": "id",
+													"name": "id",
+													"type": 1,
+													"value": "selectMedia"
+												}
+											],
+											"computedValue": null,
+											"displayName": "0",
+											"name": "0",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Select Media",
+					"locked": false,
+					"name": "selectMedia",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "select",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "select"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "$.media.*",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": "$.media.*"
 								}
 							],
 							"computedValue": null,
