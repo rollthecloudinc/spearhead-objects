@@ -177,6 +177,10 @@
 					"label": "Select Images",
 					"locked": false,
 					"name": "selectImages",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -243,11 +247,11 @@
 					"settings": [
 						{
 							"attributes": [],
-							"computedValue": "data",
+							"computedValue": "selectImages",
 							"displayName": "bindingOption",
 							"name": "bindingOption",
 							"type": 1,
-							"value": "data"
+							"value": "selectImages"
 						},
 						{
 							"attributes": [],
