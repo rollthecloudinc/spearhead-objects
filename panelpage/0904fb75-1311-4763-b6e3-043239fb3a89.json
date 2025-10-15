@@ -2042,78 +2042,7 @@
 					}
 				]
 			},
-			"panes": [],
-			"settings": [],
-			"stylePlugin": ""
-		},
-		{
-			"columnSetting": {
-				"settings": []
-			},
 			"panes": [
-				{
-					"contentPlugin": "datasource",
-					"contexts": [],
-					"label": "Select Images",
-					"locked": false,
-					"name": "selectImages",
-					"rule": {
-						"condition": "",
-						"rules": []
-					},
-					"settings": [
-						{
-							"attributes": [],
-							"computedValue": "select",
-							"displayName": "plugin",
-							"name": "plugin",
-							"type": 1,
-							"value": "select"
-						},
-						{
-							"attributes": [
-								{
-									"attributes": [],
-									"computedValue": "$.images.*",
-									"displayName": "query",
-									"name": "query",
-									"type": 1,
-									"value": "$.images.*"
-								}
-							],
-							"computedValue": null,
-							"displayName": "settings",
-							"name": "settings",
-							"type": 2,
-							"value": null
-						},
-						{
-							"attributes": [
-								{
-									"attributes": [],
-									"computedValue": "pane",
-									"displayName": "type",
-									"name": "type",
-									"type": 1,
-									"value": "pane"
-								},
-								{
-									"attributes": [],
-									"computedValue": null,
-									"displayName": "bindings",
-									"name": "bindings",
-									"type": 4,
-									"value": null
-								}
-							],
-							"computedValue": null,
-							"displayName": "renderer",
-							"name": "renderer",
-							"type": 2,
-							"value": null
-						}
-					]
-				},
 				{
 					"contentPlugin": "gallery_gallery_item",
 					"contexts": [],
@@ -2249,11 +2178,87 @@
 					]
 				},
 				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Select Images",
+					"locked": false,
+					"name": "selectImages",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "select",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "select"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "$.images.*",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": "$.images.*"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
 					"contentPlugin": "snippet",
 					"contexts": [],
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
