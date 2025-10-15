@@ -105,11 +105,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "[]",
+									"computedValue": "{\n\"images\": [\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"}\n]\n}",
 									"displayName": "data",
 									"name": "data",
 									"type": 1,
-									"value": "[]"
+									"value": "{\n\"images\": [\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"}\n]\n}"
 								}
 							],
 							"computedValue": null,
