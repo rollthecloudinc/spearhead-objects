@@ -211,7 +211,48 @@
 	},
 	"rowSettings": [
 		{
-			"settings": []
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "Flex Grow",
+					"name": "flexGrow",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "Flex Shrink",
+					"name": "flexShrink",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "Flex Basis",
+					"name": "flexBasis",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"computedValue": "100%",
+					"displayName": "Height",
+					"name": "height",
+					"type": 1,
+					"value": "100%"
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "Direction",
+					"name": "direction",
+					"type": 1,
+					"value": ""
+				}
+			]
 		}
 	],
 	"site": "spearhead",
