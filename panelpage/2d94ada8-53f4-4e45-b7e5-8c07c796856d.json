@@ -240,6 +240,10 @@
 					"label": "Select Options",
 					"locked": false,
 					"name": "selectOptions",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -253,11 +257,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "$.options.*",
+									"computedValue": "$.opti.*",
 									"displayName": "query",
 									"name": "query",
 									"type": 1,
-									"value": "$.options.*"
+									"value": "$.opti.*"
 								}
 							],
 							"computedValue": null,
