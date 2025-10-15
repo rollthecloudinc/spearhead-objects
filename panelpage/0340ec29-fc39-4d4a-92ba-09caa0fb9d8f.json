@@ -75,7 +75,7 @@
 			},
 			"panes": [],
 			"settings": [],
-			"stylePlugin": "virtuallist"
+			"stylePlugin": ""
 		},
 		{
 			"columnSetting": {
@@ -105,11 +105,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]",
+									"computedValue": "{\"images\":[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]}",
 									"displayName": "data",
 									"name": "data",
 									"type": 1,
-									"value": "[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]"
+									"value": "{\"images\":[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]}"
 								}
 							],
 							"computedValue": null,
