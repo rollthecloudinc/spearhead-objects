@@ -105,11 +105,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "[\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"}\n]",
+									"computedValue": "[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]",
 									"displayName": "data",
 									"name": "data",
 									"type": 1,
-									"value": "[\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"},\n{\"type\": \"image\", \"src\": \"https://blah/dsadsfsdf/fsdfsd\"}\n]"
+									"value": "[\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"},\n{\"type\": \"image\", \"src\": \"https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg\"}\n]"
 								}
 							],
 							"computedValue": null,
@@ -174,19 +174,19 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "",
+							"computedValue": "[.type]",
 							"displayName": "typeMapping",
 							"name": "typeMapping",
 							"type": 1,
-							"value": ""
+							"value": "[.type]"
 						},
 						{
 							"attributes": [],
-							"computedValue": "",
+							"computedValue": "[.src]",
 							"displayName": "imageMapping",
 							"name": "imageMapping",
 							"type": 1,
-							"value": ""
+							"value": "[.src]"
 						}
 					]
 				}
