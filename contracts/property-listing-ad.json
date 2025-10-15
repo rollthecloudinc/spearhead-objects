@@ -23,9 +23,27 @@
 				"type": "string"
 			},
 			"photos": {
-				"description": "Array of photo URLs showcasing the property.",
+				"description": "Array of photo objects showcasing the property.",
 				"items": {
-					"type": "string"
+					"properties": {
+						"src": {
+							"description": "URL of the media source.",
+							"type": "string"
+						},
+						"thumb": {
+							"description": "Optional URL for the media thumbnail.",
+							"type": "string"
+						},
+						"type": {
+							"description": "Type of the photo (e.g., image, video, thumbnail, etc.).",
+							"type": "string"
+						}
+					},
+					"required": [
+						"type",
+						"src"
+					],
+					"type": "object"
 				},
 				"type": "array"
 			},
