@@ -2224,11 +2224,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "$.data.results[0].photos.*",
+									"computedValue": "$.photos.*",
 									"displayName": "query",
 									"name": "query",
 									"type": 1,
-									"value": "$.data.results[0].photos.*"
+									"value": "$.photos.*"
 								}
 							],
 							"computedValue": null,
@@ -2270,6 +2270,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
