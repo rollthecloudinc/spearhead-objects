@@ -2224,11 +2224,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "$.results[0].photos.*",
+									"computedValue": "$[0].photos.*",
 									"displayName": "query",
 									"name": "query",
 									"type": 1,
-									"value": "$.results[0].photos.*"
+									"value": "$[0].photos.*"
 								}
 							],
 							"computedValue": null,
