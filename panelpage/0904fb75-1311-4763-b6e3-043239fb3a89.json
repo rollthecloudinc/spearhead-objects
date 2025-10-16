@@ -2276,9 +2276,9 @@
 				{
 					"contentPlugin": "snippet",
 					"contexts": [],
-					"label": "",
+					"label": "Description",
 					"locked": false,
-					"name": "",
+					"name": "description",
 					"rule": {
 						"condition": "",
 						"rules": []
