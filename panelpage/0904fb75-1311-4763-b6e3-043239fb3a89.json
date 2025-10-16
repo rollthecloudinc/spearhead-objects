@@ -2294,11 +2294,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "[ad.results[0].description]",
+							"computedValue": "[ad.data.results.0.description]",
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "[ad.results[0].description]"
+							"value": "[ad.data.results.0.description]"
 						},
 						{
 							"attributes": [],
