@@ -2309,7 +2309,41 @@
 			"columnSetting": {
 				"settings": []
 			},
-			"panes": [],
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "[ad.description]",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "[ad.description]"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
 			"settings": [
 				{
 					"attributes": [
