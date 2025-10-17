@@ -463,16 +463,7 @@
 																{
 																	"attributes": [
 																		{
-																			"attributes": [
-																				{
-																					"attributes": [],
-																					"computedValue": "",
-																					"displayName": "0",
-																					"name": "0",
-																					"type": 1,
-																					"value": ""
-																				}
-																			],
+																			"attributes": [],
 																			"computedValue": null,
 																			"displayName": "readUserIds",
 																			"name": "readUserIds",
@@ -821,16 +812,7 @@
 						{
 							"attributes": [
 								{
-									"attributes": [
-										{
-											"attributes": [],
-											"computedValue": "",
-											"displayName": "0",
-											"name": "0",
-											"type": 1,
-											"value": ""
-										}
-									],
+									"attributes": [],
 									"computedValue": null,
 									"displayName": "readUserIds",
 									"name": "readUserIds",
@@ -1011,7 +993,31 @@
 	"path": "/upload-file-form",
 	"persistence": {
 		"dataduct": {
-			"settings": []
+			"plugin": "entity",
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "TestMedia",
+					"displayName": "entityName",
+					"name": "entityName",
+					"type": 1,
+					"value": "TestMedia"
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "queryString",
+					"name": "queryString",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [],
+					"displayName": "params",
+					"name": "params",
+					"type": 4
+				}
+			]
 		}
 	},
 	"rowSettings": [
