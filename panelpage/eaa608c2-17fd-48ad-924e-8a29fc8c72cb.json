@@ -86,6 +86,10 @@
 					"label": "Media",
 					"locked": false,
 					"name": "media",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [
@@ -327,6 +331,31 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "form_media"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -434,7 +463,16 @@
 																{
 																	"attributes": [
 																		{
-																			"attributes": [],
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "",
+																					"displayName": "0",
+																					"name": "0",
+																					"type": 1,
+																					"value": ""
+																				}
+																			],
 																			"computedValue": null,
 																			"displayName": "readUserIds",
 																			"name": "readUserIds",
@@ -539,6 +577,14 @@
 																					"name": "settings",
 																					"type": 2,
 																					"value": null
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "plugin",
+																					"name": "plugin",
+																					"type": 0,
+																					"value": "undefined"
 																				}
 																			],
 																			"computedValue": null,
@@ -622,19 +668,19 @@
 														},
 														{
 															"attributes": [],
-															"computedValue": "470e62e9-9ac0-40f5-b136-204bc247d40b",
+															"computedValue": "photos",
 															"displayName": "name",
 															"name": "name",
 															"type": 1,
-															"value": "470e62e9-9ac0-40f5-b136-204bc247d40b"
+															"value": "photos"
 														},
 														{
 															"attributes": [],
-															"computedValue": "470e62e9-9ac0-40f5-b136-204bc247d40b",
+															"computedValue": "Photos",
 															"displayName": "label",
 															"name": "label",
 															"type": 1,
-															"value": "470e62e9-9ac0-40f5-b136-204bc247d40b"
+															"value": "Photos"
 														},
 														{
 															"attributes": [],
@@ -643,6 +689,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "panel"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -815,19 +886,19 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "undefined",
+							"computedValue": "media",
 							"displayName": "name",
 							"name": "name",
-							"type": 0,
-							"value": "undefined"
+							"type": 1,
+							"value": "media"
 						},
 						{
 							"attributes": [],
-							"computedValue": "undefined",
+							"computedValue": "Media",
 							"displayName": "title",
 							"name": "title",
-							"type": 0,
-							"value": "undefined"
+							"type": 1,
+							"value": "Media"
 						},
 						{
 							"attributes": [],
@@ -864,6 +935,14 @@
 											"name": "settings",
 											"type": 2,
 											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 0,
+											"value": "undefined"
 										}
 									],
 									"computedValue": null,
