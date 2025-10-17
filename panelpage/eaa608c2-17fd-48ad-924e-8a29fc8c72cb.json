@@ -1,6 +1,6 @@
 {
 	"contexts": [],
-	"displayType": "page",
+	"displayType": "form",
 	"entityPermissions": {
 		"deleteUserIds": [],
 		"readUserIds": [
@@ -37,9 +37,13 @@
 				{
 					"contentPlugin": "form_media",
 					"contexts": [],
-					"label": "",
+					"label": "File",
 					"locked": false,
-					"name": "",
+					"name": "file",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
