@@ -2276,9 +2276,42 @@
 				{
 					"contentPlugin": "snippet",
 					"contexts": [],
-					"label": "",
+					"label": "title",
 					"locked": false,
-					"name": "",
+					"name": "title",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "<h2>[ad.title]</h2>",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "<h2>[ad.title]</h2>"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "Description",
+					"locked": false,
+					"name": "description",
 					"rule": {
 						"condition": "",
 						"rules": []
