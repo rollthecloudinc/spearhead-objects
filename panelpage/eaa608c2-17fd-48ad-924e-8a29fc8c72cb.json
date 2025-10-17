@@ -83,9 +83,9 @@
 				{
 					"contentPlugin": "panel",
 					"contexts": [],
-					"label": "Media",
+					"label": "",
 					"locked": false,
-					"name": "media",
+					"name": "",
 					"rule": {
 						"condition": "",
 						"rules": []
@@ -177,35 +177,436 @@
 														{
 															"attributes": [
 																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "100",
+																					"displayName": "cols",
+																					"name": "cols",
+																					"type": 0,
+																					"value": "100"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "1",
+																					"displayName": "rows",
+																					"name": "rows",
+																					"type": 0,
+																					"value": "1"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "0",
+																					"displayName": "x",
+																					"name": "x",
+																					"type": 0,
+																					"value": "0"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "0",
+																					"displayName": "y",
+																					"name": "y",
+																					"type": 0,
+																					"value": "0"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "0",
+																					"displayName": "weight",
+																					"name": "weight",
+																					"type": 0,
+																					"value": "0"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "0",
+																			"name": "0",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "gridItems",
+																	"name": "gridItems",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "settings",
+																					"name": "settings",
+																					"type": 2,
+																					"value": null
+																				},
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "value",
+																											"name": "value",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [],
+																													"computedValue": "pane",
+																													"displayName": "type",
+																													"name": "type",
+																													"type": 1,
+																													"value": "pane"
+																												},
+																												{
+																													"attributes": [],
+																													"computedValue": "",
+																													"displayName": "id",
+																													"name": "id",
+																													"type": 1,
+																													"value": ""
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "datasourceBinding",
+																											"name": "datasourceBinding",
+																											"type": 2,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "file",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": "file"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "File",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": "File"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "form_media",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "form_media"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "0",
+																							"name": "0",
+																							"type": 2,
+																							"value": null
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "panes",
+																					"name": "panes",
+																					"type": 4,
+																					"value": null
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "name",
+																					"name": "name",
+																					"type": 0,
+																					"value": "undefined"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "label",
+																					"name": "label",
+																					"type": 0,
+																					"value": "undefined"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "",
+																					"displayName": "stylePlugin",
+																					"name": "stylePlugin",
+																					"type": 1,
+																					"value": ""
+																				},
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [],
+																							"computedValue": null,
+																							"displayName": "settings",
+																							"name": "settings",
+																							"type": 2,
+																							"value": null
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "columnSetting",
+																					"name": "columnSetting",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "0",
+																			"name": "0",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "panels",
+																	"name": "panels",
+																	"type": 4,
+																	"value": null
+																},
+																{
 																	"attributes": [],
-																	"computedValue": "",
-																	"displayName": "value",
-																	"name": "value",
+																	"computedValue": null,
+																	"displayName": "contexts",
+																	"name": "contexts",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "settings",
+																					"name": "settings",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "0",
+																			"name": "0",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "rowSettings",
+																	"name": "rowSettings",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "",
+																					"displayName": "0",
+																					"name": "0",
+																					"type": 1,
+																					"value": ""
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "readUserIds",
+																			"name": "readUserIds",
+																			"type": 4,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "writeUserIds",
+																			"name": "writeUserIds",
+																			"type": 4,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "deleteUserIds",
+																			"name": "deleteUserIds",
+																			"type": 4,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "entityPermissions",
+																	"name": "entityPermissions",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "id",
+																	"name": "id",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "split",
+																	"displayName": "layoutType",
+																	"name": "layoutType",
 																	"type": 1,
-																	"value": ""
+																	"value": "split"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "form",
+																	"displayName": "displayType",
+																	"name": "displayType",
+																	"type": 1,
+																	"value": "form"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "photos",
+																	"displayName": "name",
+																	"name": "name",
+																	"type": 1,
+																	"value": "photos"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "Photos",
+																	"displayName": "title",
+																	"name": "title",
+																	"type": 1,
+																	"value": "Photos"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "spearhead",
+																	"displayName": "site",
+																	"name": "site",
+																	"type": 1,
+																	"value": "spearhead"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "userId",
+																	"name": "userId",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "path",
+																	"name": "path",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "settings",
+																					"name": "settings",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "dataduct",
+																			"name": "dataduct",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "persistence",
+																	"name": "persistence",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "listeners",
+																					"name": "listeners",
+																					"type": 4,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "interactions",
+																			"name": "interactions",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "interactions",
+																	"name": "interactions",
+																	"type": 2,
+																	"value": null
 																},
 																{
 																	"attributes": [
 																		{
 																			"attributes": [],
-																			"computedValue": "pane",
-																			"displayName": "type",
-																			"name": "type",
-																			"type": 1,
-																			"value": "pane"
-																		},
-																		{
-																			"attributes": [],
-																			"computedValue": "",
-																			"displayName": "id",
-																			"name": "id",
-																			"type": 1,
-																			"value": ""
+																			"computedValue": null,
+																			"displayName": "settings",
+																			"name": "settings",
+																			"type": 2,
+																			"value": null
 																		}
 																	],
 																	"computedValue": null,
-																	"displayName": "datasourceBinding",
-																	"name": "datasourceBinding",
+																	"displayName": "layoutSetting",
+																	"name": "layoutSetting",
 																	"type": 2,
 																	"value": null
 																}
@@ -234,27 +635,27 @@
 														},
 														{
 															"attributes": [],
-															"computedValue": "file",
+															"computedValue": "photos",
 															"displayName": "name",
 															"name": "name",
 															"type": 1,
-															"value": "file"
+															"value": "photos"
 														},
 														{
 															"attributes": [],
-															"computedValue": "File",
+															"computedValue": "Photos",
 															"displayName": "label",
 															"name": "label",
 															"type": 1,
-															"value": "File"
+															"value": "Photos"
 														},
 														{
 															"attributes": [],
-															"computedValue": "form_media",
+															"computedValue": "panel",
 															"displayName": "contentPlugin",
 															"name": "contentPlugin",
 															"type": 1,
-															"value": "form_media"
+															"value": "panel"
 														}
 													],
 													"computedValue": null,
@@ -362,7 +763,16 @@
 						{
 							"attributes": [
 								{
-									"attributes": [],
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "0",
+											"name": "0",
+											"type": 1,
+											"value": ""
+										}
+									],
 									"computedValue": null,
 									"displayName": "readUserIds",
 									"name": "readUserIds",
@@ -418,19 +828,19 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "media",
+							"computedValue": "undefined",
 							"displayName": "name",
 							"name": "name",
-							"type": 1,
-							"value": "media"
+							"type": 0,
+							"value": "undefined"
 						},
 						{
 							"attributes": [],
-							"computedValue": "Media",
+							"computedValue": "undefined",
 							"displayName": "title",
 							"name": "title",
-							"type": 1,
-							"value": "Media"
+							"type": 0,
+							"value": "undefined"
 						},
 						{
 							"attributes": [],
