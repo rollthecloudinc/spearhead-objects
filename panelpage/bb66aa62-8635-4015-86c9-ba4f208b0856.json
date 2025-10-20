@@ -1253,41 +1253,7 @@
 						{
 							"attributes": [
 								{
-									"attributes": [
-										{
-											"attributes": [
-												{
-													"attributes": [],
-													"computedValue": "required",
-													"displayName": "name",
-													"name": "name",
-													"type": 1,
-													"value": "required"
-												},
-												{
-													"attributes": [],
-													"computedValue": "required",
-													"displayName": "validator",
-													"name": "validator",
-													"type": 1,
-													"value": "required"
-												},
-												{
-													"attributes": [],
-													"computedValue": "Field is required",
-													"displayName": "overrideErrorMessage",
-													"name": "overrideErrorMessage",
-													"type": 1,
-													"value": "Field is required"
-												}
-											],
-											"computedValue": null,
-											"displayName": "0",
-											"name": "0",
-											"type": 2,
-											"value": null
-										}
-									],
+									"attributes": [],
 									"computedValue": null,
 									"displayName": "validators",
 									"name": "validators",
