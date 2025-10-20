@@ -11,7 +11,12 @@
 	"slider": "",
 	"terms": [
 		{
-			"humanName": "[ad.results.0.terms.$i.humanName]"
+			"humanName": "[ad.results.0.terms.$i.humanName]",
+			"terms": [
+				{
+					"humanName": "[ad.results.0.terms.$i.terms.$i.humanName]"
+				}
+			]
 		}
 	],
 	"text": "",
