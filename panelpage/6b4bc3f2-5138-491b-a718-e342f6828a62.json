@@ -168,6 +168,10 @@
 					"label": "Textarea",
 					"locked": false,
 					"name": "textarea",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -210,6 +214,10 @@
 					"label": "datepick",
 					"locked": false,
 					"name": "datepick",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -252,6 +260,10 @@
 					"label": "checkbox",
 					"locked": false,
 					"name": "checkbox",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -294,6 +306,10 @@
 					"label": "slider",
 					"locked": false,
 					"name": "slider",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -325,6 +341,172 @@
 							"computedValue": null,
 							"displayName": "datasourceBinding",
 							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Nums",
+					"locked": false,
+					"name": "nums",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "[\n{\"label\": \"One\", \"value\": \"1\"}\n]",
+									"displayName": "data",
+									"name": "data",
+									"type": 1,
+									"value": "[\n{\"label\": \"One\", \"value\": \"1\"}\n]"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "form_select",
+					"contexts": [],
+					"label": "select",
+					"locked": false,
+					"name": "select",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "nums",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": "nums"
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "trackBy",
+									"name": "trackBy",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "[.value]",
+									"displayName": "idMapping",
+									"name": "idMapping",
+									"type": 1,
+									"value": "[.value]"
+								},
+								{
+									"attributes": [],
+									"computedValue": "[.label]",
+									"displayName": "labelMapping",
+									"name": "labelMapping",
+									"type": 1,
+									"value": "[.label]"
+								},
+								{
+									"attributes": [],
+									"computedValue": "[.value]",
+									"displayName": "valueMapping",
+									"name": "valueMapping",
+									"type": 1,
+									"value": "[.value]"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "multiple",
+									"name": "multiple",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "limit",
+									"name": "limit",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceOptions",
+							"name": "datasourceOptions",
 							"type": 2,
 							"value": null
 						}
