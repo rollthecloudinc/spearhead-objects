@@ -146,7 +146,41 @@
 						{
 							"attributes": [
 								{
-									"attributes": [],
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "required",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "required"
+												},
+												{
+													"attributes": [],
+													"computedValue": "required",
+													"displayName": "validator",
+													"name": "validator",
+													"type": 1,
+													"value": "required"
+												},
+												{
+													"attributes": [],
+													"computedValue": "field is required.",
+													"displayName": "overrideErrorMessage",
+													"name": "overrideErrorMessage",
+													"type": 1,
+													"value": "field is required."
+												}
+											],
+											"computedValue": null,
+											"displayName": "0",
+											"name": "0",
+											"type": 2,
+											"value": null
+										}
+									],
 									"computedValue": null,
 									"displayName": "validators",
 									"name": "validators",
@@ -618,6 +652,10 @@
 					"label": "terms",
 					"locked": false,
 					"name": "terms",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [
@@ -774,6 +812,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "form_input"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -881,16 +944,7 @@
 						{
 							"attributes": [
 								{
-									"attributes": [
-										{
-											"attributes": [],
-											"computedValue": "",
-											"displayName": "0",
-											"name": "0",
-											"type": 1,
-											"value": ""
-										}
-									],
+									"attributes": [],
 									"computedValue": null,
 									"displayName": "readUserIds",
 									"name": "readUserIds",
@@ -995,6 +1049,14 @@
 											"name": "settings",
 											"type": 2,
 											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 0,
+											"value": "undefined"
 										}
 									],
 									"computedValue": null,
