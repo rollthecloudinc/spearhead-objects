@@ -146,41 +146,7 @@
 						{
 							"attributes": [
 								{
-									"attributes": [
-										{
-											"attributes": [
-												{
-													"attributes": [],
-													"computedValue": "required",
-													"displayName": "name",
-													"name": "name",
-													"type": 1,
-													"value": "required"
-												},
-												{
-													"attributes": [],
-													"computedValue": "required",
-													"displayName": "validator",
-													"name": "validator",
-													"type": 1,
-													"value": "required"
-												},
-												{
-													"attributes": [],
-													"computedValue": "Field text is required.",
-													"displayName": "overrideErrorMessage",
-													"name": "overrideErrorMessage",
-													"type": 1,
-													"value": "Field text is required."
-												}
-											],
-											"computedValue": null,
-											"displayName": "0",
-											"name": "0",
-											"type": 2,
-											"value": null
-										}
-									],
+									"attributes": [],
 									"computedValue": null,
 									"displayName": "validators",
 									"name": "validators",
@@ -191,6 +157,174 @@
 							"computedValue": null,
 							"displayName": "validation",
 							"name": "validation",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "form_textarea",
+					"contexts": [],
+					"label": "Textarea",
+					"locked": false,
+					"name": "textarea",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "form_datepicker",
+					"contexts": [],
+					"label": "datepick",
+					"locked": false,
+					"name": "datepick",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "form_checkbox",
+					"contexts": [],
+					"label": "checkbox",
+					"locked": false,
+					"name": "checkbox",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "form_slider",
+					"contexts": [],
+					"label": "slider",
+					"locked": false,
+					"name": "slider",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
 							"type": 2,
 							"value": null
 						}
