@@ -23,14 +23,9 @@
 			"listeners": [
 				{
 					"event": {
-						"plugin": "dom",
-						"settings": {
-							"params": [],
-							"paramsString": "type=click&target=.submit-form"
-						}
+						"settings": {}
 					},
 					"handler": {
-						"plugin": "hello_world",
 						"settings": {}
 					}
 				}
