@@ -1,6 +1,6 @@
 {
 	"contexts": [],
-	"displayType": "page",
+	"displayType": "form",
 	"entityPermissions": {
 		"deleteUserIds": [],
 		"readUserIds": [
@@ -1336,6 +1336,10 @@
 					"label": "form-submit",
 					"locked": false,
 					"name": "form-submit",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
