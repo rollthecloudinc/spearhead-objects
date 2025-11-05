@@ -1351,11 +1351,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "<div class=\"form-submit\">Programmatic Submit</div>",
+							"computedValue": "<div class=\"form-submit\">Submit</div>",
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "<div class=\"form-submit\">Programmatic Submit</div>"
+							"value": "<div class=\"form-submit\">Submit</div>"
 						},
 						{
 							"attributes": [],
