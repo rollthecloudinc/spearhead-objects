@@ -20,7 +20,21 @@
 	"id": "ef53a364-bca8-4f7a-a458-44138d423f5f",
 	"interactions": {
 		"interactions": {
-			"listeners": []
+			"listeners": [
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [],
+							"paramsString": "type=click&target=.submit-form"
+						}
+					},
+					"handler": {
+						"plugin": "hello_world",
+						"settings": {}
+					}
+				}
+			]
 		}
 	},
 	"layoutSetting": {
@@ -40,6 +54,10 @@
 					"label": "Submit Form",
 					"locked": false,
 					"name": "submit-form",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
