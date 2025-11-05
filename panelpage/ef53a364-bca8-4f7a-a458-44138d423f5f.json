@@ -122,11 +122,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "<div class=\"submit-form\">Submit Form</div>",
+							"computedValue": "<div class=\"form-submit\">Submit Form</div>",
 							"displayName": "Content",
 							"name": "content",
 							"type": 1,
-							"value": "<div class=\"submit-form\">Submit Form</div>"
+							"value": "<div class=\"form-submit\">Submit Form</div>"
 						},
 						{
 							"attributes": [],
