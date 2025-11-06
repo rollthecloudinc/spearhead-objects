@@ -37,9 +37,9 @@
 				{
 					"contentPlugin": "outside_app",
 					"contexts": [],
-					"label": "",
+					"label": "Micro Fe",
 					"locked": false,
-					"name": "",
+					"name": "micro-fe",
 					"rule": {
 						"condition": "",
 						"rules": []
