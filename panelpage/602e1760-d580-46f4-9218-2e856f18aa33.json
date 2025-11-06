@@ -55,11 +55,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "https://rollthecloud.com/remoteEntry.json",
+							"computedValue": "https://solid.rollthecloud.com/remoteEntry.json",
 							"displayName": "remoteEntry",
 							"name": "remoteEntry",
 							"type": 1,
-							"value": "https://rollthecloud.com/remoteEntry.json"
+							"value": "https://solid.rollthecloud.com/remoteEntry.json"
 						},
 						{
 							"attributes": [],
