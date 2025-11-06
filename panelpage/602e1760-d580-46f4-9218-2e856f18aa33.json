@@ -71,11 +71,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "./DownloadModule",
+							"computedValue": "./Upload",
 							"displayName": "exposedModule",
 							"name": "exposedModule",
 							"type": 1,
-							"value": "./DownloadModule"
+							"value": "./Upload"
 						},
 						{
 							"attributes": [],
