@@ -55,35 +55,35 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "https://solid.rollthecloud.com/remoteEntry.json",
+							"computedValue": "http://localhost:4201/remoteEntry.json",
 							"displayName": "remoteEntry",
 							"name": "remoteEntry",
 							"type": 1,
-							"value": "https://solid.rollthecloud.com/remoteEntry.json"
+							"value": "http://localhost:4201/remoteEntry.json"
 						},
 						{
 							"attributes": [],
-							"computedValue": "UploadComponent",
+							"computedValue": "AppComponent",
 							"displayName": "componentName",
 							"name": "componentName",
 							"type": 1,
-							"value": "UploadComponent"
+							"value": "AppComponent"
 						},
 						{
 							"attributes": [],
-							"computedValue": "./Upload",
+							"computedValue": "./Component",
 							"displayName": "exposedModule",
 							"name": "exposedModule",
 							"type": 1,
-							"value": "./Upload"
+							"value": "./Component"
 						},
 						{
 							"attributes": [],
-							"computedValue": "plugin",
+							"computedValue": "mfe1",
 							"displayName": "remoteName",
 							"name": "remoteName",
 							"type": 1,
-							"value": "plugin"
+							"value": "mfe1"
 						}
 					]
 				}
