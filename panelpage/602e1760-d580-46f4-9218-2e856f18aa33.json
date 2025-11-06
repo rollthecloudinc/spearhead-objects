@@ -40,6 +40,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -75,11 +79,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "undefined",
+							"computedValue": "mfe1",
 							"displayName": "remoteName",
 							"name": "remoteName",
-							"type": 0,
-							"value": "undefined"
+							"type": 1,
+							"value": "mfe1"
 						}
 					]
 				}
