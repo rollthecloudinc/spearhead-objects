@@ -79,11 +79,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "mfe1",
+							"computedValue": "plugin",
 							"displayName": "remoteName",
 							"name": "remoteName",
 							"type": 1,
-							"value": "mfe1"
+							"value": "plugin"
 						}
 					]
 				}
