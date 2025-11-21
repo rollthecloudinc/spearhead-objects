@@ -46,6 +46,30 @@
 							"value": ""
 						},
 						{
+							"attributes": [],
+							"computedValue": "1",
+							"displayName": "min",
+							"name": "min",
+							"type": 0,
+							"value": "1"
+						},
+						{
+							"attributes": [],
+							"computedValue": "100",
+							"displayName": "max",
+							"name": "max",
+							"type": 0,
+							"value": "100"
+						},
+						{
+							"attributes": [],
+							"computedValue": "1",
+							"displayName": "step",
+							"name": "step",
+							"type": 0,
+							"value": "1"
+						},
+						{
 							"attributes": [
 								{
 									"attributes": [],
