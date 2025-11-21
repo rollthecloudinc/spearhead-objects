@@ -32,6 +32,10 @@
 					"label": "Range",
 					"locked": false,
 					"name": "range",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -63,6 +67,71 @@
 							"computedValue": null,
 							"displayName": "datasourceBinding",
 							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "query",
+									"name": "query",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "trackBy",
+									"name": "trackBy",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "idMapping",
+									"name": "idMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "labelMapping",
+									"name": "labelMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "valueMapping",
+									"name": "valueMapping",
+									"type": 1,
+									"value": ""
+								},
+								{
+									"attributes": [],
+									"computedValue": "false",
+									"displayName": "multiple",
+									"name": "multiple",
+									"type": 5,
+									"value": "false"
+								},
+								{
+									"attributes": [],
+									"computedValue": "0",
+									"displayName": "limit",
+									"name": "limit",
+									"type": 1,
+									"value": "0"
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceOptions",
+							"name": "datasourceOptions",
 							"type": 2,
 							"value": null
 						}
