@@ -1,6 +1,6 @@
 {
 	"contexts": [],
-	"displayType": "page",
+	"displayType": "form",
 	"entityPermissions": {
 		"deleteUserIds": [],
 		"readUserIds": [
