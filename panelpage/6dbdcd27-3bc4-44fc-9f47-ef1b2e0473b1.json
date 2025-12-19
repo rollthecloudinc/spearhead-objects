@@ -3,8 +3,8 @@
 		{
 			"adaptor": "data",
 			"data": {
-				"exposedModule": "./DownloadModule",
-				"moduleName": "DownloadModule",
+				"exposedModule": "./GalleryModule",
+				"moduleName": "GalleryModule",
 				"remoteEntry": "http://localhost:3000/remoteEntry.json"
 			},
 			"name": "module",
