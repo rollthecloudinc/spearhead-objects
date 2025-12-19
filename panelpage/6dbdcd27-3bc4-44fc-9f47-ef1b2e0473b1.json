@@ -1,0 +1,66 @@
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./DownloadModule",
+				"moduleName": "DownloadModule",
+				"remoteEntry": "http://localhost:3000/remoteEntry.json"
+			},
+			"name": "module",
+			"plugin": "module"
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "6dbdcd27-3bc4-44fc-9f47-ef1b2e0473b1",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-gallery-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-gallery-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Gallery Int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
