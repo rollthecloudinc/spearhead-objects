@@ -51,6 +51,10 @@
 					"label": "Slides Data",
 					"locked": false,
 					"name": "slides_data",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -64,11 +68,11 @@
 							"attributes": [
 								{
 									"attributes": [],
-									"computedValue": "[\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb: 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        }\n        // more items\n    ]",
+									"computedValue": "[\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb: 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        }\n    ]",
 									"displayName": "data",
 									"name": "data",
 									"type": 1,
-									"value": "[\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb: 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        }\n        // more items\n    ]"
+									"value": "[\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb: 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        }\n    ]"
 								}
 							],
 							"computedValue": null,
@@ -110,6 +114,10 @@
 					"label": "Gallery",
 					"locked": false,
 					"name": "gallery",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
