@@ -44,7 +44,132 @@
 			"columnSetting": {
 				"settings": []
 			},
-			"panes": [],
+			"panes": [
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "Slides Data",
+					"locked": false,
+					"name": "slides_data",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "[\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb: 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        }\n        // more items\n    ]",
+									"displayName": "data",
+									"name": "data",
+									"type": 1,
+									"value": "[\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb: 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n            \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        },\n        {\n        \"type\": 'image',\n            \"src\": 'https://cdn.pixabay.com/photo/2012/02/16/12/08/test-13394_1280.jpg',\n           \"thumb\": 'IMAGE_THUMBNAIL_URL'\n        }\n        // more items\n    ]"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "gallery_gallery_item",
+					"contexts": [],
+					"label": "Gallery",
+					"locked": false,
+					"name": "gallery",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "slides_data",
+							"displayName": "bindingOption",
+							"name": "bindingOption",
+							"type": 1,
+							"value": "slides_data"
+						},
+						{
+							"attributes": [],
+							"computedValue": "$.*",
+							"displayName": "query",
+							"name": "query",
+							"type": 1,
+							"value": "$.*"
+						},
+						{
+							"attributes": [],
+							"computedValue": "[.type]",
+							"displayName": "typeMapping",
+							"name": "typeMapping",
+							"type": 1,
+							"value": "[.type]"
+						},
+						{
+							"attributes": [],
+							"computedValue": "[.src]",
+							"displayName": "imageMapping",
+							"name": "imageMapping",
+							"type": 1,
+							"value": "[.src]"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "videoMapping",
+							"name": "videoMapping",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "youtubeMapping",
+							"name": "youtubeMapping",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "iframeMapping",
+							"name": "iframeMapping",
+							"type": 1,
+							"value": ""
+						}
+					]
+				}
+			],
 			"settings": [],
 			"stylePlugin": ""
 		}
