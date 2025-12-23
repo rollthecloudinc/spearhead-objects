@@ -7,7 +7,7 @@
 				"moduleName": "QuillModule",
 				"remoteEntry": "http://localhost:3001/remoteEntry.json"
 			},
-			"name": "quill-plugin",
+			"name": "module",
 			"plugin": "module"
 		}
 	],
@@ -44,7 +44,41 @@
 			"columnSetting": {
 				"settings": []
 			},
-			"panes": [],
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "Hello Quill Plugin Init",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "Hello Quill Plugin Init"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
 			"settings": [],
 			"stylePlugin": ""
 		}
