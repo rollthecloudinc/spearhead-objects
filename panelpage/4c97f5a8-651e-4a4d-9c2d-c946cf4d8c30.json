@@ -51,6 +51,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -77,6 +81,14 @@
 							"value": null
 						}
 					]
+				},
+				{
+					"contentPlugin": "plugin_quill",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": []
 				}
 			],
 			"settings": [],
