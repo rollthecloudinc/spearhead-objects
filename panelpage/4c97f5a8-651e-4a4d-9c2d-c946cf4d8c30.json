@@ -1,5 +1,16 @@
 {
-	"contexts": [],
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./QuillModule",
+				"moduleName": "QuillModule",
+				"remoteEntry": "http://localhost:3001/remoteEntry.json"
+			},
+			"name": "quill-plugin",
+			"plugin": "module"
+		}
+	],
 	"displayType": "page",
 	"entityPermissions": {
 		"deleteUserIds": [],
