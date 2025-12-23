@@ -11,7 +11,7 @@
 			"plugin": "module"
 		}
 	],
-	"displayType": "page",
+	"displayType": "form",
 	"entityPermissions": {
 		"deleteUserIds": [],
 		"readUserIds": [
@@ -85,9 +85,13 @@
 				{
 					"contentPlugin": "plugin_quill",
 					"contexts": [],
-					"label": "",
+					"label": "Quill",
 					"locked": false,
-					"name": "",
+					"name": "quill",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": []
 				}
 			],
