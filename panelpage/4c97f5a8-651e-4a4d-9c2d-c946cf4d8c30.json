@@ -31,7 +31,104 @@
 	"id": "4c97f5a8-651e-4a4d-9c2d-c946cf4d8c30",
 	"interactions": {
 		"interactions": {
-			"listeners": []
+			"listeners": [
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "click",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": ".submit-form",
+										"type": "static",
+										"value": ".submit-form"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:target"
+						}
+					},
+					"handler": {
+						"plugin": "panels_form_submit",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "test-quill-int",
+										"type": "static",
+										"value": "test-quill-int"
+									}
+								}
+							],
+							"paramsString": "name=:name"
+						}
+					}
+				}
+			]
 		}
 	},
 	"layoutSetting": {
@@ -93,6 +190,39 @@
 						"rules": []
 					},
 					"settings": []
+				},
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "Submit",
+					"locked": false,
+					"name": "submit",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "<div class=\"submit-form\">Submit Form</div>",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "<div class=\"submit-form\">Submit Form</div>"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
 				}
 			],
 			"settings": [],
