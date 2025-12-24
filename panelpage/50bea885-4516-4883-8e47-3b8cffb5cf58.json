@@ -44,7 +44,49 @@
 			"columnSetting": {
 				"settings": []
 			},
-			"panes": [],
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "Quill View",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "Quill View"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "plugin_quill_view",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": []
+				}
+			],
 			"settings": [],
 			"stylePlugin": ""
 		}
