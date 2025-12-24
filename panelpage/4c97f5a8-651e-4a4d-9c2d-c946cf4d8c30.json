@@ -197,6 +197,10 @@
 					"label": "Submit",
 					"locked": false,
 					"name": "submit",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -232,7 +236,191 @@
 	"path": "/test-quill-int",
 	"persistence": {
 		"dataduct": {
-			"settings": []
+			"plugin": "crud",
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "rest",
+					"displayName": "adaptorName",
+					"name": "adaptorName",
+					"type": 1,
+					"value": "rest"
+				},
+				{
+					"attributes": [],
+					"computedValue": "entityName=:entityName",
+					"displayName": "optionsString",
+					"name": "optionsString",
+					"type": 1,
+					"value": "entityName=:entityName"
+				},
+				{
+					"attributes": [],
+					"computedValue": "",
+					"displayName": "paramsString",
+					"name": "paramsString",
+					"type": 1,
+					"value": ""
+				},
+				{
+					"attributes": [
+						{
+							"attributes": [
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "static",
+											"displayName": "type",
+											"name": "type",
+											"type": 1,
+											"value": "static"
+										},
+										{
+											"attributes": [],
+											"computedValue": "QuillTest",
+											"displayName": "value",
+											"name": "value",
+											"type": 1,
+											"value": "QuillTest"
+										},
+										{
+											"attributes": [],
+											"computedValue": "QuillTest",
+											"displayName": "testValue",
+											"name": "testValue",
+											"type": 1,
+											"value": "QuillTest"
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "context",
+											"name": "context",
+											"type": 1,
+											"value": ""
+										}
+									],
+									"displayName": "mapping",
+									"name": "mapping",
+									"type": 2
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "page",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "page"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "0",
+											"name": "0",
+											"type": 2
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "limit",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "limit"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "1",
+											"name": "1",
+											"type": 2
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "offset",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "offset"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "2",
+											"name": "2",
+											"type": 2
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": "searchString",
+													"displayName": "name",
+													"name": "name",
+													"type": 1,
+													"value": "searchString"
+												},
+												{
+													"attributes": [],
+													"computedValue": "false",
+													"displayName": "enabled",
+													"name": "enabled",
+													"type": 5,
+													"value": "false"
+												}
+											],
+											"displayName": "3",
+											"name": "3",
+											"type": 2
+										}
+									],
+									"displayName": "flags",
+									"name": "flags",
+									"type": 4
+								}
+							],
+							"displayName": "0",
+							"name": "0",
+							"type": 2
+						}
+					],
+					"displayName": "options",
+					"name": "options",
+					"type": 4
+				},
+				{
+					"attributes": [],
+					"displayName": "params",
+					"name": "params",
+					"type": 4
+				}
+			]
 		}
 	},
 	"rowSettings": [
