@@ -9,6 +9,47 @@
 			},
 			"name": "quill-view",
 			"plugin": "module"
+		},
+		{
+			"adaptor": "rest",
+			"name": "content",
+			"plugin": "rest",
+			"rest": {
+				"body": {
+					"content": "{}",
+					"contentType": "application/json"
+				},
+				"method": "get",
+				"params": [
+					{
+						"flags": [
+							{
+								"enabled": false,
+								"name": "page"
+							},
+							{
+								"enabled": false,
+								"name": "limit"
+							},
+							{
+								"enabled": false,
+								"name": "offset"
+							},
+							{
+								"enabled": false,
+								"name": "searchString"
+							}
+						],
+						"mapping": {
+							"context": "",
+							"testValue": "81168d4e-e0b3-11f0-b46e-96a97c0a07f7",
+							"type": "route",
+							"value": "arg0"
+						}
+					}
+				],
+				"url": "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/shapeshifter/quilltest/:id"
+			}
 		}
 	],
 	"displayType": "page",
