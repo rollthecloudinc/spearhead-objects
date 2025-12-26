@@ -42,7 +42,7 @@
 						],
 						"mapping": {
 							"context": "",
-							"testValue": "81168d4e-e0b3-11f0-b46e-96a97c0a07f7",
+							"testValue": "",
 							"type": "route",
 							"value": "arg0"
 						}
@@ -374,6 +374,10 @@
 					"label": "id",
 					"locked": false,
 					"name": "id",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
