@@ -184,43 +184,6 @@
 			},
 			"panes": [
 				{
-					"contentPlugin": "snippet",
-					"contexts": [],
-					"label": "",
-					"locked": false,
-					"name": "",
-					"rule": {
-						"condition": "",
-						"rules": []
-					},
-					"settings": [
-						{
-							"attributes": [],
-							"computedValue": "text/html",
-							"displayName": "Content Type",
-							"name": "contentType",
-							"type": 1,
-							"value": "text/html"
-						},
-						{
-							"attributes": [],
-							"computedValue": "Hello Quill Plugin Init",
-							"displayName": "Content",
-							"name": "content",
-							"type": 1,
-							"value": "Hello Quill Plugin Init"
-						},
-						{
-							"attributes": [],
-							"computedValue": null,
-							"displayName": "jsScript",
-							"name": "jsScript",
-							"type": 1,
-							"value": null
-						}
-					]
-				},
-				{
 					"contentPlugin": "plugin_quill",
 					"contexts": [],
 					"label": "Quill",
