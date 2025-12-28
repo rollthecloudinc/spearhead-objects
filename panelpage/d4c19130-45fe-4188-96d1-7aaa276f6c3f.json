@@ -57,7 +57,236 @@
 					},
 					"settings": [
 						{
-							"attributes": [],
+							"attributes": [
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "Name",
+											"displayName": "title",
+											"name": "title",
+											"type": 1,
+											"value": "Name"
+										},
+										{
+											"attributes": [],
+											"computedValue": "name",
+											"displayName": "field",
+											"name": "field",
+											"type": 1,
+											"value": "name"
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "formatter",
+											"name": "formatter",
+											"type": 1,
+											"value": ""
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "sorter",
+											"name": "sorter",
+											"type": 1,
+											"value": ""
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "hozAlign",
+											"name": "hozAlign",
+											"type": 1,
+											"value": ""
+										},
+										{
+											"attributes": [],
+											"computedValue": "150",
+											"displayName": "width",
+											"name": "width",
+											"type": 1,
+											"value": "150"
+										}
+									],
+									"computedValue": null,
+									"displayName": "0",
+									"name": "0",
+									"type": 2,
+									"value": null
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "Age",
+											"displayName": "title",
+											"name": "title",
+											"type": 1,
+											"value": "Age"
+										},
+										{
+											"attributes": [],
+											"computedValue": "age",
+											"displayName": "field",
+											"name": "field",
+											"type": 1,
+											"value": "age"
+										},
+										{
+											"attributes": [],
+											"computedValue": "progress",
+											"displayName": "formatter",
+											"name": "formatter",
+											"type": 1,
+											"value": "progress"
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "sorter",
+											"name": "sorter",
+											"type": 1,
+											"value": ""
+										},
+										{
+											"attributes": [],
+											"computedValue": "left",
+											"displayName": "hozAlign",
+											"name": "hozAlign",
+											"type": 1,
+											"value": "left"
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "width",
+											"name": "width",
+											"type": 1,
+											"value": ""
+										}
+									],
+									"computedValue": null,
+									"displayName": "1",
+									"name": "1",
+									"type": 2,
+									"value": null
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "Favourite Color",
+											"displayName": "title",
+											"name": "title",
+											"type": 1,
+											"value": "Favourite Color"
+										},
+										{
+											"attributes": [],
+											"computedValue": "col",
+											"displayName": "field",
+											"name": "field",
+											"type": 1,
+											"value": "col"
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "formatter",
+											"name": "formatter",
+											"type": 1,
+											"value": ""
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "sorter",
+											"name": "sorter",
+											"type": 1,
+											"value": ""
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "hozAlign",
+											"name": "hozAlign",
+											"type": 1,
+											"value": ""
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "width",
+											"name": "width",
+											"type": 1,
+											"value": ""
+										}
+									],
+									"computedValue": null,
+									"displayName": "2",
+									"name": "2",
+									"type": 2,
+									"value": null
+								},
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": "Date Of Birth",
+											"displayName": "title",
+											"name": "title",
+											"type": 1,
+											"value": "Date Of Birth"
+										},
+										{
+											"attributes": [],
+											"computedValue": "dob",
+											"displayName": "field",
+											"name": "field",
+											"type": 1,
+											"value": "dob"
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "formatter",
+											"name": "formatter",
+											"type": 1,
+											"value": ""
+										},
+										{
+											"attributes": [],
+											"computedValue": "date",
+											"displayName": "sorter",
+											"name": "sorter",
+											"type": 1,
+											"value": "date"
+										},
+										{
+											"attributes": [],
+											"computedValue": "center",
+											"displayName": "hozAlign",
+											"name": "hozAlign",
+											"type": 1,
+											"value": "center"
+										},
+										{
+											"attributes": [],
+											"computedValue": "",
+											"displayName": "width",
+											"name": "width",
+											"type": 1,
+											"value": ""
+										}
+									],
+									"computedValue": null,
+									"displayName": "3",
+									"name": "3",
+									"type": 2,
+									"value": null
+								}
+							],
 							"computedValue": null,
 							"displayName": "columns",
 							"name": "columns",
@@ -104,6 +333,10 @@
 					"label": "data",
 					"locked": false,
 					"name": "data",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
