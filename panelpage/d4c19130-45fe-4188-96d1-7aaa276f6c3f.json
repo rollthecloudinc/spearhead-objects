@@ -44,7 +44,16 @@
 			"columnSetting": {
 				"settings": []
 			},
-			"panes": [],
+			"panes": [
+				{
+					"contentPlugin": "plugin_tabulator",
+					"contexts": [],
+					"label": "Data Table",
+					"locked": false,
+					"name": "data_table",
+					"settings": []
+				}
+			],
 			"settings": [],
 			"stylePlugin": ""
 		}
