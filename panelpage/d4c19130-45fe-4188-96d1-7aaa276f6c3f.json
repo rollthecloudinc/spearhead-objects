@@ -51,7 +51,111 @@
 					"label": "Data Table",
 					"locked": false,
 					"name": "data_table",
-					"settings": []
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "columns",
+							"name": "columns",
+							"type": 4,
+							"value": null
+						},
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "bindingOption",
+							"name": "bindingOption",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [],
+							"computedValue": "$.*",
+							"displayName": "query",
+							"name": "query",
+							"type": 1,
+							"value": "$.*"
+						},
+						{
+							"attributes": [],
+							"computedValue": "500",
+							"displayName": "height",
+							"name": "height",
+							"type": 1,
+							"value": "500"
+						},
+						{
+							"attributes": [],
+							"computedValue": "fitColumns",
+							"displayName": "layout",
+							"name": "layout",
+							"type": 1,
+							"value": "fitColumns"
+						}
+					]
+				},
+				{
+					"contentPlugin": "datasource",
+					"contexts": [],
+					"label": "data",
+					"locked": false,
+					"name": "data",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "data",
+							"displayName": "plugin",
+							"name": "plugin",
+							"type": 1,
+							"value": "data"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "[\n  {\n    \"id\": 1,\n    \"name\": \"Oli Bob\",\n    \"age\": \"12\",\n    \"col\": \"red\",\n    \"dob\": \"\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Mary May\",\n    \"age\": \"1\",\n    \"col\": \"blue\",\n    \"dob\": \"14/05/1982\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Christine Lobowski\",\n    \"age\": \"42\",\n    \"col\": \"green\",\n    \"dob\": \"22/05/1982\"\n  },\n  {\n    \"id\": 4,\n    \"name\": \"Brendon Philips\",\n    \"age\": \"125\",\n    \"col\": \"orange\",\n    \"dob\": \"01/08/1980\"\n  },\n  {\n    \"id\": 5,\n    \"name\": \"Margret Marmajuke\",\n    \"age\": \"16\",\n    \"col\": \"yellow\",\n    \"dob\": \"31/01/1999\"\n  }\n]",
+									"displayName": "data",
+									"name": "data",
+									"type": 1,
+									"value": "[\n  {\n    \"id\": 1,\n    \"name\": \"Oli Bob\",\n    \"age\": \"12\",\n    \"col\": \"red\",\n    \"dob\": \"\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Mary May\",\n    \"age\": \"1\",\n    \"col\": \"blue\",\n    \"dob\": \"14/05/1982\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Christine Lobowski\",\n    \"age\": \"42\",\n    \"col\": \"green\",\n    \"dob\": \"22/05/1982\"\n  },\n  {\n    \"id\": 4,\n    \"name\": \"Brendon Philips\",\n    \"age\": \"125\",\n    \"col\": \"orange\",\n    \"dob\": \"01/08/1980\"\n  },\n  {\n    \"id\": 5,\n    \"name\": \"Margret Marmajuke\",\n    \"age\": \"16\",\n    \"col\": \"yellow\",\n    \"dob\": \"31/01/1999\"\n  }\n]"
+								}
+							],
+							"computedValue": null,
+							"displayName": "settings",
+							"name": "settings",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "bindings",
+									"name": "bindings",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "renderer",
+							"name": "renderer",
+							"type": 2,
+							"value": null
+						}
+					]
 				}
 			],
 			"settings": [],
