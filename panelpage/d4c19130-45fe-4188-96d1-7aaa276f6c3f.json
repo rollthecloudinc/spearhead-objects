@@ -1,0 +1,66 @@
+{
+	"contexts": [
+		{
+			"adaptor": "data",
+			"data": {
+				"exposedModule": "./TabulatorModule",
+				"moduleName": "TabulatorModule",
+				"remoteEntry": "http://localhost:3002/remoteEntry.json"
+			},
+			"name": "plugin-tabulator",
+			"plugin": "module"
+		}
+	],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "d4c19130-45fe-4188-96d1-7aaa276f6c3f",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "test-tabulator-int",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/test-tabulator-int",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"site": "spearhead",
+	"title": "Test Tabulator Int",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
