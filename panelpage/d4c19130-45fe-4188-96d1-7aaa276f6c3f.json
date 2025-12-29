@@ -5,7 +5,7 @@
 			"data": {
 				"exposedModule": "./TabulatorModule",
 				"moduleName": "TabulatorModule",
-				"remoteEntry": "http://localhost:3002/remoteEntry.json"
+				"remoteEntry": "https://solid-tabulator.rollthecloud.com/remoteEntry.json"
 			},
 			"name": "plugin-tabulator",
 			"plugin": "module"
