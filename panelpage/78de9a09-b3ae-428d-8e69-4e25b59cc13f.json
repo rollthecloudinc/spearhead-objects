@@ -10,17 +10,24 @@
 	},
 	"gridItems": [
 		{
-			"cols": 25,
+			"cols": 20,
 			"rows": 1,
 			"weight": 0,
 			"x": 0,
 			"y": 0
 		},
 		{
-			"cols": 25,
+			"cols": 20,
 			"rows": 1,
 			"weight": 1,
 			"x": 1,
+			"y": 0
+		},
+		{
+			"cols": 20,
+			"rows": 1,
+			"weight": 2,
+			"x": 2,
 			"y": 0
 		}
 	],
@@ -113,6 +120,48 @@
 							"name": "content",
 							"type": 1,
 							"value": "Hello world"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "column3",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "column3"
 						},
 						{
 							"attributes": [],
