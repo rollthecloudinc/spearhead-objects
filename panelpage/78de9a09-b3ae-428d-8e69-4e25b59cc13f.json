@@ -36,13 +36,6 @@
 			"weight": 3,
 			"x": 3,
 			"y": 0
-		},
-		{
-			"cols": 20,
-			"rows": 1,
-			"weight": 4,
-			"x": 4,
-			"y": 0
 		}
 	],
 	"id": "78de9a09-b3ae-428d-8e69-4e25b59cc13f",
@@ -238,14 +231,6 @@
 					]
 				}
 			],
-			"settings": [],
-			"stylePlugin": ""
-		},
-		{
-			"columnSetting": {
-				"settings": []
-			},
-			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
 		},
