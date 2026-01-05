@@ -10,21 +10,21 @@
 	},
 	"gridItems": [
 		{
-			"cols": 20,
+			"cols": 33,
 			"rows": 1,
 			"weight": 0,
 			"x": 0,
 			"y": 0
 		},
 		{
-			"cols": 20,
+			"cols": 33,
 			"rows": 1,
 			"weight": 1,
 			"x": 1,
 			"y": 0
 		},
 		{
-			"cols": 20,
+			"cols": 33,
 			"rows": 1,
 			"weight": 2,
 			"x": 2,
