@@ -29,13 +29,6 @@
 			"weight": 2,
 			"x": 2,
 			"y": 0
-		},
-		{
-			"cols": 12,
-			"rows": 1,
-			"weight": 3,
-			"x": 3,
-			"y": 0
 		}
 	],
 	"id": "78de9a09-b3ae-428d-8e69-4e25b59cc13f",
@@ -173,48 +166,6 @@
 							"name": "content",
 							"type": 1,
 							"value": "Column3"
-						},
-						{
-							"attributes": [],
-							"computedValue": null,
-							"displayName": "jsScript",
-							"name": "jsScript",
-							"type": 1,
-							"value": null
-						}
-					]
-				}
-			],
-			"settings": [],
-			"stylePlugin": ""
-		},
-		{
-			"columnSetting": {
-				"settings": []
-			},
-			"panes": [
-				{
-					"contentPlugin": "snippet",
-					"contexts": [],
-					"label": "",
-					"locked": false,
-					"name": "",
-					"settings": [
-						{
-							"attributes": [],
-							"computedValue": "text/html",
-							"displayName": "Content Type",
-							"name": "contentType",
-							"type": 1,
-							"value": "text/html"
-						},
-						{
-							"attributes": [],
-							"computedValue": "SMall",
-							"displayName": "Content",
-							"name": "content",
-							"type": 1,
-							"value": "SMall"
 						},
 						{
 							"attributes": [],
