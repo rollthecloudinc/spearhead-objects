@@ -24,17 +24,24 @@
 			"y": 0
 		},
 		{
-			"cols": 38,
+			"cols": 25,
 			"rows": 1,
 			"weight": 2,
 			"x": 2,
 			"y": 0
 		},
 		{
-			"cols": 11,
+			"cols": 25,
 			"rows": 1,
 			"weight": 3,
 			"x": 3,
+			"y": 0
+		},
+		{
+			"cols": 20,
+			"rows": 1,
+			"weight": 4,
+			"x": 4,
 			"y": 0
 		}
 	],
