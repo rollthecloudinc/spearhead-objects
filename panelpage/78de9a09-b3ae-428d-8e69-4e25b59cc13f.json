@@ -8,7 +8,36 @@
 		],
 		"writeUserIds": []
 	},
-	"gridItems": [],
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"cols": 50,
+			"rows": 1,
+			"weight": 1,
+			"x": 1,
+			"y": 0
+		},
+		{
+			"cols": 33,
+			"rows": 1,
+			"weight": 2,
+			"x": 2,
+			"y": 0
+		},
+		{
+			"cols": 25,
+			"rows": 1,
+			"weight": 3,
+			"x": 3,
+			"y": 0
+		}
+	],
 	"id": "78de9a09-b3ae-428d-8e69-4e25b59cc13f",
 	"interactions": {
 		"interactions": {
@@ -212,6 +241,38 @@
 			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
 		}
 	],
 	"path": "/ng-flex-migration-test",
@@ -221,6 +282,9 @@
 		}
 	},
 	"rowSettings": [
+		{
+			"settings": []
+		},
 		{
 			"settings": []
 		}
