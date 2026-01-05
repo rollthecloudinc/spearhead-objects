@@ -10,24 +10,31 @@
 	},
 	"gridItems": [
 		{
-			"cols": 33,
+			"cols": 25,
 			"rows": 1,
 			"weight": 0,
 			"x": 0,
 			"y": 0
 		},
 		{
-			"cols": 33,
+			"cols": 25,
 			"rows": 1,
 			"weight": 1,
 			"x": 1,
 			"y": 0
 		},
 		{
-			"cols": 33,
+			"cols": 37,
 			"rows": 1,
 			"weight": 2,
 			"x": 2,
+			"y": 0
+		},
+		{
+			"cols": 12,
+			"rows": 1,
+			"weight": 3,
+			"x": 3,
 			"y": 0
 		}
 	],
@@ -100,6 +107,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -142,6 +153,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -158,6 +173,48 @@
 							"name": "content",
 							"type": 1,
 							"value": "Column3"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "SMall",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "SMall"
 						},
 						{
 							"attributes": [],
