@@ -8,36 +8,7 @@
 		],
 		"writeUserIds": []
 	},
-	"gridItems": [
-		{
-			"cols": 25,
-			"rows": 1,
-			"weight": 0,
-			"x": 0,
-			"y": 0
-		},
-		{
-			"cols": 25,
-			"rows": 1,
-			"weight": 1,
-			"x": 1,
-			"y": 0
-		},
-		{
-			"cols": 38,
-			"rows": 1,
-			"weight": 2,
-			"x": 2,
-			"y": 0
-		},
-		{
-			"cols": 11,
-			"rows": 1,
-			"weight": 3,
-			"x": 3,
-			"y": 0
-		}
-	],
+	"gridItems": [],
 	"id": "78de9a09-b3ae-428d-8e69-4e25b59cc13f",
 	"interactions": {
 		"interactions": {
@@ -199,6 +170,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
