@@ -38,10 +38,17 @@
 			"y": 0
 		},
 		{
-			"cols": 19,
+			"cols": 24,
 			"rows": 1,
 			"weight": 4,
 			"x": 0,
+			"y": 1
+		},
+		{
+			"cols": 76,
+			"rows": 1,
+			"weight": 5,
+			"x": 1,
 			"y": 1
 		}
 	],
@@ -252,6 +259,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -294,6 +305,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -322,6 +337,14 @@
 					]
 				}
 			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
 		},
