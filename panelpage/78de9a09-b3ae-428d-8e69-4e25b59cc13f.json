@@ -92,6 +92,13 @@
 			"weight": 11,
 			"x": 0,
 			"y": 4
+		},
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 12,
+			"x": 0,
+			"y": 5
 		}
 	],
 	"id": "78de9a09-b3ae-428d-8e69-4e25b59cc13f",
@@ -715,6 +722,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -757,6 +768,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -843,6 +858,14 @@
 			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
 		}
 	],
 	"path": "/ng-flex-migration-test",
@@ -852,6 +875,9 @@
 		}
 	},
 	"rowSettings": [
+		{
+			"settings": []
+		},
 		{
 			"settings": []
 		},
