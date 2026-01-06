@@ -94,10 +94,17 @@
 			"y": 4
 		},
 		{
-			"cols": 100,
+			"cols": 50,
 			"rows": 1,
 			"weight": 12,
 			"x": 0,
+			"y": 5
+		},
+		{
+			"cols": 50,
+			"rows": 1,
+			"weight": 13,
+			"x": 1,
 			"y": 5
 		}
 	],
@@ -800,6 +807,14 @@
 					]
 				}
 			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
 		},
