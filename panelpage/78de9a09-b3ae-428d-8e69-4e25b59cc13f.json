@@ -71,6 +71,13 @@
 			"weight": 8,
 			"x": 1,
 			"y": 2
+		},
+		{
+			"cols": 32,
+			"rows": 1,
+			"weight": 9,
+			"x": 0,
+			"y": 3
 		}
 	],
 	"id": "78de9a09-b3ae-428d-8e69-4e25b59cc13f",
@@ -464,6 +471,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -480,6 +491,90 @@
 							"name": "content",
 							"type": 1,
 							"value": "bottom r"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "helllo",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "helllo"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "world",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "world"
 						},
 						{
 							"attributes": [],
@@ -535,6 +630,9 @@
 		}
 	},
 	"rowSettings": [
+		{
+			"settings": []
+		},
 		{
 			"settings": []
 		},
