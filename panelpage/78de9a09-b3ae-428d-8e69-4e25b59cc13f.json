@@ -106,6 +106,13 @@
 			"weight": 13,
 			"x": 1,
 			"y": 5
+		},
+		{
+			"cols": 50,
+			"rows": 1,
+			"weight": 14,
+			"x": 0,
+			"y": 6
 		}
 	],
 	"id": "78de9a09-b3ae-428d-8e69-4e25b59cc13f",
@@ -814,6 +821,56 @@
 			"columnSetting": {
 				"settings": []
 			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/html",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/html"
+						},
+						{
+							"attributes": [],
+							"computedValue": "blah",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "blah"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
 			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
@@ -890,6 +947,9 @@
 		}
 	},
 	"rowSettings": [
+		{
+			"settings": []
+		},
 		{
 			"settings": []
 		},
