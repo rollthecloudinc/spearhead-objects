@@ -13,7 +13,6 @@ jobs:
       ENVIRONMENT: dev
     secrets:
       RTC_GITHUB_REGISTRY: ${{ secrets.RTC_GITHUB_REGISTRY }}
-      ENVIRONMENT_NAME: ${{ secrets.ENVIRONMENT_NAME }}
       DESTINATION_USER: ${{ secrets.DESTINATION_USER }}
       DESTINATION_REPO: ${{ secrets.DESTINATION_REPO }}
       TARGET_BRANCH: ${{ secrets.TARGET_BRANCH }}
