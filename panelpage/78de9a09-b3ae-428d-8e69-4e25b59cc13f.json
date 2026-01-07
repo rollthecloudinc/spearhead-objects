@@ -1065,6 +1065,22 @@
 			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
 		}
 	],
 	"path": "/ng-flex-migration-test",
@@ -1074,6 +1090,9 @@
 		}
 	},
 	"rowSettings": [
+		{
+			"settings": []
+		},
 		{
 			"settings": []
 		},
