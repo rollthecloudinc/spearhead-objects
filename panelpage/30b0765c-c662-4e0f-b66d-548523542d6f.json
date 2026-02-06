@@ -32,6 +32,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -51,11 +55,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "undefined",
+							"computedValue": "text",
 							"displayName": "appearance",
 							"name": "appearance",
-							"type": 0,
-							"value": "undefined"
+							"type": 1,
+							"value": "text"
 						},
 						{
 							"attributes": [],
@@ -81,6 +85,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -100,11 +108,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "undefined",
+							"computedValue": "elevated",
 							"displayName": "appearance",
 							"name": "appearance",
-							"type": 0,
-							"value": "undefined"
+							"type": 1,
+							"value": "elevated"
 						},
 						{
 							"attributes": [],
@@ -130,6 +138,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -149,11 +161,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "undefined",
+							"computedValue": "outlined",
 							"displayName": "appearance",
 							"name": "appearance",
-							"type": 0,
-							"value": "undefined"
+							"type": 1,
+							"value": "outlined"
 						},
 						{
 							"attributes": [],
@@ -179,6 +191,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -198,11 +214,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "undefined",
+							"computedValue": "filled",
 							"displayName": "appearance",
 							"name": "appearance",
-							"type": 0,
-							"value": "undefined"
+							"type": 1,
+							"value": "filled"
 						},
 						{
 							"attributes": [],
@@ -228,6 +244,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -247,11 +267,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "undefined",
+							"computedValue": "tonal",
 							"displayName": "appearance",
 							"name": "appearance",
-							"type": 0,
-							"value": "undefined"
+							"type": 1,
+							"value": "tonal"
 						},
 						{
 							"attributes": [],
