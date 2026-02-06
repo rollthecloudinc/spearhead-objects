@@ -1,0 +1,95 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [],
+	"id": "cba79b45-a3f6-4ce7-84a7-8d9df89e03dc",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "fabs-folio",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "fab",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "favorite",
+							"displayName": "iconName",
+							"name": "iconName",
+							"type": 1,
+							"value": "favorite"
+						},
+						{
+							"attributes": [],
+							"computedValue": "flag as favorite",
+							"displayName": "ariaLabel",
+							"name": "ariaLabel",
+							"type": 1,
+							"value": "flag as favorite"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "text",
+							"name": "text",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "minifab",
+							"name": "minifab",
+							"type": 0,
+							"value": "undefined"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/fabs-folio",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [],
+	"selection": {},
+	"site": "ipe",
+	"title": "Fabs Folio",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
