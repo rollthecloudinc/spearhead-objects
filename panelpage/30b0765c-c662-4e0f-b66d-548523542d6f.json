@@ -1,0 +1,291 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [],
+	"id": "30b0765c-c662-4e0f-b66d-548523542d6f",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "button- appearances",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Basic",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Basic"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "paramsString",
+							"name": "paramsString",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "params",
+							"name": "params",
+							"type": 4,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Basic",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Basic"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "paramsString",
+							"name": "paramsString",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "params",
+							"name": "params",
+							"type": 4,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Basic",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Basic"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "paramsString",
+							"name": "paramsString",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "params",
+							"name": "params",
+							"type": 4,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Basic",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Basic"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "paramsString",
+							"name": "paramsString",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "params",
+							"name": "params",
+							"type": 4,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Basic",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Basic"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "paramsString",
+							"name": "paramsString",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "params",
+							"name": "params",
+							"type": 4,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/button-appearances",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [],
+	"selection": {},
+	"site": "ipe",
+	"title": "Button Appearances",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
