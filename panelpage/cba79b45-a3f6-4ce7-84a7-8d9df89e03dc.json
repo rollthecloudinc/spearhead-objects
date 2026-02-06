@@ -32,6 +32,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -72,6 +76,104 @@
 							"name": "minifab",
 							"type": 0,
 							"value": "undefined"
+						}
+					]
+				},
+				{
+					"contentPlugin": "fab",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "favorite",
+							"displayName": "iconName",
+							"name": "iconName",
+							"type": 1,
+							"value": "favorite"
+						},
+						{
+							"attributes": [],
+							"computedValue": "make a fav mini",
+							"displayName": "ariaLabel",
+							"name": "ariaLabel",
+							"type": 1,
+							"value": "make a fav mini"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "true",
+							"displayName": "minifab",
+							"name": "minifab",
+							"type": 5,
+							"value": "true"
+						}
+					]
+				},
+				{
+					"contentPlugin": "fab",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "favorite",
+							"displayName": "iconName",
+							"name": "iconName",
+							"type": 1,
+							"value": "favorite"
+						},
+						{
+							"attributes": [],
+							"computedValue": "fav",
+							"displayName": "ariaLabel",
+							"name": "ariaLabel",
+							"type": 1,
+							"value": "fav"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "Favorite",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Favorite"
+						},
+						{
+							"attributes": [],
+							"computedValue": "false",
+							"displayName": "minifab",
+							"name": "minifab",
+							"type": 5,
+							"value": "false"
 						}
 					]
 				}
