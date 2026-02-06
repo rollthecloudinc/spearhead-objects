@@ -1,0 +1,211 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [],
+	"id": "9e065b41-d632-4e47-91d9-2cc610182c02",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "link-appearances",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "link",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Basic",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Basic"
+						},
+						{
+							"attributes": [],
+							"computedValue": "https://google.com",
+							"displayName": "url",
+							"name": "url",
+							"type": 1,
+							"value": "https://google.com"
+						},
+						{
+							"attributes": [],
+							"computedValue": "text",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 1,
+							"value": "text"
+						}
+					]
+				},
+				{
+					"contentPlugin": "link",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Basic",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Basic"
+						},
+						{
+							"attributes": [],
+							"computedValue": "https://google.com",
+							"displayName": "url",
+							"name": "url",
+							"type": 1,
+							"value": "https://google.com"
+						},
+						{
+							"attributes": [],
+							"computedValue": "elevated",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 1,
+							"value": "elevated"
+						}
+					]
+				},
+				{
+					"contentPlugin": "link",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Basic",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Basic"
+						},
+						{
+							"attributes": [],
+							"computedValue": "https://google.com",
+							"displayName": "url",
+							"name": "url",
+							"type": 1,
+							"value": "https://google.com"
+						},
+						{
+							"attributes": [],
+							"computedValue": "outlined",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 1,
+							"value": "outlined"
+						}
+					]
+				},
+				{
+					"contentPlugin": "link",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Basic",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Basic"
+						},
+						{
+							"attributes": [],
+							"computedValue": "https://google.com",
+							"displayName": "url",
+							"name": "url",
+							"type": 1,
+							"value": "https://google.com"
+						},
+						{
+							"attributes": [],
+							"computedValue": "filled",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 1,
+							"value": "filled"
+						}
+					]
+				},
+				{
+					"contentPlugin": "link",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Basic",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Basic"
+						},
+						{
+							"attributes": [],
+							"computedValue": "https://google.com",
+							"displayName": "url",
+							"name": "url",
+							"type": 1,
+							"value": "https://google.com"
+						},
+						{
+							"attributes": [],
+							"computedValue": "tonal",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 1,
+							"value": "tonal"
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/link-appearances",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [],
+	"selection": {},
+	"site": "ipe",
+	"title": "Link Appearances",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
