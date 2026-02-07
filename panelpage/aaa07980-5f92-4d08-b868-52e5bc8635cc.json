@@ -33,6 +33,8 @@
 			"columnSetting": {
 				"settings": []
 			},
+			"label": "Overview",
+			"name": "overview",
 			"panes": [
 				{
 					"contentPlugin": "panel",
@@ -355,6 +357,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -963,6 +990,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -980,19 +1032,19 @@
 										},
 										{
 											"attributes": [],
-											"computedValue": "undefined",
+											"computedValue": "api",
 											"displayName": "name",
 											"name": "name",
-											"type": 0,
-											"value": "undefined"
+											"type": 1,
+											"value": "api"
 										},
 										{
 											"attributes": [],
-											"computedValue": "undefined",
+											"computedValue": "API",
 											"displayName": "label",
 											"name": "label",
-											"type": 0,
-											"value": "undefined"
+											"type": 1,
+											"value": "API"
 										},
 										{
 											"attributes": [],
