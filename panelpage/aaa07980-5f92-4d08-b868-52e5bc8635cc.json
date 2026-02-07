@@ -508,6 +508,10 @@
 					"label": "0ff1a9ec-ad51-4c67-927f-7a192aca910f",
 					"locked": false,
 					"name": "0ff1a9ec-ad51-4c67-927f-7a192aca910f",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -973,12 +977,45 @@
 						{
 							"attributes": [
 								{
-									"attributes": [],
-									"computedValue": "",
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": null,
+											"displayName": "panelPage",
+											"name": "panelPage",
+											"type": 2,
+											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": null,
+											"displayName": "panel",
+											"name": "panel",
+											"type": 2,
+											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "0",
+											"displayName": "pane",
+											"name": "pane",
+											"type": 0,
+											"value": "0"
+										},
+										{
+											"attributes": [],
+											"computedValue": null,
+											"displayName": "nested",
+											"name": "nested",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
 									"displayName": "mapping",
 									"name": "mapping",
-									"type": 1,
-									"value": ""
+									"type": 2,
+									"value": null
 								}
 							],
 							"computedValue": null,
