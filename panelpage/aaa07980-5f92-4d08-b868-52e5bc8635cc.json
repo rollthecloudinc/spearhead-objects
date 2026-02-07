@@ -280,6 +280,88 @@
 													"name": "1",
 													"type": 2,
 													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "text/markdown",
+																	"displayName": "Content Type",
+																	"name": "contentType",
+																	"type": 1,
+																	"value": "text/markdown"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "More Content 1",
+																	"displayName": "Content",
+																	"name": "content",
+																	"type": 1,
+																	"value": "More Content 1"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "jsScript",
+																	"name": "jsScript",
+																	"type": 1,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "snippet",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "snippet"
+														}
+													],
+													"computedValue": null,
+													"displayName": "2",
+													"name": "2",
+													"type": 2,
+													"value": null
 												}
 											],
 											"computedValue": null,
@@ -804,6 +886,88 @@
 													"computedValue": null,
 													"displayName": "1",
 													"name": "1",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "text/markdown",
+																	"displayName": "Content Type",
+																	"name": "contentType",
+																	"type": 1,
+																	"value": "text/markdown"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "More Content 2",
+																	"displayName": "Content",
+																	"name": "content",
+																	"type": 1,
+																	"value": "More Content 2"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "jsScript",
+																	"name": "jsScript",
+																	"type": 1,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "snippet",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "snippet"
+														}
+													],
+													"computedValue": null,
+													"displayName": "2",
+													"name": "2",
 													"type": 2,
 													"value": null
 												}
