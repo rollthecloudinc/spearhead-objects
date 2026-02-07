@@ -40,6 +40,10 @@
 					"label": "9ab6d088-e5b0-464c-9b1b-298700eefab0",
 					"locked": false,
 					"name": "9ab6d088-e5b0-464c-9b1b-298700eefab0",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -504,6 +508,10 @@
 					"label": "02735c54-8308-4088-88ce-89016799eb0c",
 					"locked": false,
 					"name": "02735c54-8308-4088-88ce-89016799eb0c",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -969,12 +977,45 @@
 						{
 							"attributes": [
 								{
-									"attributes": [],
-									"computedValue": "",
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": null,
+											"displayName": "panelPage",
+											"name": "panelPage",
+											"type": 2,
+											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": null,
+											"displayName": "panel",
+											"name": "panel",
+											"type": 2,
+											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "0",
+											"displayName": "pane",
+											"name": "pane",
+											"type": 0,
+											"value": "0"
+										},
+										{
+											"attributes": [],
+											"computedValue": null,
+											"displayName": "nested",
+											"name": "nested",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
 									"displayName": "mapping",
 									"name": "mapping",
-									"type": 1,
-									"value": ""
+									"type": 2,
+									"value": null
 								}
 							],
 							"computedValue": null,
