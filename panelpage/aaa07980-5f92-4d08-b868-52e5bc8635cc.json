@@ -977,45 +977,12 @@
 						{
 							"attributes": [
 								{
-									"attributes": [
-										{
-											"attributes": [],
-											"computedValue": null,
-											"displayName": "panelPage",
-											"name": "panelPage",
-											"type": 2,
-											"value": null
-										},
-										{
-											"attributes": [],
-											"computedValue": null,
-											"displayName": "panel",
-											"name": "panel",
-											"type": 2,
-											"value": null
-										},
-										{
-											"attributes": [],
-											"computedValue": "0",
-											"displayName": "pane",
-											"name": "pane",
-											"type": 0,
-											"value": "0"
-										},
-										{
-											"attributes": [],
-											"computedValue": null,
-											"displayName": "nested",
-											"name": "nested",
-											"type": 2,
-											"value": null
-										}
-									],
-									"computedValue": null,
+									"attributes": [],
+									"computedValue": "",
 									"displayName": "mapping",
 									"name": "mapping",
-									"type": 2,
-									"value": null
+									"type": 1,
+									"value": ""
 								}
 							],
 							"computedValue": null,
