@@ -494,6 +494,252 @@
 													"name": "3",
 													"type": 2,
 													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "text/markdown",
+																	"displayName": "Content Type",
+																	"name": "contentType",
+																	"type": 1,
+																	"value": "text/markdown"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "Additionally, buttons have several appearances that can be set using the button appearance property, for example appearance=\"outlined\":",
+																	"displayName": "Content",
+																	"name": "content",
+																	"type": 1,
+																	"value": "Additionally, buttons have several appearances that can be set using the button appearance property, for example appearance=\"outlined\":"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "jsScript",
+																	"name": "jsScript",
+																	"type": 1,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "snippet",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "snippet"
+														}
+													],
+													"computedValue": null,
+													"displayName": "4",
+													"name": "4",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "text/markdown",
+																	"displayName": "Content Type",
+																	"name": "contentType",
+																	"type": 1,
+																	"value": "text/markdown"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "| Appearance |                                                             Description                                                            |\n|:----------:|:----------------------------------------------------------------------------------------------------------------------------------:|\n| text       | Default appearance. Text buttons are used for the lowest priority actions, especially when presenting multiple options.            |\n| filled     | High-emphasis buttons used for final or unblocking actions in a flow, such as saving or confirming.                                |\n| tonal      | Medium-emphasis buttons often used for final or unblocking actions  in a flow, but with less visual emphasis than a filled button. |\n| outlined   | Medium-emphasis buttons often used for actions that need attention but aren't the primary action.                                  |\n| elevated   | Medium-emphasis buttons often used when a button requires visual separation from a patterned background.                           |",
+																	"displayName": "Content",
+																	"name": "content",
+																	"type": 1,
+																	"value": "| Appearance |                                                             Description                                                            |\n|:----------:|:----------------------------------------------------------------------------------------------------------------------------------:|\n| text       | Default appearance. Text buttons are used for the lowest priority actions, especially when presenting multiple options.            |\n| filled     | High-emphasis buttons used for final or unblocking actions in a flow, such as saving or confirming.                                |\n| tonal      | Medium-emphasis buttons often used for final or unblocking actions  in a flow, but with less visual emphasis than a filled button. |\n| outlined   | Medium-emphasis buttons often used for actions that need attention but aren't the primary action.                                  |\n| elevated   | Medium-emphasis buttons often used when a button requires visual separation from a patterned background.                           |"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "jsScript",
+																	"name": "jsScript",
+																	"type": 1,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "snippet",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "snippet"
+														}
+													],
+													"computedValue": null,
+													"displayName": "5",
+													"name": "5",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "text/markdown",
+																	"displayName": "Content Type",
+																	"name": "contentType",
+																	"type": 1,
+																	"value": "text/markdown"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "## Extended FAB buttons\n\nTraditional floating action buttons (FAB) buttons are circular and only have space for a single icon. However, you can add the text property to allow the fab to expand into a rounded rectangle shape with space for a text label in addition to the icon. Only full sized fabs support the text property, mini FABs do not.",
+																	"displayName": "Content",
+																	"name": "content",
+																	"type": 1,
+																	"value": "## Extended FAB buttons\n\nTraditional floating action buttons (FAB) buttons are circular and only have space for a single icon. However, you can add the text property to allow the fab to expand into a rounded rectangle shape with space for a text label in addition to the icon. Only full sized fabs support the text property, mini FABs do not."
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "jsScript",
+																	"name": "jsScript",
+																	"type": 1,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "snippet",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "snippet"
+														}
+													],
+													"computedValue": null,
+													"displayName": "6",
+													"name": "6",
+													"type": 2,
+													"value": null
 												}
 											],
 											"computedValue": null,
