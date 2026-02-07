@@ -355,6 +355,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -377,11 +402,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "| Syntax      | Description | Test Text     |\n| :---        |    :----:   |          ---: |\n| Header      | Title       | Here's this   |\n| Paragraph   | Text        | And more      |",
+																	"computedValue": "|   Attribute   |                                                            Description                                                            |\n|:-------------:|:---------------------------------------------------------------------------------------------------------------------------------:|\n| matButton     | Rectangular button that can contain text and icons                                                                                |\n| matIconButton | Smaller, circular button, meant to contain an icon and no text                                                                    |\n| matFab        | Rectangular button w/ elevation and rounded corners, meant to contain an icon. Can be extended to a rectangle to also fit a label |\n| matMiniFab    | Smaller variant of matFab                                                                                                         |",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "| Syntax      | Description | Test Text     |\n| :---        |    :----:   |          ---: |\n| Header      | Title       | Here's this   |\n| Paragraph   | Text        | And more      |"
+																	"value": "|   Attribute   |                                                            Description                                                            |\n|:-------------:|:---------------------------------------------------------------------------------------------------------------------------------:|\n| matButton     | Rectangular button that can contain text and icons                                                                                |\n| matIconButton | Smaller, circular button, meant to contain an icon and no text                                                                    |\n| matFab        | Rectangular button w/ elevation and rounded corners, meant to contain an icon. Can be extended to a rectangle to also fit a label |\n| matMiniFab    | Smaller variant of matFab                                                                                                         |"
 																},
 																{
 																	"attributes": [],
@@ -437,6 +462,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
