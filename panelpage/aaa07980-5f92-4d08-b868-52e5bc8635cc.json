@@ -188,11 +188,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "Native <button> and <a> elements are always used in order to provide the most straightforward and accessible experience for users. A <button> element should be used whenever some action is performed. An <a> element should be used whenever the user will navigate to another view.\n\nThere are several button variants, each applied as an attribute:",
+																	"computedValue": "Remove the a and button elements.",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "Native <button> and <a> elements are always used in order to provide the most straightforward and accessible experience for users. A <button> element should be used whenever some action is performed. An <a> element should be used whenever the user will navigate to another view.\n\nThere are several button variants, each applied as an attribute:"
+																	"value": "Remove the a and button elements."
 																},
 																{
 																	"attributes": [],
