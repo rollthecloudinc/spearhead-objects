@@ -141,6 +141,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -202,6 +227,165 @@
 														},
 														{
 															"attributes": [],
+															"computedValue": "content",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "content"
+														},
+														{
+															"attributes": [],
+															"computedValue": "content",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": "content"
+														},
+														{
+															"attributes": [],
+															"computedValue": "snippet",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
+														}
+													],
+													"computedValue": null,
+													"displayName": "1",
+													"name": "1",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "data",
+																	"displayName": "plugin",
+																	"name": "plugin",
+																	"type": 1,
+																	"value": "data"
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "[{}]",
+																			"displayName": "data",
+																			"name": "data",
+																			"type": 1,
+																			"value": "[{}]"
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "settings",
+																	"name": "settings",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "pane",
+																			"displayName": "type",
+																			"name": "type",
+																			"type": 1,
+																			"value": "pane"
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [],
+																							"computedValue": "pane",
+																							"displayName": "type",
+																							"name": "type",
+																							"type": 1,
+																							"value": "pane"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": "content",
+																							"displayName": "id",
+																							"name": "id",
+																							"type": 1,
+																							"value": "content"
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "0",
+																					"name": "0",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "bindings",
+																			"name": "bindings",
+																			"type": 4,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "renderer",
+																	"name": "renderer",
+																	"type": 2,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
 															"computedValue": "",
 															"displayName": "name",
 															"name": "name",
@@ -218,16 +402,16 @@
 														},
 														{
 															"attributes": [],
-															"computedValue": "snippet",
+															"computedValue": "datasource",
 															"displayName": "contentPlugin",
 															"name": "contentPlugin",
 															"type": 1,
-															"value": "snippet"
+															"value": "datasource"
 														}
 													],
 													"computedValue": null,
-													"displayName": "1",
-													"name": "1",
+													"displayName": "2",
+													"name": "2",
 													"type": 2,
 													"value": null
 												}
@@ -417,6 +601,14 @@
 											"name": "settings",
 											"type": 2,
 											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 0,
+											"value": "undefined"
 										}
 									],
 									"computedValue": null,
@@ -609,6 +801,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -670,6 +887,165 @@
 														},
 														{
 															"attributes": [],
+															"computedValue": "content",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "content"
+														},
+														{
+															"attributes": [],
+															"computedValue": "Content",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": "Content"
+														},
+														{
+															"attributes": [],
+															"computedValue": "snippet",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
+														}
+													],
+													"computedValue": null,
+													"displayName": "1",
+													"name": "1",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "data",
+																	"displayName": "plugin",
+																	"name": "plugin",
+																	"type": 1,
+																	"value": "data"
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "[{}]",
+																			"displayName": "data",
+																			"name": "data",
+																			"type": 1,
+																			"value": "[{}]"
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "settings",
+																	"name": "settings",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "pane",
+																			"displayName": "type",
+																			"name": "type",
+																			"type": 1,
+																			"value": "pane"
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [],
+																							"computedValue": "pane",
+																							"displayName": "type",
+																							"name": "type",
+																							"type": 1,
+																							"value": "pane"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": "content",
+																							"displayName": "id",
+																							"name": "id",
+																							"type": 1,
+																							"value": "content"
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "0",
+																					"name": "0",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "bindings",
+																			"name": "bindings",
+																			"type": 4,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "renderer",
+																	"name": "renderer",
+																	"type": 2,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
 															"computedValue": "",
 															"displayName": "name",
 															"name": "name",
@@ -686,16 +1062,16 @@
 														},
 														{
 															"attributes": [],
-															"computedValue": "snippet",
+															"computedValue": "datasource",
 															"displayName": "contentPlugin",
 															"name": "contentPlugin",
 															"type": 1,
-															"value": "snippet"
+															"value": "datasource"
 														}
 													],
 													"computedValue": null,
-													"displayName": "1",
-													"name": "1",
+													"displayName": "2",
+													"name": "2",
 													"type": 2,
 													"value": null
 												}
@@ -885,6 +1261,14 @@
 											"name": "settings",
 											"type": 2,
 											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 0,
+											"value": "undefined"
 										}
 									],
 									"computedValue": null,
