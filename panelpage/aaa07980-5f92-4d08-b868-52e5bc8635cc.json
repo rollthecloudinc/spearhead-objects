@@ -81,11 +81,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "One",
+																	"computedValue": "Overview",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "One"
+																	"value": "Overview"
 																},
 																{
 																	"attributes": [],
@@ -188,11 +188,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "Two",
+																	"computedValue": "This is the overview content.",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "Two"
+																	"value": "This is the overview content."
 																},
 																{
 																	"attributes": [],
@@ -278,140 +278,6 @@
 													"computedValue": null,
 													"displayName": "1",
 													"name": "1",
-													"type": 2,
-													"value": null
-												},
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "data",
-																	"displayName": "plugin",
-																	"name": "plugin",
-																	"type": 1,
-																	"value": "data"
-																},
-																{
-																	"attributes": [
-																		{
-																			"attributes": [],
-																			"computedValue": "[{}]",
-																			"displayName": "data",
-																			"name": "data",
-																			"type": 1,
-																			"value": "[{}]"
-																		}
-																	],
-																	"computedValue": null,
-																	"displayName": "settings",
-																	"name": "settings",
-																	"type": 2,
-																	"value": null
-																},
-																{
-																	"attributes": [
-																		{
-																			"attributes": [],
-																			"computedValue": "pane",
-																			"displayName": "type",
-																			"name": "type",
-																			"type": 1,
-																			"value": "pane"
-																		},
-																		{
-																			"attributes": [
-																				{
-																					"attributes": [
-																						{
-																							"attributes": [],
-																							"computedValue": "pane",
-																							"displayName": "type",
-																							"name": "type",
-																							"type": 1,
-																							"value": "pane"
-																						},
-																						{
-																							"attributes": [],
-																							"computedValue": "content",
-																							"displayName": "id",
-																							"name": "id",
-																							"type": 1,
-																							"value": "content"
-																						}
-																					],
-																					"computedValue": null,
-																					"displayName": "0",
-																					"name": "0",
-																					"type": 2,
-																					"value": null
-																				}
-																			],
-																			"computedValue": null,
-																			"displayName": "bindings",
-																			"name": "bindings",
-																			"type": 4,
-																			"value": null
-																		}
-																	],
-																	"computedValue": null,
-																	"displayName": "renderer",
-																	"name": "renderer",
-																	"type": 2,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "datasource",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "datasource"
-														}
-													],
-													"computedValue": null,
-													"displayName": "2",
-													"name": "2",
 													"type": 2,
 													"value": null
 												}
@@ -741,11 +607,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "Hello",
+																	"computedValue": "API",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "Hello"
+																	"value": "API"
 																},
 																{
 																	"attributes": [],
@@ -848,11 +714,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "World",
+																	"computedValue": "This is the api docs.",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "World"
+																	"value": "This is the api docs."
 																},
 																{
 																	"attributes": [],
@@ -938,140 +804,6 @@
 													"computedValue": null,
 													"displayName": "1",
 													"name": "1",
-													"type": 2,
-													"value": null
-												},
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "data",
-																	"displayName": "plugin",
-																	"name": "plugin",
-																	"type": 1,
-																	"value": "data"
-																},
-																{
-																	"attributes": [
-																		{
-																			"attributes": [],
-																			"computedValue": "[{}]",
-																			"displayName": "data",
-																			"name": "data",
-																			"type": 1,
-																			"value": "[{}]"
-																		}
-																	],
-																	"computedValue": null,
-																	"displayName": "settings",
-																	"name": "settings",
-																	"type": 2,
-																	"value": null
-																},
-																{
-																	"attributes": [
-																		{
-																			"attributes": [],
-																			"computedValue": "pane",
-																			"displayName": "type",
-																			"name": "type",
-																			"type": 1,
-																			"value": "pane"
-																		},
-																		{
-																			"attributes": [
-																				{
-																					"attributes": [
-																						{
-																							"attributes": [],
-																							"computedValue": "pane",
-																							"displayName": "type",
-																							"name": "type",
-																							"type": 1,
-																							"value": "pane"
-																						},
-																						{
-																							"attributes": [],
-																							"computedValue": "content",
-																							"displayName": "id",
-																							"name": "id",
-																							"type": 1,
-																							"value": "content"
-																						}
-																					],
-																					"computedValue": null,
-																					"displayName": "0",
-																					"name": "0",
-																					"type": 2,
-																					"value": null
-																				}
-																			],
-																			"computedValue": null,
-																			"displayName": "bindings",
-																			"name": "bindings",
-																			"type": 4,
-																			"value": null
-																		}
-																	],
-																	"computedValue": null,
-																	"displayName": "renderer",
-																	"name": "renderer",
-																	"type": 2,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "datasource",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "datasource"
-														}
-													],
-													"computedValue": null,
-													"displayName": "2",
-													"name": "2",
 													"type": 2,
 													"value": null
 												}
