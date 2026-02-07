@@ -33,8 +33,6 @@
 			"columnSetting": {
 				"settings": []
 			},
-			"label": "Overview",
-			"name": "overview",
 			"panes": [
 				{
 					"contentPlugin": "panel",
@@ -399,19 +397,19 @@
 										},
 										{
 											"attributes": [],
-											"computedValue": "undefined",
+											"computedValue": "overview",
 											"displayName": "name",
 											"name": "name",
-											"type": 0,
-											"value": "undefined"
+											"type": 1,
+											"value": "overview"
 										},
 										{
 											"attributes": [],
-											"computedValue": "undefined",
+											"computedValue": "Overview",
 											"displayName": "label",
 											"name": "label",
-											"type": 0,
-											"value": "undefined"
+											"type": 1,
+											"value": "Overview"
 										},
 										{
 											"attributes": [],
