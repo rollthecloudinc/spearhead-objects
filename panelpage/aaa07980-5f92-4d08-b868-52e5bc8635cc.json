@@ -40,6 +40,10 @@
 					"label": "66eaf3cb-0623-48cb-9062-88ea8b6995fa",
 					"locked": false,
 					"name": "66eaf3cb-0623-48cb-9062-88ea8b6995fa",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
