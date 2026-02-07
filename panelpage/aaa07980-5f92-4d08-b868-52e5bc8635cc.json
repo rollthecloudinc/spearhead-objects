@@ -81,11 +81,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "Native <button> and <a> elements are always used in order to provide the most straightforward and accessible experience for users. A <button> element should be used whenever some action is performed. An <a> element should be used whenever the user will navigate to another view.\n\nThere are several button variants, each applied as an attribute:",
+																	"computedValue": "Overview",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "Native <button> and <a> elements are always used in order to provide the most straightforward and accessible experience for users. A <button> element should be used whenever some action is performed. An <a> element should be used whenever the user will navigate to another view.\n\nThere are several button variants, each applied as an attribute:"
+																	"value": "Overview"
 																},
 																{
 																	"attributes": [],
@@ -188,11 +188,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "Overview",
+																	"computedValue": "Native <button> and <a> elements are always used in order to provide the most straightforward and accessible experience for users. A <button> element should be used whenever some action is performed. An <a> element should be used whenever the user will navigate to another view.\n\nThere are several button variants, each applied as an attribute:",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "Overview"
+																	"value": "Native <button> and <a> elements are always used in order to provide the most straightforward and accessible experience for users. A <button> element should be used whenever some action is performed. An <a> element should be used whenever the user will navigate to another view.\n\nThere are several button variants, each applied as an attribute:"
 																},
 																{
 																	"attributes": [],
@@ -607,11 +607,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "This is the explaination of usage.",
+																	"computedValue": "API",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "This is the explaination of usage."
+																	"value": "API"
 																},
 																{
 																	"attributes": [],
@@ -714,11 +714,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "API",
+																	"computedValue": "This is the explaination of usage.",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "API"
+																	"value": "This is the explaination of usage."
 																},
 																{
 																	"attributes": [],
