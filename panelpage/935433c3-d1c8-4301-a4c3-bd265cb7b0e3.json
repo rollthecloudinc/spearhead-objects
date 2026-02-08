@@ -48,7 +48,104 @@
 	"id": "935433c3-d1c8-4301-a4c3-bd265cb7b0e3",
 	"interactions": {
 		"interactions": {
-			"listeners": []
+			"listeners": [
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "click",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": ".action-visual",
+										"type": "static",
+										"value": ".action-visual"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:target"
+						}
+					},
+					"handler": {
+						"plugin": "navigate",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "/visual",
+										"type": "static",
+										"value": "/visual"
+									}
+								}
+							],
+							"paramsString": "pth=:path"
+						}
+					}
+				}
+			]
 		}
 	},
 	"layoutSetting": {
@@ -1065,11 +1162,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "",
+							"computedValue": "visual",
 							"displayName": "action",
 							"name": "action",
 							"type": 1,
-							"value": ""
+							"value": "visual"
 						},
 						{
 							"attributes": [],
@@ -1127,11 +1224,11 @@
 						},
 						{
 							"attributes": [],
-							"computedValue": "",
+							"computedValue": "nonevisual",
 							"displayName": "action",
 							"name": "action",
 							"type": 1,
-							"value": ""
+							"value": "nonevisual"
 						},
 						{
 							"attributes": [],
