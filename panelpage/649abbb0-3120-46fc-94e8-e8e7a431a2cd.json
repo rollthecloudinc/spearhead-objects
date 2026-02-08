@@ -1234,11 +1234,118 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "snippet"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
 																							"displayName": "3",
 																							"name": "3",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "text/markdown",
+																											"displayName": "Content Type",
+																											"name": "contentType",
+																											"type": 1,
+																											"value": "text/markdown"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "## Hint labels\n\nHint labels are additional descriptive text that appears below the form field's underline. A form-field can have up to two hint labels; one start-aligned (left in an LTR language, right in RTL), and one end-aligned.\n\nHint labels are specified in one of two ways: either by using the hint property of form field. When adding a hint via the hintlabel property, it will be treated as the start hint. Hints added via the hint element can be added to either side by setting the align property on hint to either start or end.",
+																											"displayName": "Content",
+																											"name": "content",
+																											"type": 1,
+																											"value": "## Hint labels\n\nHint labels are additional descriptive text that appears below the form field's underline. A form-field can have up to two hint labels; one start-aligned (left in an LTR language, right in RTL), and one end-aligned.\n\nHint labels are specified in one of two ways: either by using the hint property of form field. When adding a hint via the hintlabel property, it will be treated as the start hint. Hints added via the hint element can be added to either side by setting the align property on hint to either start or end."
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "jsScript",
+																											"name": "jsScript",
+																											"type": 1,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "snippet",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "snippet"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "4",
+																							"name": "4",
 																							"type": 2,
 																							"value": null
 																						}
