@@ -15,6 +15,13 @@
 			"weight": 0,
 			"x": 0,
 			"y": 0
+		},
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 1,
+			"x": 0,
+			"y": 1
 		}
 	],
 	"id": "935433c3-d1c8-4301-a4c3-bd265cb7b0e3",
@@ -48,6 +55,10 @@
 					"label": "d38ea1f3-f6fe-44a0-98b4-af5326e79619",
 					"locked": false,
 					"name": "d38ea1f3-f6fe-44a0-98b4-af5326e79619",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -430,6 +441,10 @@
 					"label": "f529f763-3075-4f0e-a9a0-4abe77383855",
 					"locked": false,
 					"name": "f529f763-3075-4f0e-a9a0-4abe77383855",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -825,6 +840,22 @@
 			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
 		}
 	],
 	"path": "*",
@@ -835,6 +866,12 @@
 	},
 	"prerender": {},
 	"rowSettings": [
+		{
+			"settings": []
+		},
+		{
+			"settings": []
+		},
 		{
 			"settings": []
 		},
