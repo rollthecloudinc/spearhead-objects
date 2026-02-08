@@ -15,6 +15,13 @@
 			"weight": 0,
 			"x": 0,
 			"y": 0
+		},
+		{
+			"cols": 50,
+			"rows": 1,
+			"weight": 1,
+			"x": 0,
+			"y": 1
 		}
 	],
 	"id": "6e363fbf-4beb-466a-a34c-44b1b13e7210",
@@ -40,6 +47,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -82,6 +93,10 @@
 					"label": "348e73a1-8dd6-4874-a9fd-036c7b470912",
 					"locked": false,
 					"name": "348e73a1-8dd6-4874-a9fd-036c7b470912",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -473,6 +488,10 @@
 					"label": "989e2d0f-4dac-4fad-b1a9-5c0257487164",
 					"locked": false,
 					"name": "989e2d0f-4dac-4fad-b1a9-5c0257487164",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -852,6 +871,22 @@
 			],
 			"settings": [],
 			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
 		}
 	],
 	"path": "/nonevisual",
@@ -862,6 +897,9 @@
 	},
 	"prerender": {},
 	"rowSettings": [
+		{
+			"settings": []
+		},
 		{
 			"settings": []
 		},
