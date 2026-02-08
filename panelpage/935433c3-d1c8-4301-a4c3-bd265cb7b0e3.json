@@ -420,8 +420,24 @@
 					"locked": false,
 					"name": "d38ea1f3-f6fe-44a0-98b4-af5326e79619",
 					"rule": {
-						"condition": "",
-						"rules": []
+						"condition": "or",
+						"rules": [
+							{
+								"field": "_page.path",
+								"operator": "=",
+								"value": "/visual"
+							},
+							{
+								"field": "_page.path",
+								"operator": "=",
+								"value": "/button"
+							},
+							{
+								"field": "_page.path",
+								"operator": "=",
+								"value": "/input"
+							}
+						]
 					},
 					"settings": [
 						{
