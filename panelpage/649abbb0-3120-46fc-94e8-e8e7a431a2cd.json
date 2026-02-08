@@ -1455,6 +1455,88 @@
 																							"name": "5",
 																							"type": 2,
 																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "text/markdown",
+																											"displayName": "Content Type",
+																											"name": "contentType",
+																											"type": 1,
+																											"value": "text/markdown"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "## Custom form field controls\n\nIn addition to the form field controls that Angular Material provides, it is possible to create custom form field controls that work with form field in the same way. For additional information on this see the guide on Creating Custom mat-form-field Controls and/or the Rich Text solid.",
+																											"displayName": "Content",
+																											"name": "content",
+																											"type": 1,
+																											"value": "## Custom form field controls\n\nIn addition to the form field controls that Angular Material provides, it is possible to create custom form field controls that work with form field in the same way. For additional information on this see the guide on Creating Custom mat-form-field Controls and/or the Rich Text solid."
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "jsScript",
+																											"name": "jsScript",
+																											"type": 1,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "snippet",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "snippet"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "6",
+																							"name": "6",
+																							"type": 2,
+																							"value": null
 																						}
 																					],
 																					"computedValue": null,
