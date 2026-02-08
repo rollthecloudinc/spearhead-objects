@@ -15,6 +15,13 @@
 			"weight": 0,
 			"x": 0,
 			"y": 0
+		},
+		{
+			"cols": 25,
+			"rows": 1,
+			"weight": 1,
+			"x": 1,
+			"y": 0
 		}
 	],
 	"id": "d570ed3d-8c80-4b4a-a0b3-66d5f81786cb",
@@ -40,6 +47,10 @@
 					"label": "c9ea992b-e5e0-40b9-977f-4a9fd49580d7",
 					"locked": false,
 					"name": "c9ea992b-e5e0-40b9-977f-4a9fd49580d7",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -424,22 +435,6 @@
 			"columnSetting": {
 				"settings": []
 			},
-			"panes": [],
-			"settings": [],
-			"stylePlugin": ""
-		},
-		{
-			"columnSetting": {
-				"settings": []
-			},
-			"panes": [],
-			"settings": [],
-			"stylePlugin": ""
-		},
-		{
-			"columnSetting": {
-				"settings": []
-			},
 			"panes": [
 				{
 					"contentPlugin": "panel",
@@ -447,6 +442,10 @@
 					"label": "643b7d04-b327-4ccc-87f5-8a80ff78b8dd",
 					"locked": false,
 					"name": "643b7d04-b327-4ccc-87f5-8a80ff78b8dd",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -824,6 +823,46 @@
 					]
 				}
 			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
 		},
