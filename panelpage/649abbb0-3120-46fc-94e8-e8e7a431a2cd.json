@@ -1448,6 +1448,31 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "snippet"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -1530,11 +1555,118 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "snippet"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
 																							"displayName": "6",
 																							"name": "6",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "text/markdown",
+																											"displayName": "Content Type",
+																											"name": "contentType",
+																											"type": 1,
+																											"value": "text/markdown"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "## Prefix & suffix\n\nCustom content can be included before and after the input tag, as a prefix or suffix. It will be included within the visual container that wraps the form control as per the Material specification. Adding a prefix to an element inside a form field will designate it as the prefix. Similarly, adding suffix will designate it as the suffix. If the prefix/suffix content is purely text-based, it is aligned with the form control.",
+																											"displayName": "Content",
+																											"name": "content",
+																											"type": 1,
+																											"value": "## Prefix & suffix\n\nCustom content can be included before and after the input tag, as a prefix or suffix. It will be included within the visual container that wraps the form control as per the Material specification. Adding a prefix to an element inside a form field will designate it as the prefix. Similarly, adding suffix will designate it as the suffix. If the prefix/suffix content is purely text-based, it is aligned with the form control."
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "jsScript",
+																											"name": "jsScript",
+																											"type": 1,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "snippet",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "snippet"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "7",
+																							"name": "7",
 																							"type": 2,
 																							"value": null
 																						}
@@ -2429,88 +2561,6 @@
 													"computedValue": null,
 													"displayName": "1",
 													"name": "1",
-													"type": 2,
-													"value": null
-												},
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "text/markdown",
-																	"displayName": "Content Type",
-																	"name": "contentType",
-																	"type": 1,
-																	"value": "text/markdown"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": "## Prefix & suffix\n\nCustom content can be included before and after the input tag, as a prefix or suffix. It will be included within the visual container that wraps the form control as per the Material specification. Adding a prefix to an element inside a form field will designate it as the prefix. Similarly, adding suffix will designate it as the suffix. If the prefix/suffix content is purely text-based, it is aligned with the form control.",
-																	"displayName": "Content",
-																	"name": "content",
-																	"type": 1,
-																	"value": "## Prefix & suffix\n\nCustom content can be included before and after the input tag, as a prefix or suffix. It will be included within the visual container that wraps the form control as per the Material specification. Adding a prefix to an element inside a form field will designate it as the prefix. Similarly, adding suffix will designate it as the suffix. If the prefix/suffix content is purely text-based, it is aligned with the form control."
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "jsScript",
-																	"name": "jsScript",
-																	"type": 1,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "snippet",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "snippet"
-														}
-													],
-													"computedValue": null,
-													"displayName": "2",
-													"name": "2",
 													"type": 2,
 													"value": null
 												}
