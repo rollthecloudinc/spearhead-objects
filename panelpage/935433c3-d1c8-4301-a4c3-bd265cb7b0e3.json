@@ -10,7 +10,7 @@
 	},
 	"gridItems": [
 		{
-			"cols": 8,
+			"cols": 2,
 			"rows": 1,
 			"weight": 0,
 			"x": 0,
@@ -31,14 +31,14 @@
 			"y": 2
 		},
 		{
-			"cols": 6,
+			"cols": 2,
 			"rows": 1,
 			"weight": 3,
 			"x": 1,
 			"y": 0
 		},
 		{
-			"cols": 5,
+			"cols": 2,
 			"rows": 1,
 			"weight": 4,
 			"x": 2,
@@ -1152,6 +1152,14 @@
 					]
 				}
 			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
 		},
