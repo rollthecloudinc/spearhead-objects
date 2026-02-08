@@ -616,11 +616,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "| Appearance |                                                             Description                                                            |\n|:----------:|:----------------------------------------------------------------------------------------------------------------------------------:|\n| text       | Default appearance. Text buttons are used for the lowest priority actions, especially when presenting multiple options.            |\n| filled     | High-emphasis buttons used for final or unblocking actions in a flow, such as saving or confirming.                                |\n| tonal      | Medium-emphasis buttons often used for final or unblocking actions  in a flow, but with less visual emphasis than a filled button. |\n| outlined   | Medium-emphasis buttons often used for actions that need attention but aren't the primary action.                                  |\n| elevated   | Medium-emphasis buttons often used when a button requires visual separation from a patterned background.                           |",
+																	"computedValue": "| Appearance | Description                                                                                                                        |\n|------------|------------------------------------------------------------------------------------------------------------------------------------|\n| text       | Default appearance. Text buttons are used for the lowest priority actions, especially when presenting multiple options.            |\n| filled     | High-emphasis buttons used for final or unblocking actions in a flow, such as saving or confirming.                                |\n| tonal      | Medium-emphasis buttons often used for final or unblocking actions  in a flow, but with less visual emphasis than a filled button. |\n| outlined   | Medium-emphasis buttons often used for actions that need attention but aren't the primary action.                                  |\n| elevated   | Medium-emphasis buttons often used when a button requires visual separation from a patterned background.                           |",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "| Appearance |                                                             Description                                                            |\n|:----------:|:----------------------------------------------------------------------------------------------------------------------------------:|\n| text       | Default appearance. Text buttons are used for the lowest priority actions, especially when presenting multiple options.            |\n| filled     | High-emphasis buttons used for final or unblocking actions in a flow, such as saving or confirming.                                |\n| tonal      | Medium-emphasis buttons often used for final or unblocking actions  in a flow, but with less visual emphasis than a filled button. |\n| outlined   | Medium-emphasis buttons often used for actions that need attention but aren't the primary action.                                  |\n| elevated   | Medium-emphasis buttons often used when a button requires visual separation from a patterned background.                           |"
+																	"value": "| Appearance | Description                                                                                                                        |\n|------------|------------------------------------------------------------------------------------------------------------------------------------|\n| text       | Default appearance. Text buttons are used for the lowest priority actions, especially when presenting multiple options.            |\n| filled     | High-emphasis buttons used for final or unblocking actions in a flow, such as saving or confirming.                                |\n| tonal      | Medium-emphasis buttons often used for final or unblocking actions  in a flow, but with less visual emphasis than a filled button. |\n| outlined   | Medium-emphasis buttons often used for actions that need attention but aren't the primary action.                                  |\n| elevated   | Medium-emphasis buttons often used when a button requires visual separation from a patterned background.                           |"
 																},
 																{
 																	"attributes": [],
@@ -890,6 +890,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
