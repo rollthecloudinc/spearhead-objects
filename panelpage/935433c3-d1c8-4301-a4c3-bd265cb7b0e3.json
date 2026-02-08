@@ -1609,11 +1609,6 @@
 					"field": "_route.path",
 					"operator": "=",
 					"value": "/pages/panelpage/6e363fbf-4beb-466a-a34c-44b1b13e7210"
-				},
-				{
-					"field": "_route.path",
-					"operator": "=",
-					"value": "/pages/panelpage/6e363fbf-4beb-466a-a34c-44b1b13e7210"
 				}
 			]
 		}
