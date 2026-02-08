@@ -469,11 +469,11 @@
 																		},
 																		{
 																			"attributes": [],
-																			"computedValue": "0",
+																			"computedValue": "1",
 																			"displayName": "pane",
 																			"name": "pane",
 																			"type": 0,
-																			"value": "0"
+																			"value": "1"
 																		},
 																		{
 																			"attributes": [
