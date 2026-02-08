@@ -10,7 +10,7 @@
 	},
 	"gridItems": [
 		{
-			"cols": 7,
+			"cols": 8,
 			"rows": 1,
 			"weight": 0,
 			"x": 0,
@@ -31,10 +31,17 @@
 			"y": 2
 		},
 		{
-			"cols": 3,
+			"cols": 6,
 			"rows": 1,
 			"weight": 3,
 			"x": 1,
+			"y": 0
+		},
+		{
+			"cols": 5,
+			"rows": 1,
+			"weight": 4,
+			"x": 2,
 			"y": 0
 		}
 	],
@@ -1145,6 +1152,22 @@
 					]
 				}
 			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
 		},
