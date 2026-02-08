@@ -10,7 +10,7 @@
 	},
 	"gridItems": [
 		{
-			"cols": 25,
+			"cols": 100,
 			"rows": 1,
 			"weight": 0,
 			"x": 0,
@@ -22,6 +22,13 @@
 			"weight": 1,
 			"x": 1,
 			"y": 0
+		},
+		{
+			"cols": 50,
+			"rows": 1,
+			"weight": 2,
+			"x": 0,
+			"y": 1
 		}
 	],
 	"id": "d570ed3d-8c80-4b4a-a0b3-66d5f81786cb",
@@ -36,6 +43,48 @@
 	"layoutType": "split",
 	"name": "visual",
 	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "snippet",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "text/markdown",
+							"displayName": "Content Type",
+							"name": "contentType",
+							"type": 1,
+							"value": "text/markdown"
+						},
+						{
+							"attributes": [],
+							"computedValue": "Spearhead offers a wide variety of UI components based on the Material Design specification",
+							"displayName": "Content",
+							"name": "content",
+							"type": 1,
+							"value": "Spearhead offers a wide variety of UI components based on the Material Design specification"
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "jsScript",
+							"name": "jsScript",
+							"type": 1,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		},
 		{
 			"columnSetting": {
 				"settings": []
@@ -939,6 +988,9 @@
 	},
 	"prerender": {},
 	"rowSettings": [
+		{
+			"settings": []
+		},
 		{
 			"settings": []
 		},
