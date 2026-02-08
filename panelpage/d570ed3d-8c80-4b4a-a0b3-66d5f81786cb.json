@@ -29,6 +29,13 @@
 			"weight": 2,
 			"x": 0,
 			"y": 1
+		},
+		{
+			"cols": 50,
+			"rows": 1,
+			"weight": 3,
+			"x": 1,
+			"y": 1
 		}
 	],
 	"id": "d570ed3d-8c80-4b4a-a0b3-66d5f81786cb",
@@ -54,6 +61,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -93,9 +104,9 @@
 				{
 					"contentPlugin": "panel",
 					"contexts": [],
-					"label": "c9ea992b-e5e0-40b9-977f-4a9fd49580d7",
+					"label": "643b7d04-b327-4ccc-87f5-8a80ff78b8dd",
 					"locked": false,
-					"name": "c9ea992b-e5e0-40b9-977f-4a9fd49580d7",
+					"name": "643b7d04-b327-4ccc-87f5-8a80ff78b8dd",
 					"rule": {
 						"condition": "",
 						"rules": []
@@ -137,11 +148,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "Button",
+																	"computedValue": "Input",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "Button"
+																	"value": "Input"
 																},
 																{
 																	"attributes": [],
@@ -488,9 +499,9 @@
 				{
 					"contentPlugin": "panel",
 					"contexts": [],
-					"label": "643b7d04-b327-4ccc-87f5-8a80ff78b8dd",
+					"label": "c9ea992b-e5e0-40b9-977f-4a9fd49580d7",
 					"locked": false,
-					"name": "643b7d04-b327-4ccc-87f5-8a80ff78b8dd",
+					"name": "c9ea992b-e5e0-40b9-977f-4a9fd49580d7",
 					"rule": {
 						"condition": "",
 						"rules": []
@@ -532,11 +543,11 @@
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "Input",
+																	"computedValue": "Button",
 																	"displayName": "Content",
 																	"name": "content",
 																	"type": 1,
-																	"value": "Input"
+																	"value": "Button"
 																},
 																{
 																	"attributes": [],
