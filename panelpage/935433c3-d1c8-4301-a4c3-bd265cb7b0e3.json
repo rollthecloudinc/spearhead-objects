@@ -240,6 +240,102 @@
 							"paramsString": "pth=:path"
 						}
 					}
+				},
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "click",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": ".action-nonevisual",
+										"type": "static",
+										"value": ".action-nonevisual"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:target"
+						}
+					},
+					"handler": {
+						"plugin": "navigate",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "/nonevisual",
+										"type": "static",
+										"value": "/nonevisual"
+									}
+								}
+							],
+							"paramsString": "path=:path"
+						}
+					}
 				}
 			]
 		}
@@ -1492,6 +1588,11 @@
 					"field": "_route.path",
 					"operator": "=",
 					"value": "/pages/panelpage/d570ed3d-8c80-4b4a-a0b3-66d5f81786cb"
+				},
+				{
+					"field": "_route.path",
+					"operator": "=",
+					"value": "/pages/panelpage/6e363fbf-4beb-466a-a34c-44b1b13e7210"
 				},
 				{
 					"field": "_route.path",
