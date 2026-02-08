@@ -412,14 +412,47 @@
 																				},
 																				{
 																					"attributes": [],
-																					"computedValue": "0",
+																					"computedValue": "1",
 																					"displayName": "pane",
 																					"name": "pane",
 																					"type": 0,
-																					"value": "0"
+																					"value": "1"
 																				},
 																				{
-																					"attributes": [],
+																					"attributes": [
+																						{
+																							"attributes": [],
+																							"computedValue": "0",
+																							"displayName": "panelPage",
+																							"name": "panelPage",
+																							"type": 0,
+																							"value": "0"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": "0",
+																							"displayName": "panel",
+																							"name": "panel",
+																							"type": 0,
+																							"value": "0"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": "0",
+																							"displayName": "pane",
+																							"name": "pane",
+																							"type": 0,
+																							"value": "0"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": null,
+																							"displayName": "nested",
+																							"name": "nested",
+																							"type": 2,
+																							"value": null
+																						}
+																					],
 																					"computedValue": null,
 																					"displayName": "nested",
 																					"name": "nested",
