@@ -1682,11 +1682,11 @@
 																				},
 																				{
 																					"attributes": [],
-																					"computedValue": "sidenav",
+																					"computedValue": "",
 																					"displayName": "stylePlugin",
 																					"name": "stylePlugin",
 																					"type": 1,
-																					"value": "sidenav"
+																					"value": ""
 																				},
 																				{
 																					"attributes": [
