@@ -66,7 +66,90 @@
 											"value": null
 										},
 										{
-											"attributes": [],
+											"attributes": [
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "text/markdown",
+																	"displayName": "Content Type",
+																	"name": "contentType",
+																	"type": 1,
+																	"value": "text/markdown"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "TOC",
+																	"displayName": "Content",
+																	"name": "content",
+																	"type": 1,
+																	"value": "TOC"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "jsScript",
+																	"name": "jsScript",
+																	"type": 1,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": ""
+														},
+														{
+															"attributes": [],
+															"computedValue": "snippet",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "snippet"
+														}
+													],
+													"computedValue": null,
+													"displayName": "0",
+													"name": "0",
+													"type": 2,
+													"value": null
+												}
+											],
 											"computedValue": null,
 											"displayName": "panes",
 											"name": "panes",
@@ -252,6 +335,14 @@
 											"name": "settings",
 											"type": 2,
 											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 0,
+											"value": "undefined"
 										}
 									],
 									"computedValue": null,
@@ -563,40 +654,7 @@
 																		{
 																			"attributes": [
 																				{
-																					"attributes": [
-																						{
-																							"attributes": [],
-																							"computedValue": "side",
-																							"displayName": "mode",
-																							"name": "mode",
-																							"type": 1,
-																							"value": "side"
-																						},
-																						{
-																							"attributes": [],
-																							"computedValue": "end",
-																							"displayName": "position",
-																							"name": "position",
-																							"type": 1,
-																							"value": "end"
-																						},
-																						{
-																							"attributes": [],
-																							"computedValue": "true",
-																							"displayName": "opened",
-																							"name": "opened",
-																							"type": 5,
-																							"value": "true"
-																						},
-																						{
-																							"attributes": [],
-																							"computedValue": "300",
-																							"displayName": "width",
-																							"name": "width",
-																							"type": 0,
-																							"value": "300"
-																						}
-																					],
+																					"attributes": [],
 																					"computedValue": null,
 																					"displayName": "settings",
 																					"name": "settings",
@@ -679,31 +737,6 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "snippet"
-																								},
-																								{
-																									"attributes": [
-																										{
-																											"attributes": [],
-																											"computedValue": "",
-																											"displayName": "condition",
-																											"name": "condition",
-																											"type": 1,
-																											"value": ""
-																										},
-																										{
-																											"attributes": [],
-																											"computedValue": null,
-																											"displayName": "rules",
-																											"name": "rules",
-																											"type": 4,
-																											"value": null
-																										}
-																									],
-																									"computedValue": null,
-																									"displayName": "rule",
-																									"name": "rule",
-																									"type": 2,
-																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -726,11 +759,11 @@
 																										},
 																										{
 																											"attributes": [],
-																											"computedValue": "The Content",
+																											"computedValue": "\nWhat is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nWhy do we use it?\n\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\nWhere does it come from?\n\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
 																											"displayName": "Content",
 																											"name": "content",
 																											"type": 1,
-																											"value": "The Content"
+																											"value": "\nWhat is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nWhy do we use it?\n\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\nWhere does it come from?\n\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32."
 																										},
 																										{
 																											"attributes": [],
@@ -980,14 +1013,6 @@
 																					"name": "settings",
 																					"type": 2,
 																					"value": null
-																				},
-																				{
-																					"attributes": [],
-																					"computedValue": "undefined",
-																					"displayName": "plugin",
-																					"name": "plugin",
-																					"type": 0,
-																					"value": "undefined"
 																				}
 																			],
 																			"computedValue": null,
@@ -1096,19 +1121,19 @@
 														},
 														{
 															"attributes": [],
-															"computedValue": "d900e416-14e8-4c33-a06e-d8e023bf1c7d",
+															"computedValue": "2f66711f-81a1-4776-97a4-12d9a1454075",
 															"displayName": "name",
 															"name": "name",
 															"type": 1,
-															"value": "d900e416-14e8-4c33-a06e-d8e023bf1c7d"
+															"value": "2f66711f-81a1-4776-97a4-12d9a1454075"
 														},
 														{
 															"attributes": [],
-															"computedValue": "d900e416-14e8-4c33-a06e-d8e023bf1c7d",
+															"computedValue": "2f66711f-81a1-4776-97a4-12d9a1454075",
 															"displayName": "label",
 															"name": "label",
 															"type": 1,
-															"value": "d900e416-14e8-4c33-a06e-d8e023bf1c7d"
+															"value": "2f66711f-81a1-4776-97a4-12d9a1454075"
 														},
 														{
 															"attributes": [],
@@ -1117,31 +1142,6 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "panel"
-														},
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "",
-																	"displayName": "condition",
-																	"name": "condition",
-																	"type": 1,
-																	"value": ""
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "rules",
-																	"name": "rules",
-																	"type": 4,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "rule",
-															"name": "rule",
-															"type": 2,
-															"value": null
 														}
 													],
 													"computedValue": null,
@@ -1272,11 +1272,11 @@
 																										},
 																										{
 																											"attributes": [],
-																											"computedValue": "The API Content",
+																											"computedValue": "Blah",
 																											"displayName": "Content",
 																											"name": "content",
 																											"type": 1,
-																											"value": "The API Content"
+																											"value": "Blah"
 																										},
 																										{
 																											"attributes": [],
@@ -1634,19 +1634,19 @@
 														},
 														{
 															"attributes": [],
-															"computedValue": "a2e063e1-9e0d-4a36-81ce-91b4a34104ee",
+															"computedValue": "037525a3-a58d-4197-926b-06fe8ae5b037",
 															"displayName": "name",
 															"name": "name",
 															"type": 1,
-															"value": "a2e063e1-9e0d-4a36-81ce-91b4a34104ee"
+															"value": "037525a3-a58d-4197-926b-06fe8ae5b037"
 														},
 														{
 															"attributes": [],
-															"computedValue": "a2e063e1-9e0d-4a36-81ce-91b4a34104ee",
+															"computedValue": "037525a3-a58d-4197-926b-06fe8ae5b037",
 															"displayName": "label",
 															"name": "label",
 															"type": 1,
-															"value": "a2e063e1-9e0d-4a36-81ce-91b4a34104ee"
+															"value": "037525a3-a58d-4197-926b-06fe8ae5b037"
 														},
 														{
 															"attributes": [],
@@ -1655,31 +1655,6 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "panel"
-														},
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "",
-																	"displayName": "condition",
-																	"name": "condition",
-																	"type": 1,
-																	"value": ""
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "rules",
-																	"name": "rules",
-																	"type": 4,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "rule",
-															"name": "rule",
-															"type": 2,
-															"value": null
 														}
 													],
 													"computedValue": null,
@@ -2002,7 +1977,7 @@
 					"value": "300"
 				}
 			],
-			"stylePlugin": ""
+			"stylePlugin": "sidenav"
 		}
 	],
 	"path": "/input",
