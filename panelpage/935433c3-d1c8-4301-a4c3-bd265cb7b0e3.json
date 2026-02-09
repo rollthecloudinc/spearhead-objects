@@ -821,11 +821,11 @@
 															"attributes": [
 																{
 																	"attributes": [],
-																	"computedValue": "and",
+																	"computedValue": "or",
 																	"displayName": "condition",
 																	"name": "condition",
 																	"type": 1,
-																	"value": "and"
+																	"value": "or"
 																},
 																{
 																	"attributes": [
@@ -833,11 +833,11 @@
 																			"attributes": [
 																				{
 																					"attributes": [],
-																					"computedValue": "_page.path",
+																					"computedValue": "_route.path",
 																					"displayName": "field",
 																					"name": "field",
 																					"type": 1,
-																					"value": "_page.path"
+																					"value": "_route.path"
 																				},
 																				{
 																					"attributes": [],
@@ -849,11 +849,11 @@
 																				},
 																				{
 																					"attributes": [],
-																					"computedValue": "/nonevisual",
+																					"computedValue": "/pages/panelpage/6e363fbf-4beb-466a-a34c-44b1b13e7210",
 																					"displayName": "value",
 																					"name": "value",
 																					"type": 1,
-																					"value": "/nonevisual"
+																					"value": "/pages/panelpage/6e363fbf-4beb-466a-a34c-44b1b13e7210"
 																				},
 																				{
 																					"attributes": [],
