@@ -332,6 +332,31 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "snippet"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -365,11 +390,11 @@
 																				},
 																				{
 																					"attributes": [],
-																					"computedValue": "sidenav",
+																					"computedValue": "",
 																					"displayName": "stylePlugin",
 																					"name": "stylePlugin",
 																					"type": 1,
-																					"value": "sidenav"
+																					"value": ""
 																				},
 																				{
 																					"attributes": [
@@ -526,6 +551,14 @@
 																					"name": "settings",
 																					"type": 2,
 																					"value": null
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "plugin",
+																					"name": "plugin",
+																					"type": 0,
+																					"value": "undefined"
 																				}
 																			],
 																			"computedValue": null,
@@ -655,6 +688,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "panel"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -1086,6 +1144,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "panel"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -1119,11 +1202,11 @@
 										},
 										{
 											"attributes": [],
-											"computedValue": "",
+											"computedValue": "sidenav",
 											"displayName": "stylePlugin",
 											"name": "stylePlugin",
 											"type": 1,
-											"value": ""
+											"value": "sidenav"
 										},
 										{
 											"attributes": [
