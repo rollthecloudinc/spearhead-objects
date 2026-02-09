@@ -180,26 +180,1331 @@
 															"attributes": [
 																{
 																	"attributes": [],
-																	"computedValue": "text/markdown",
-																	"displayName": "Content Type",
-																	"name": "contentType",
-																	"type": 1,
-																	"value": "text/markdown"
+																	"computedValue": null,
+																	"displayName": "gridItems",
+																	"name": "gridItems",
+																	"type": 4,
+																	"value": null
 																},
 																{
-																	"attributes": [],
-																	"computedValue": "Spearhead buttons are native button or a elements enhanced with Material Design styling.",
-																	"displayName": "Content",
-																	"name": "content",
-																	"type": 1,
-																	"value": "Spearhead buttons are native button or a elements enhanced with Material Design styling."
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [],
+																							"computedValue": "side",
+																							"displayName": "mode",
+																							"name": "mode",
+																							"type": 1,
+																							"value": "side"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": "end",
+																							"displayName": "position",
+																							"name": "position",
+																							"type": 1,
+																							"value": "end"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": "true",
+																							"displayName": "opened",
+																							"name": "opened",
+																							"type": 5,
+																							"value": "true"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": "300",
+																							"displayName": "width",
+																							"name": "width",
+																							"type": 0,
+																							"value": "300"
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "settings",
+																					"name": "settings",
+																					"type": 2,
+																					"value": null
+																				},
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "text/markdown",
+																											"displayName": "Content Type",
+																											"name": "contentType",
+																											"type": 1,
+																											"value": "text/markdown"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "TOC",
+																											"displayName": "Content",
+																											"name": "content",
+																											"type": 1,
+																											"value": "TOC"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "jsScript",
+																											"name": "jsScript",
+																											"type": 1,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "snippet",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "snippet"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "0",
+																							"name": "0",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "gridItems",
+																											"name": "gridItems",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [
+																														{
+																															"attributes": [],
+																															"computedValue": null,
+																															"displayName": "settings",
+																															"name": "settings",
+																															"type": 2,
+																															"value": null
+																														},
+																														{
+																															"attributes": [
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "Spearhead buttons are native button or a elements enhanced with Material Design styling.",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "Spearhead buttons are native button or a elements enhanced with Material Design styling."
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "0",
+																																	"name": "0",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "Native button and a elements are always used in order to provide the most straightforward and accessible experience for users. A button element should be used whenever some action is performed. An link element should be used whenever the user will navigate to another view.\n\nThere are several button variants, each applied as an attribute:",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "Native button and a elements are always used in order to provide the most straightforward and accessible experience for users. A button element should be used whenever some action is performed. An link element should be used whenever the user will navigate to another view.\n\nThere are several button variants, each applied as an attribute:"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "1",
+																																	"name": "1",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "| Content Type | Description                                                                                                                       |\n|--------------|-----------------------------------------------------------------------------------------------------------------------------------|\n| Button       | Rectangular button that can contain text and icons                                                                                |\n| Icon Button  | Smaller, circular button, meant to contain an icon and no text                                                                    |\n| Fab          | Rectangular button w/ elevation and rounded corners, meant to contain an icon. Can be extended to a rectangle to also fit a label |\n| Mini Fab     | Smaller variant of Fab                                                                                                            |",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "| Content Type | Description                                                                                                                       |\n|--------------|-----------------------------------------------------------------------------------------------------------------------------------|\n| Button       | Rectangular button that can contain text and icons                                                                                |\n| Icon Button  | Smaller, circular button, meant to contain an icon and no text                                                                    |\n| Fab          | Rectangular button w/ elevation and rounded corners, meant to contain an icon. Can be extended to a rectangle to also fit a label |\n| Mini Fab     | Smaller variant of Fab                                                                                                            |"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "2",
+																																	"name": "2",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "Additionally, buttons have several appearances that can be set using the button appearance property, for example appearance=\"outlined\":",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "Additionally, buttons have several appearances that can be set using the button appearance property, for example appearance=\"outlined\":"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "3",
+																																	"name": "3",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "| Appearance | Description                                                                                                                        |\n|------------|------------------------------------------------------------------------------------------------------------------------------------|\n| text       | Default appearance. Text buttons are used for the lowest priority actions, especially when presenting multiple options.            |\n| filled     | High-emphasis buttons used for final or unblocking actions in a flow, such as saving or confirming.                                |\n| tonal      | Medium-emphasis buttons often used for final or unblocking actions  in a flow, but with less visual emphasis than a filled button. |\n| outlined   | Medium-emphasis buttons often used for actions that need attention but aren't the primary action.                                  |\n| elevated   | Medium-emphasis buttons often used when a button requires visual separation from a patterned background.                           |",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "| Appearance | Description                                                                                                                        |\n|------------|------------------------------------------------------------------------------------------------------------------------------------|\n| text       | Default appearance. Text buttons are used for the lowest priority actions, especially when presenting multiple options.            |\n| filled     | High-emphasis buttons used for final or unblocking actions in a flow, such as saving or confirming.                                |\n| tonal      | Medium-emphasis buttons often used for final or unblocking actions  in a flow, but with less visual emphasis than a filled button. |\n| outlined   | Medium-emphasis buttons often used for actions that need attention but aren't the primary action.                                  |\n| elevated   | Medium-emphasis buttons often used when a button requires visual separation from a patterned background.                           |"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "4",
+																																	"name": "4",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "## Extended FAB buttons\n\nTraditional floating action buttons (FAB) buttons are circular and only have space for a single icon. However, you can add the text property to allow the fab to expand into a rounded rectangle shape with space for a text label in addition to the icon. Only full sized fabs support the text property, mini FABs do not.",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "## Extended FAB buttons\n\nTraditional floating action buttons (FAB) buttons are circular and only have space for a single icon. However, you can add the text property to allow the fab to expand into a rounded rectangle shape with space for a text label in addition to the icon. Only full sized fabs support the text property, mini FABs do not."
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "5",
+																																	"name": "5",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "## Accessibility\n\nSpearhead uses native button and link elements to ensure an accessible experience by default. A button element should be used for any interaction that performs an action on the current page. An link element should be used for any interaction that navigates to another URL. All standard accessibility best practices for buttons and anchors apply to button and links.\n\n## Capitalization\n\nUsing ALL CAPS in the button text itself causes issues for screen-readers, which will read the text character-by-character. It can also cause issues for localization. We recommend not changing the default capitalization for the button text.\nDisabling anchors\n\nButtons or links containing only icons (such as Fab, Mini Fab, and Icon Button) should be given a meaningful label via aria-label or aria-labelledby. See the documentation for Icon for more information on using icons in buttons. Additionally, to be fully accessible the icon should have a minimum touch-target of 48x48 to ensure that the icon is easily clickable particularly on mobile devices and small screens.",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "## Accessibility\n\nSpearhead uses native button and link elements to ensure an accessible experience by default. A button element should be used for any interaction that performs an action on the current page. An link element should be used for any interaction that navigates to another URL. All standard accessibility best practices for buttons and anchors apply to button and links.\n\n## Capitalization\n\nUsing ALL CAPS in the button text itself causes issues for screen-readers, which will read the text character-by-character. It can also cause issues for localization. We recommend not changing the default capitalization for the button text.\nDisabling anchors\n\nButtons or links containing only icons (such as Fab, Mini Fab, and Icon Button) should be given a meaningful label via aria-label or aria-labelledby. See the documentation for Icon for more information on using icons in buttons. Additionally, to be fully accessible the icon should have a minimum touch-target of 48x48 to ensure that the icon is easily clickable particularly on mobile devices and small screens."
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "6",
+																																	"name": "6",
+																																	"type": 2,
+																																	"value": null
+																																}
+																															],
+																															"computedValue": null,
+																															"displayName": "panes",
+																															"name": "panes",
+																															"type": 4,
+																															"value": null
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "undefined",
+																															"displayName": "name",
+																															"name": "name",
+																															"type": 0,
+																															"value": "undefined"
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "undefined",
+																															"displayName": "label",
+																															"name": "label",
+																															"type": 0,
+																															"value": "undefined"
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "",
+																															"displayName": "stylePlugin",
+																															"name": "stylePlugin",
+																															"type": 1,
+																															"value": ""
+																														},
+																														{
+																															"attributes": [
+																																{
+																																	"attributes": [],
+																																	"computedValue": null,
+																																	"displayName": "settings",
+																																	"name": "settings",
+																																	"type": 2,
+																																	"value": null
+																																}
+																															],
+																															"computedValue": null,
+																															"displayName": "columnSetting",
+																															"name": "columnSetting",
+																															"type": 2,
+																															"value": null
+																														}
+																													],
+																													"computedValue": null,
+																													"displayName": "0",
+																													"name": "0",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "panels",
+																											"name": "panels",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "contexts",
+																											"name": "contexts",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rowSettings",
+																											"name": "rowSettings",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "readUserIds",
+																													"name": "readUserIds",
+																													"type": 4,
+																													"value": null
+																												},
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "writeUserIds",
+																													"name": "writeUserIds",
+																													"type": 4,
+																													"value": null
+																												},
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "deleteUserIds",
+																													"name": "deleteUserIds",
+																													"type": 4,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "entityPermissions",
+																											"name": "entityPermissions",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "id",
+																											"name": "id",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "gridless",
+																											"displayName": "layoutType",
+																											"name": "layoutType",
+																											"type": 1,
+																											"value": "gridless"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "page",
+																											"displayName": "displayType",
+																											"name": "displayType",
+																											"type": 1,
+																											"value": "page"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "name",
+																											"name": "name",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "title",
+																											"name": "title",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "ipe",
+																											"displayName": "site",
+																											"name": "site",
+																											"type": 1,
+																											"value": "ipe"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "userId",
+																											"name": "userId",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "path",
+																											"name": "path",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [
+																														{
+																															"attributes": [],
+																															"computedValue": null,
+																															"displayName": "settings",
+																															"name": "settings",
+																															"type": 2,
+																															"value": null
+																														}
+																													],
+																													"computedValue": null,
+																													"displayName": "dataduct",
+																													"name": "dataduct",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "persistence",
+																											"name": "persistence",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [
+																														{
+																															"attributes": [],
+																															"computedValue": null,
+																															"displayName": "listeners",
+																															"name": "listeners",
+																															"type": 4,
+																															"value": null
+																														}
+																													],
+																													"computedValue": null,
+																													"displayName": "interactions",
+																													"name": "interactions",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "interactions",
+																											"name": "interactions",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [],
+																													"computedValue": "undefined",
+																													"displayName": "route",
+																													"name": "route",
+																													"type": 0,
+																													"value": "undefined"
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "prerender",
+																											"name": "prerender",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "selection",
+																											"name": "selection",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "settings",
+																													"name": "settings",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "layoutSetting",
+																											"name": "layoutSetting",
+																											"type": 2,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "01f48f89-56f7-498a-948c-9756f7c513a4",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": "01f48f89-56f7-498a-948c-9756f7c513a4"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "01f48f89-56f7-498a-948c-9756f7c513a4",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": "01f48f89-56f7-498a-948c-9756f7c513a4"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "panel",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "panel"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "1",
+																							"name": "1",
+																							"type": 2,
+																							"value": null
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "panes",
+																					"name": "panes",
+																					"type": 4,
+																					"value": null
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "name",
+																					"name": "name",
+																					"type": 0,
+																					"value": "undefined"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "label",
+																					"name": "label",
+																					"type": 0,
+																					"value": "undefined"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "sidenav",
+																					"displayName": "stylePlugin",
+																					"name": "stylePlugin",
+																					"type": 1,
+																					"value": "sidenav"
+																				},
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [],
+																							"computedValue": null,
+																							"displayName": "settings",
+																							"name": "settings",
+																							"type": 2,
+																							"value": null
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "columnSetting",
+																					"name": "columnSetting",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "0",
+																			"name": "0",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "panels",
+																	"name": "panels",
+																	"type": 4,
+																	"value": null
 																},
 																{
 																	"attributes": [],
 																	"computedValue": null,
-																	"displayName": "jsScript",
-																	"name": "jsScript",
+																	"displayName": "contexts",
+																	"name": "contexts",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rowSettings",
+																	"name": "rowSettings",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "readUserIds",
+																			"name": "readUserIds",
+																			"type": 4,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "writeUserIds",
+																			"name": "writeUserIds",
+																			"type": 4,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "deleteUserIds",
+																			"name": "deleteUserIds",
+																			"type": 4,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "entityPermissions",
+																	"name": "entityPermissions",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "id",
+																	"name": "id",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "gridless",
+																	"displayName": "layoutType",
+																	"name": "layoutType",
 																	"type": 1,
+																	"value": "gridless"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "page",
+																	"displayName": "displayType",
+																	"name": "displayType",
+																	"type": 1,
+																	"value": "page"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "name",
+																	"name": "name",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "title",
+																	"name": "title",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "ipe",
+																	"displayName": "site",
+																	"name": "site",
+																	"type": 1,
+																	"value": "ipe"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "userId",
+																	"name": "userId",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "path",
+																	"name": "path",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "settings",
+																					"name": "settings",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "dataduct",
+																			"name": "dataduct",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "persistence",
+																	"name": "persistence",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "listeners",
+																					"name": "listeners",
+																					"type": 4,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "interactions",
+																			"name": "interactions",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "interactions",
+																	"name": "interactions",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "undefined",
+																			"displayName": "route",
+																			"name": "route",
+																			"type": 0,
+																			"value": "undefined"
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "prerender",
+																	"name": "prerender",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "selection",
+																	"name": "selection",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "settings",
+																			"name": "settings",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "layoutSetting",
+																	"name": "layoutSetting",
+																	"type": 2,
 																	"value": null
 																}
 															],
@@ -227,699 +1532,32 @@
 														},
 														{
 															"attributes": [],
-															"computedValue": "content",
+															"computedValue": "4c629b6d-98c4-4ae1-9f90-f161328dcbb8",
 															"displayName": "name",
 															"name": "name",
 															"type": 1,
-															"value": "content"
+															"value": "4c629b6d-98c4-4ae1-9f90-f161328dcbb8"
 														},
 														{
 															"attributes": [],
-															"computedValue": "content",
+															"computedValue": "4c629b6d-98c4-4ae1-9f90-f161328dcbb8",
 															"displayName": "label",
 															"name": "label",
 															"type": 1,
-															"value": "content"
+															"value": "4c629b6d-98c4-4ae1-9f90-f161328dcbb8"
 														},
 														{
 															"attributes": [],
-															"computedValue": "snippet",
+															"computedValue": "panel",
 															"displayName": "contentPlugin",
 															"name": "contentPlugin",
 															"type": 1,
-															"value": "snippet"
-														},
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "",
-																	"displayName": "condition",
-																	"name": "condition",
-																	"type": 1,
-																	"value": ""
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "rules",
-																	"name": "rules",
-																	"type": 4,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "rule",
-															"name": "rule",
-															"type": 2,
-															"value": null
+															"value": "panel"
 														}
 													],
 													"computedValue": null,
 													"displayName": "1",
 													"name": "1",
-													"type": 2,
-													"value": null
-												},
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "text/markdown",
-																	"displayName": "Content Type",
-																	"name": "contentType",
-																	"type": 1,
-																	"value": "text/markdown"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": "Native button and a elements are always used in order to provide the most straightforward and accessible experience for users. A button element should be used whenever some action is performed. An link element should be used whenever the user will navigate to another view.\n\nThere are several button variants, each applied as an attribute:",
-																	"displayName": "Content",
-																	"name": "content",
-																	"type": 1,
-																	"value": "Native button and a elements are always used in order to provide the most straightforward and accessible experience for users. A button element should be used whenever some action is performed. An link element should be used whenever the user will navigate to another view.\n\nThere are several button variants, each applied as an attribute:"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "jsScript",
-																	"name": "jsScript",
-																	"type": 1,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "snippet",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "snippet"
-														},
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "",
-																	"displayName": "condition",
-																	"name": "condition",
-																	"type": 1,
-																	"value": ""
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "rules",
-																	"name": "rules",
-																	"type": 4,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "rule",
-															"name": "rule",
-															"type": 2,
-															"value": null
-														}
-													],
-													"computedValue": null,
-													"displayName": "2",
-													"name": "2",
-													"type": 2,
-													"value": null
-												},
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "text/markdown",
-																	"displayName": "Content Type",
-																	"name": "contentType",
-																	"type": 1,
-																	"value": "text/markdown"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": "| Content Type | Description                                                                                                                       |\n|--------------|-----------------------------------------------------------------------------------------------------------------------------------|\n| Button       | Rectangular button that can contain text and icons                                                                                |\n| Icon Button  | Smaller, circular button, meant to contain an icon and no text                                                                    |\n| Fab          | Rectangular button w/ elevation and rounded corners, meant to contain an icon. Can be extended to a rectangle to also fit a label |\n| Mini Fab     | Smaller variant of Fab                                                                                                            |",
-																	"displayName": "Content",
-																	"name": "content",
-																	"type": 1,
-																	"value": "| Content Type | Description                                                                                                                       |\n|--------------|-----------------------------------------------------------------------------------------------------------------------------------|\n| Button       | Rectangular button that can contain text and icons                                                                                |\n| Icon Button  | Smaller, circular button, meant to contain an icon and no text                                                                    |\n| Fab          | Rectangular button w/ elevation and rounded corners, meant to contain an icon. Can be extended to a rectangle to also fit a label |\n| Mini Fab     | Smaller variant of Fab                                                                                                            |"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "jsScript",
-																	"name": "jsScript",
-																	"type": 1,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "snippet",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "snippet"
-														},
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "",
-																	"displayName": "condition",
-																	"name": "condition",
-																	"type": 1,
-																	"value": ""
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "rules",
-																	"name": "rules",
-																	"type": 4,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "rule",
-															"name": "rule",
-															"type": 2,
-															"value": null
-														}
-													],
-													"computedValue": null,
-													"displayName": "3",
-													"name": "3",
-													"type": 2,
-													"value": null
-												},
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "text/markdown",
-																	"displayName": "Content Type",
-																	"name": "contentType",
-																	"type": 1,
-																	"value": "text/markdown"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": "Additionally, buttons have several appearances that can be set using the button appearance property, for example appearance=\"outlined\":",
-																	"displayName": "Content",
-																	"name": "content",
-																	"type": 1,
-																	"value": "Additionally, buttons have several appearances that can be set using the button appearance property, for example appearance=\"outlined\":"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "jsScript",
-																	"name": "jsScript",
-																	"type": 1,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "snippet",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "snippet"
-														},
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "",
-																	"displayName": "condition",
-																	"name": "condition",
-																	"type": 1,
-																	"value": ""
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "rules",
-																	"name": "rules",
-																	"type": 4,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "rule",
-															"name": "rule",
-															"type": 2,
-															"value": null
-														}
-													],
-													"computedValue": null,
-													"displayName": "4",
-													"name": "4",
-													"type": 2,
-													"value": null
-												},
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "text/markdown",
-																	"displayName": "Content Type",
-																	"name": "contentType",
-																	"type": 1,
-																	"value": "text/markdown"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": "| Appearance | Description                                                                                                                        |\n|------------|------------------------------------------------------------------------------------------------------------------------------------|\n| text       | Default appearance. Text buttons are used for the lowest priority actions, especially when presenting multiple options.            |\n| filled     | High-emphasis buttons used for final or unblocking actions in a flow, such as saving or confirming.                                |\n| tonal      | Medium-emphasis buttons often used for final or unblocking actions  in a flow, but with less visual emphasis than a filled button. |\n| outlined   | Medium-emphasis buttons often used for actions that need attention but aren't the primary action.                                  |\n| elevated   | Medium-emphasis buttons often used when a button requires visual separation from a patterned background.                           |",
-																	"displayName": "Content",
-																	"name": "content",
-																	"type": 1,
-																	"value": "| Appearance | Description                                                                                                                        |\n|------------|------------------------------------------------------------------------------------------------------------------------------------|\n| text       | Default appearance. Text buttons are used for the lowest priority actions, especially when presenting multiple options.            |\n| filled     | High-emphasis buttons used for final or unblocking actions in a flow, such as saving or confirming.                                |\n| tonal      | Medium-emphasis buttons often used for final or unblocking actions  in a flow, but with less visual emphasis than a filled button. |\n| outlined   | Medium-emphasis buttons often used for actions that need attention but aren't the primary action.                                  |\n| elevated   | Medium-emphasis buttons often used when a button requires visual separation from a patterned background.                           |"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "jsScript",
-																	"name": "jsScript",
-																	"type": 1,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "snippet",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "snippet"
-														},
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "",
-																	"displayName": "condition",
-																	"name": "condition",
-																	"type": 1,
-																	"value": ""
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "rules",
-																	"name": "rules",
-																	"type": 4,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "rule",
-															"name": "rule",
-															"type": 2,
-															"value": null
-														}
-													],
-													"computedValue": null,
-													"displayName": "5",
-													"name": "5",
-													"type": 2,
-													"value": null
-												},
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "text/markdown",
-																	"displayName": "Content Type",
-																	"name": "contentType",
-																	"type": 1,
-																	"value": "text/markdown"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": "## Extended FAB buttons\n\nTraditional floating action buttons (FAB) buttons are circular and only have space for a single icon. However, you can add the text property to allow the fab to expand into a rounded rectangle shape with space for a text label in addition to the icon. Only full sized fabs support the text property, mini FABs do not.",
-																	"displayName": "Content",
-																	"name": "content",
-																	"type": 1,
-																	"value": "## Extended FAB buttons\n\nTraditional floating action buttons (FAB) buttons are circular and only have space for a single icon. However, you can add the text property to allow the fab to expand into a rounded rectangle shape with space for a text label in addition to the icon. Only full sized fabs support the text property, mini FABs do not."
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "jsScript",
-																	"name": "jsScript",
-																	"type": 1,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "snippet",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "snippet"
-														},
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "",
-																	"displayName": "condition",
-																	"name": "condition",
-																	"type": 1,
-																	"value": ""
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "rules",
-																	"name": "rules",
-																	"type": 4,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "rule",
-															"name": "rule",
-															"type": 2,
-															"value": null
-														}
-													],
-													"computedValue": null,
-													"displayName": "6",
-													"name": "6",
-													"type": 2,
-													"value": null
-												},
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "text/markdown",
-																	"displayName": "Content Type",
-																	"name": "contentType",
-																	"type": 1,
-																	"value": "text/markdown"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": "## Accessibility\n\nSpearhead uses native button and link elements to ensure an accessible experience by default. A button element should be used for any interaction that performs an action on the current page. An link element should be used for any interaction that navigates to another URL. All standard accessibility best practices for buttons and anchors apply to button and links.\n\n## Capitalization\n\nUsing ALL CAPS in the button text itself causes issues for screen-readers, which will read the text character-by-character. It can also cause issues for localization. We recommend not changing the default capitalization for the button text.\nDisabling anchors\n\nButtons or links containing only icons (such as Fab, Mini Fab, and Icon Button) should be given a meaningful label via aria-label or aria-labelledby. See the documentation for Icon for more information on using icons in buttons. Additionally, to be fully accessible the icon should have a minimum touch-target of 48x48 to ensure that the icon is easily clickable particularly on mobile devices and small screens.",
-																	"displayName": "Content",
-																	"name": "content",
-																	"type": 1,
-																	"value": "## Accessibility\n\nSpearhead uses native button and link elements to ensure an accessible experience by default. A button element should be used for any interaction that performs an action on the current page. An link element should be used for any interaction that navigates to another URL. All standard accessibility best practices for buttons and anchors apply to button and links.\n\n## Capitalization\n\nUsing ALL CAPS in the button text itself causes issues for screen-readers, which will read the text character-by-character. It can also cause issues for localization. We recommend not changing the default capitalization for the button text.\nDisabling anchors\n\nButtons or links containing only icons (such as Fab, Mini Fab, and Icon Button) should be given a meaningful label via aria-label or aria-labelledby. See the documentation for Icon for more information on using icons in buttons. Additionally, to be fully accessible the icon should have a minimum touch-target of 48x48 to ensure that the icon is easily clickable particularly on mobile devices and small screens."
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "jsScript",
-																	"name": "jsScript",
-																	"type": 1,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "snippet",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "snippet"
-														},
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "",
-																	"displayName": "condition",
-																	"name": "condition",
-																	"type": 1,
-																	"value": ""
-																},
-																{
-																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "rules",
-																	"name": "rules",
-																	"type": 4,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "rule",
-															"name": "rule",
-															"type": 2,
-															"value": null
-														}
-													],
-													"computedValue": null,
-													"displayName": "7",
-													"name": "7",
 													"type": 2,
 													"value": null
 												}
