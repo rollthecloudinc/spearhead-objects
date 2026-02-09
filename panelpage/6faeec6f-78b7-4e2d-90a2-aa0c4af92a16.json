@@ -32,6 +32,10 @@
 					"label": "d28daa85-15b6-4ee7-8279-a4afda3a921e",
 					"locked": false,
 					"name": "d28daa85-15b6-4ee7-8279-a4afda3a921e",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -162,6 +166,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "snippet"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -593,6 +622,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "panel"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -1024,6 +1078,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "panel"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -1057,11 +1136,11 @@
 										},
 										{
 											"attributes": [],
-											"computedValue": "sidenav",
+											"computedValue": "",
 											"displayName": "stylePlugin",
 											"name": "stylePlugin",
 											"type": 1,
-											"value": "sidenav"
+											"value": ""
 										},
 										{
 											"attributes": [
@@ -1218,6 +1297,14 @@
 											"name": "settings",
 											"type": 2,
 											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 0,
+											"value": "undefined"
 										}
 									],
 									"computedValue": null,
@@ -1309,6 +1396,10 @@
 					"label": "ca6e2368-20f3-4a63-a7f7-c401d45d309a",
 					"locked": false,
 					"name": "ca6e2368-20f3-4a63-a7f7-c401d45d309a",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
