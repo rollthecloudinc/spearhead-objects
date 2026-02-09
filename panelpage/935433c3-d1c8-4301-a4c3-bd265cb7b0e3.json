@@ -900,19 +900,19 @@
 										},
 										{
 											"attributes": [],
-											"computedValue": "undefined",
+											"computedValue": "secondary-menu",
 											"displayName": "name",
 											"name": "name",
-											"type": 0,
-											"value": "undefined"
+											"type": 1,
+											"value": "secondary-menu"
 										},
 										{
 											"attributes": [],
-											"computedValue": "undefined",
+											"computedValue": "Secondary Menu",
 											"displayName": "label",
 											"name": "label",
-											"type": 0,
-											"value": "undefined"
+											"type": 1,
+											"value": "Secondary Menu"
 										},
 										{
 											"attributes": [],
