@@ -489,19 +489,19 @@
 						"condition": "or",
 						"rules": [
 							{
-								"field": "_page.path",
+								"field": "_route.path",
 								"operator": "=",
-								"value": "/visual"
+								"value": "/pages/panelpage/d570ed3d-8c80-4b4a-a0b3-66d5f81786cb"
 							},
 							{
-								"field": "_page.path",
+								"field": "_route.path",
 								"operator": "=",
-								"value": "/button"
+								"value": "/pages/panelpage/aaa07980-5f92-4d08-b868-52e5bc8635cc"
 							},
 							{
-								"field": "_page.path",
+								"field": "_route.path",
 								"operator": "=",
-								"value": "/input"
+								"value": "/pages/panelpage/b9c18987-3158-4aa4-b2e0-84801c0487ce"
 							}
 						]
 					},
@@ -739,155 +739,6 @@
 													"computedValue": null,
 													"displayName": "1",
 													"name": "1",
-													"type": 2,
-													"value": null
-												},
-												{
-													"attributes": [
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "xxx",
-																	"displayName": "text",
-																	"name": "text",
-																	"type": 1,
-																	"value": "xxx"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": "/xxx",
-																	"displayName": "url",
-																	"name": "url",
-																	"type": 1,
-																	"value": "/xxx"
-																},
-																{
-																	"attributes": [],
-																	"computedValue": "text",
-																	"displayName": "appearance",
-																	"name": "appearance",
-																	"type": 1,
-																	"value": "text"
-																}
-															],
-															"computedValue": null,
-															"displayName": "settings",
-															"name": "settings",
-															"type": 2,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "false",
-															"displayName": "locked",
-															"name": "locked",
-															"type": 5,
-															"value": "false"
-														},
-														{
-															"attributes": [],
-															"computedValue": null,
-															"displayName": "contexts",
-															"name": "contexts",
-															"type": 4,
-															"value": null
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "name",
-															"name": "name",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "",
-															"displayName": "label",
-															"name": "label",
-															"type": 1,
-															"value": ""
-														},
-														{
-															"attributes": [],
-															"computedValue": "link",
-															"displayName": "contentPlugin",
-															"name": "contentPlugin",
-															"type": 1,
-															"value": "link"
-														},
-														{
-															"attributes": [
-																{
-																	"attributes": [],
-																	"computedValue": "or",
-																	"displayName": "condition",
-																	"name": "condition",
-																	"type": 1,
-																	"value": "or"
-																},
-																{
-																	"attributes": [
-																		{
-																			"attributes": [
-																				{
-																					"attributes": [],
-																					"computedValue": "_route.path",
-																					"displayName": "field",
-																					"name": "field",
-																					"type": 1,
-																					"value": "_route.path"
-																				},
-																				{
-																					"attributes": [],
-																					"computedValue": "=",
-																					"displayName": "operator",
-																					"name": "operator",
-																					"type": 1,
-																					"value": "="
-																				},
-																				{
-																					"attributes": [],
-																					"computedValue": "/pages/panelpage/6e363fbf-4beb-466a-a34c-44b1b13e7210",
-																					"displayName": "value",
-																					"name": "value",
-																					"type": 1,
-																					"value": "/pages/panelpage/6e363fbf-4beb-466a-a34c-44b1b13e7210"
-																				},
-																				{
-																					"attributes": [],
-																					"computedValue": "undefined",
-																					"displayName": "entity",
-																					"name": "entity",
-																					"type": 0,
-																					"value": "undefined"
-																				}
-																			],
-																			"computedValue": null,
-																			"displayName": "0",
-																			"name": "0",
-																			"type": 2,
-																			"value": null
-																		}
-																	],
-																	"computedValue": null,
-																	"displayName": "rules",
-																	"name": "rules",
-																	"type": 4,
-																	"value": null
-																}
-															],
-															"computedValue": null,
-															"displayName": "rule",
-															"name": "rule",
-															"type": 2,
-															"value": null
-														}
-													],
-													"computedValue": null,
-													"displayName": "2",
-													"name": "2",
 													"type": 2,
 													"value": null
 												}
@@ -1180,9 +1031,9 @@
 						"condition": "or",
 						"rules": [
 							{
-								"field": "_page.path",
+								"field": "_route.path",
 								"operator": "=",
-								"value": "/nonevisual"
+								"value": "/pages/panelpage/6e363fbf-4beb-466a-a34c-44b1b13e7210"
 							}
 						]
 					},
@@ -1215,27 +1066,27 @@
 															"attributes": [
 																{
 																	"attributes": [],
-																	"computedValue": "text/markdown",
-																	"displayName": "Content Type",
-																	"name": "contentType",
+																	"computedValue": "Form Field",
+																	"displayName": "text",
+																	"name": "text",
 																	"type": 1,
-																	"value": "text/markdown"
+																	"value": "Form Field"
 																},
 																{
 																	"attributes": [],
-																	"computedValue": "Other Nav",
-																	"displayName": "Content",
-																	"name": "content",
+																	"computedValue": "/form-field",
+																	"displayName": "url",
+																	"name": "url",
 																	"type": 1,
-																	"value": "Other Nav"
+																	"value": "/form-field"
 																},
 																{
 																	"attributes": [],
-																	"computedValue": null,
-																	"displayName": "jsScript",
-																	"name": "jsScript",
+																	"computedValue": "text",
+																	"displayName": "appearance",
+																	"name": "appearance",
 																	"type": 1,
-																	"value": null
+																	"value": "text"
 																}
 															],
 															"computedValue": null,
@@ -1278,11 +1129,11 @@
 														},
 														{
 															"attributes": [],
-															"computedValue": "snippet",
+															"computedValue": "link",
 															"displayName": "contentPlugin",
 															"name": "contentPlugin",
 															"type": 1,
-															"value": "snippet"
+															"value": "link"
 														}
 													],
 													"computedValue": null,
@@ -1477,6 +1328,14 @@
 											"name": "settings",
 											"type": 2,
 											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 0,
+											"value": "undefined"
 										}
 									],
 									"computedValue": null,
