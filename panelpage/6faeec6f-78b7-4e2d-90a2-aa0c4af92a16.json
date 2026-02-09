@@ -323,7 +323,40 @@
 																		{
 																			"attributes": [
 																				{
-																					"attributes": [],
+																					"attributes": [
+																						{
+																							"attributes": [],
+																							"computedValue": "side",
+																							"displayName": "mode",
+																							"name": "mode",
+																							"type": 1,
+																							"value": "side"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": "end",
+																							"displayName": "position",
+																							"name": "position",
+																							"type": 1,
+																							"value": "end"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": "true",
+																							"displayName": "opened",
+																							"name": "opened",
+																							"type": 5,
+																							"value": "true"
+																						},
+																						{
+																							"attributes": [],
+																							"computedValue": "300",
+																							"displayName": "width",
+																							"name": "width",
+																							"type": 0,
+																							"value": "300"
+																						}
+																					],
 																					"computedValue": null,
 																					"displayName": "settings",
 																					"name": "settings",
@@ -920,11 +953,11 @@
 																				},
 																				{
 																					"attributes": [],
-																					"computedValue": "",
+																					"computedValue": "sidenav",
 																					"displayName": "stylePlugin",
 																					"name": "stylePlugin",
 																					"type": 1,
-																					"value": ""
+																					"value": "sidenav"
 																				},
 																				{
 																					"attributes": [
