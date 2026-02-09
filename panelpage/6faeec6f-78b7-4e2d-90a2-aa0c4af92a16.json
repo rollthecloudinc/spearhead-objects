@@ -19,7 +19,7 @@
 		"settings": []
 	},
 	"layoutType": "gridless",
-	"name": "fix-tabs-nested-sidenav",
+	"name": "Data",
 	"panels": [
 		{
 			"columnSetting": {
@@ -2138,7 +2138,7 @@
 			"stylePlugin": "tabs"
 		}
 	],
-	"path": "/fix-tabs-nested-sidenav",
+	"path": "/data",
 	"persistence": {
 		"dataduct": {
 			"settings": []
@@ -2148,6 +2148,6 @@
 	"rowSettings": [],
 	"selection": {},
 	"site": "ipe",
-	"title": "Fix Tabs Nested Sidenav",
+	"title": "data",
 	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
 }
