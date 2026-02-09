@@ -1022,11 +1022,11 @@
 															"attributes": [
 																{
 																	"attributes": [],
-																	"computedValue": "and",
+																	"computedValue": "or",
 																	"displayName": "condition",
 																	"name": "condition",
 																	"type": 1,
-																	"value": "and"
+																	"value": "or"
 																},
 																{
 																	"attributes": [
@@ -1602,11 +1602,11 @@
 															"attributes": [
 																{
 																	"attributes": [],
-																	"computedValue": "and",
+																	"computedValue": "or",
 																	"displayName": "condition",
 																	"name": "condition",
 																	"type": 1,
-																	"value": "and"
+																	"value": "or"
 																},
 																{
 																	"attributes": [
