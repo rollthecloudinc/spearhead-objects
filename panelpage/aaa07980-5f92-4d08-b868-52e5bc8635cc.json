@@ -8,15 +8,7 @@
 		],
 		"writeUserIds": []
 	},
-	"gridItems": [
-		{
-			"cols": 72,
-			"rows": 1,
-			"weight": 0,
-			"x": 0,
-			"y": 0
-		}
-	],
+	"gridItems": [],
 	"id": "aaa07980-5f92-4d08-b868-52e5bc8635cc",
 	"interactions": {
 		"interactions": {
@@ -26,7 +18,7 @@
 	"layoutSetting": {
 		"settings": []
 	},
-	"layoutType": "split",
+	"layoutType": "gridless",
 	"name": "button",
 	"panels": [
 		{
