@@ -332,6 +332,31 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "snippet"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -380,11 +405,118 @@
 																																				},
 																																				{
 																																					"attributes": [],
-																																					"computedValue": "Hello World",
+																																					"computedValue": "## What is “Data”?\n\nData is the simplest type of datasource in the CMS.\nIt lets you enter your own custom data directly, without connecting to any external systems or APIs.\n\nYou can think of it as a small, built‑in data editor.\nYou type in the information you want, and the CMS makes it available to widgets, lists, components, or other areas that support datasources.\n\nUse it whenever you want:\n\n    A quick way to supply test data\n    A small list of items (categories, tags, statuses, etc.)\n    A fixed dataset that doesn’t need to come from a server\n    A way to prototype how a component behaves with real‑looking data\n",
 																																					"displayName": "Content",
 																																					"name": "content",
 																																					"type": 1,
-																																					"value": "Hello World"
+																																					"value": "## What is “Data”?\n\nData is the simplest type of datasource in the CMS.\nIt lets you enter your own custom data directly, without connecting to any external systems or APIs.\n\nYou can think of it as a small, built‑in data editor.\nYou type in the information you want, and the CMS makes it available to widgets, lists, components, or other areas that support datasources.\n\nUse it whenever you want:\n\n    A quick way to supply test data\n    A small list of items (categories, tags, statuses, etc.)\n    A fixed dataset that doesn’t need to come from a server\n    A way to prototype how a component behaves with real‑looking data\n"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		},
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "",
+																																					"displayName": "condition",
+																																					"name": "condition",
+																																					"type": 1,
+																																					"value": ""
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rules",
+																																					"name": "rules",
+																																					"type": 4,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "rule",
+																																			"name": "rule",
+																																			"type": 2,
+																																			"value": null
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "0",
+																																	"name": "0",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "## What does Data look like?\n\nThe Data editor offers a simple text box where you can paste or type a list of items.\nMost commonly, users enter something like:",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "## What does Data look like?\n\nThe Data editor offers a simple text box where you can paste or type a list of items.\nMost commonly, users enter something like:"
 																																				},
 																																				{
 																																					"attributes": [],
@@ -443,8 +575,336 @@
 																																		}
 																																	],
 																																	"computedValue": null,
-																																	"displayName": "0",
-																																	"name": "0",
+																																	"displayName": "1",
+																																	"name": "1",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "## But it’s fully flexible—you can enter any structure your component or widget expects.\n\nThe CMS will:\n\n* Save your text\n* Turn it into usable data\n* Make it available to any part of the system that uses your datasource\n\nThere are no special rules beyond providing valid JSON.",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "## But it’s fully flexible—you can enter any structure your component or widget expects.\n\nThe CMS will:\n\n* Save your text\n* Turn it into usable data\n* Make it available to any part of the system that uses your datasource\n\nThere are no special rules beyond providing valid JSON."
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "2",
+																																	"name": "2",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "## When should I use a Data datasource?\n\nChoose “Data” when you want something quick, local, and easy.\n\nIt is perfect for:\n\n* Dropdown options (categories, statuses, types)\n* Sample data for designing or configuring components\n* Quick prototypes before connecting a real backend\n* Simple informational blocks or lists\n\nYou should use another type of datasource if:\n\n* You need live data from an API\n* The information changes over time\n* You want to combine multiple datasources\n* You need to run queries or filters\n\nIf you just need a list, or a few rows of data, or some mock content, Data is ideal.",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "## When should I use a Data datasource?\n\nChoose “Data” when you want something quick, local, and easy.\n\nIt is perfect for:\n\n* Dropdown options (categories, statuses, types)\n* Sample data for designing or configuring components\n* Quick prototypes before connecting a real backend\n* Simple informational blocks or lists\n\nYou should use another type of datasource if:\n\n* You need live data from an API\n* The information changes over time\n* You want to combine multiple datasources\n* You need to run queries or filters\n\nIf you just need a list, or a few rows of data, or some mock content, Data is ideal."
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "3",
+																																	"name": "3",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "## Why is this useful?\n\nThe Data datasource helps you design and configure the CMS without waiting on developers or backend systems.\n\nIt lets you:\n\n* Try out layouts using sample content\n* Build components before real data exists\n* Control exactly what data is shown\n* Refine the look and behavior of widgets without external dependencies\n\nIt is one of the easiest ways to get started using datasources.",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "## Why is this useful?\n\nThe Data datasource helps you design and configure the CMS without waiting on developers or backend systems.\n\nIt lets you:\n\n* Try out layouts using sample content\n* Build components before real data exists\n* Control exactly what data is shown\n* Refine the look and behavior of widgets without external dependencies\n\nIt is one of the easiest ways to get started using datasources."
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "4",
+																																	"name": "4",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "## Summary\n\nThe Data datasource is your “quick start” option for adding information to the CMS.\n\nIt is:\n\n* Easy to use\n* Flexible\n* Great for mockups and prototypes\n* Perfect for small, static sets of information\n\nWhenever you just want to provide your own custom data for a component, the Data datasource is the right tool.\n",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "## Summary\n\nThe Data datasource is your “quick start” option for adding information to the CMS.\n\nIt is:\n\n* Easy to use\n* Flexible\n* Great for mockups and prototypes\n* Perfect for small, static sets of information\n\nWhenever you just want to provide your own custom data for a component, the Data datasource is the right tool.\n"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "5",
+																																	"name": "5",
 																																	"type": 2,
 																																	"value": null
 																																}
@@ -634,6 +1094,14 @@
 																															"name": "settings",
 																															"type": 2,
 																															"value": null
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "undefined",
+																															"displayName": "plugin",
+																															"name": "plugin",
+																															"type": 0,
+																															"value": "undefined"
 																														}
 																													],
 																													"computedValue": null,
