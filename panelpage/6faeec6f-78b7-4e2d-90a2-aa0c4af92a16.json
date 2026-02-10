@@ -405,11 +405,11 @@
 																																				},
 																																				{
 																																					"attributes": [],
-																																					"computedValue": "Data is the simplest type of datasource in the CMS.\nIt lets you enter your own custom data directly, without connecting to any external systems or APIs.\n\nYou can think of it as a small, built‑in data editor.\nYou type in the information you want, and the CMS makes it available to widgets, lists, components, or other areas that support datasources.\n\nUse it whenever you want:\n\n    A quick way to supply test data\n    A small list of items (categories, tags, statuses, etc.)\n    A fixed dataset that doesn’t need to come from a server\n    A way to prototype how a component behaves with real‑looking data\n",
+																																					"computedValue": "Data is the simplest type of datasource in the CMS.\nIt lets you enter your own custom data directly, without connecting to any external systems or APIs.\n\nYou can think of it as a small, built‑in data editor.\nYou type in the information you want, and the CMS makes it available to widgets, lists, components, or other areas that support datasources.\n\nUse it whenever you want:\n\n* A quick way to supply test data\n* A small list of items (categories, tags, statuses, etc.)\n* A fixed dataset that doesn’t need to come from a server\n* A way to prototype how a component behaves with real‑looking data\n",
 																																					"displayName": "Content",
 																																					"name": "content",
 																																					"type": 1,
-																																					"value": "Data is the simplest type of datasource in the CMS.\nIt lets you enter your own custom data directly, without connecting to any external systems or APIs.\n\nYou can think of it as a small, built‑in data editor.\nYou type in the information you want, and the CMS makes it available to widgets, lists, components, or other areas that support datasources.\n\nUse it whenever you want:\n\n    A quick way to supply test data\n    A small list of items (categories, tags, statuses, etc.)\n    A fixed dataset that doesn’t need to come from a server\n    A way to prototype how a component behaves with real‑looking data\n"
+																																					"value": "Data is the simplest type of datasource in the CMS.\nIt lets you enter your own custom data directly, without connecting to any external systems or APIs.\n\nYou can think of it as a small, built‑in data editor.\nYou type in the information you want, and the CMS makes it available to widgets, lists, components, or other areas that support datasources.\n\nUse it whenever you want:\n\n* A quick way to supply test data\n* A small list of items (categories, tags, statuses, etc.)\n* A fixed dataset that doesn’t need to come from a server\n* A way to prototype how a component behaves with real‑looking data\n"
 																																				},
 																																				{
 																																					"attributes": [],
@@ -679,6 +679,31 @@
 																																			"name": "contentPlugin",
 																																			"type": 1,
 																																			"value": "snippet"
+																																		},
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "",
+																																					"displayName": "condition",
+																																					"name": "condition",
+																																					"type": 1,
+																																					"value": ""
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rules",
+																																					"name": "rules",
+																																					"type": 4,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "rule",
+																																			"name": "rule",
+																																			"type": 2,
+																																			"value": null
 																																		}
 																																	],
 																																	"computedValue": null,
