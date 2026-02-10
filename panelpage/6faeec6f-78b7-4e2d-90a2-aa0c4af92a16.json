@@ -572,6 +572,31 @@
 																																			"name": "contentPlugin",
 																																			"type": 1,
 																																			"value": "snippet"
+																																		},
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "",
+																																					"displayName": "condition",
+																																					"name": "condition",
+																																					"type": 1,
+																																					"value": ""
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rules",
+																																					"name": "rules",
+																																					"type": 4,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "rule",
+																																			"name": "rule",
+																																			"type": 2,
+																																			"value": null
 																																		}
 																																	],
 																																	"computedValue": null,
@@ -594,11 +619,11 @@
 																																				},
 																																				{
 																																					"attributes": [],
-																																					"computedValue": "## But it’s fully flexible—you can enter any structure your component or widget expects.\n\nThe CMS will:\n\n* Save your text\n* Turn it into usable data\n* Make it available to any part of the system that uses your datasource\n\nThere are no special rules beyond providing valid JSON.",
+																																					"computedValue": "But it’s fully flexible—you can enter any structure your component or widget expects.\n\nThe CMS will:\n\n* Save your text\n* Turn it into usable data\n* Make it available to any part of the system that uses your datasource\n\nThere are no special rules beyond providing valid JSON.",
 																																					"displayName": "Content",
 																																					"name": "content",
 																																					"type": 1,
-																																					"value": "## But it’s fully flexible—you can enter any structure your component or widget expects.\n\nThe CMS will:\n\n* Save your text\n* Turn it into usable data\n* Make it available to any part of the system that uses your datasource\n\nThere are no special rules beyond providing valid JSON."
+																																					"value": "But it’s fully flexible—you can enter any structure your component or widget expects.\n\nThe CMS will:\n\n* Save your text\n* Turn it into usable data\n* Make it available to any part of the system that uses your datasource\n\nThere are no special rules beyond providing valid JSON."
 																																				},
 																																				{
 																																					"attributes": [],
@@ -654,6 +679,31 @@
 																																			"name": "contentPlugin",
 																																			"type": 1,
 																																			"value": "snippet"
+																																		},
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "",
+																																					"displayName": "condition",
+																																					"name": "condition",
+																																					"type": 1,
+																																					"value": ""
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rules",
+																																					"name": "rules",
+																																					"type": 4,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "rule",
+																																			"name": "rule",
+																																			"type": 2,
+																																			"value": null
 																																		}
 																																	],
 																																	"computedValue": null,
@@ -736,6 +786,31 @@
 																																			"name": "contentPlugin",
 																																			"type": 1,
 																																			"value": "snippet"
+																																		},
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "",
+																																					"displayName": "condition",
+																																					"name": "condition",
+																																					"type": 1,
+																																					"value": ""
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rules",
+																																					"name": "rules",
+																																					"type": 4,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "rule",
+																																			"name": "rule",
+																																			"type": 2,
+																																			"value": null
 																																		}
 																																	],
 																																	"computedValue": null,
@@ -818,6 +893,31 @@
 																																			"name": "contentPlugin",
 																																			"type": 1,
 																																			"value": "snippet"
+																																		},
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "",
+																																					"displayName": "condition",
+																																					"name": "condition",
+																																					"type": 1,
+																																					"value": ""
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rules",
+																																					"name": "rules",
+																																					"type": 4,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "rule",
+																																			"name": "rule",
+																																			"type": 2,
+																																			"value": null
 																																		}
 																																	],
 																																	"computedValue": null,
@@ -900,6 +1000,31 @@
 																																			"name": "contentPlugin",
 																																			"type": 1,
 																																			"value": "snippet"
+																																		},
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "",
+																																					"displayName": "condition",
+																																					"name": "condition",
+																																					"type": 1,
+																																					"value": ""
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rules",
+																																					"name": "rules",
+																																					"type": 4,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "rule",
+																																			"name": "rule",
+																																			"type": 2,
+																																			"value": null
 																																		}
 																																	],
 																																	"computedValue": null,
