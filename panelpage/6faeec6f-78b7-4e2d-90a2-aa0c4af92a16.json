@@ -619,6 +619,88 @@
 																																				},
 																																				{
 																																					"attributes": [],
+																																					"computedValue": "```json\n[\n  { \"id\": 1, \"label\": \"Option A\" },\n  { \"id\": 2, \"label\": \"Option B\" }\n]\n```",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "```json\n[\n  { \"id\": 1, \"label\": \"Option A\" },\n  { \"id\": 2, \"label\": \"Option B\" }\n]\n```"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "2",
+																																	"name": "2",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
 																																					"computedValue": "But it’s fully flexible—you can enter any structure your component or widget expects.\n\nThe CMS will:\n\n* Save your text\n* Turn it into usable data\n* Make it available to any part of the system that uses your datasource\n\nThere are no special rules beyond providing valid JSON.",
 																																					"displayName": "Content",
 																																					"name": "content",
@@ -707,8 +789,8 @@
 																																		}
 																																	],
 																																	"computedValue": null,
-																																	"displayName": "2",
-																																	"name": "2",
+																																	"displayName": "3",
+																																	"name": "3",
 																																	"type": 2,
 																																	"value": null
 																																},
@@ -814,8 +896,8 @@
 																																		}
 																																	],
 																																	"computedValue": null,
-																																	"displayName": "3",
-																																	"name": "3",
+																																	"displayName": "4",
+																																	"name": "4",
 																																	"type": 2,
 																																	"value": null
 																																},
@@ -921,8 +1003,8 @@
 																																		}
 																																	],
 																																	"computedValue": null,
-																																	"displayName": "4",
-																																	"name": "4",
+																																	"displayName": "5",
+																																	"name": "5",
 																																	"type": 2,
 																																	"value": null
 																																},
@@ -1028,8 +1110,8 @@
 																																		}
 																																	],
 																																	"computedValue": null,
-																																	"displayName": "5",
-																																	"name": "5",
+																																	"displayName": "6",
+																																	"name": "6",
 																																	"type": 2,
 																																	"value": null
 																																}
