@@ -541,7 +541,7 @@
 									}
 								}
 							],
-							"paramsString": "type=:type&target=:arget"
+							"paramsString": "type=:type&target=:target"
 						}
 					},
 					"handler": {
