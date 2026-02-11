@@ -726,6 +726,55 @@
 					]
 				},
 				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Save The Form dsa das d asd as df asdf as df sdf sdfdsfdsf",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Save The Form dsa das d asd as df asdf as df sdf sdfdsfdsf"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": "outlined",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 1,
+							"value": "outlined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "paramsString",
+							"name": "paramsString",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "params",
+							"name": "params",
+							"type": 4,
+							"value": null
+						}
+					]
+				},
+				{
 					"contentPlugin": "content_editor",
 					"contexts": [],
 					"label": "",
