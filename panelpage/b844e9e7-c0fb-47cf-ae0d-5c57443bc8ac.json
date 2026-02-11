@@ -482,6 +482,128 @@
 							"paramsString": "action=:action&group=:group"
 						}
 					}
+				},
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "click",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": ".action-props",
+										"type": "static",
+										"value": ".action-props"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:arget"
+						}
+					},
+					"handler": {
+						"plugin": "timeline",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "default",
+										"type": "static",
+										"value": "default"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "next",
+										"type": "static",
+										"value": "next"
+									}
+								}
+							],
+							"paramsString": "group=:group&action=:action"
+						}
+					}
 				}
 			]
 		}
@@ -503,6 +625,10 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -519,6 +645,55 @@
 							"name": "action",
 							"type": 1,
 							"value": "start"
+						},
+						{
+							"attributes": [],
+							"computedValue": "outlined",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 1,
+							"value": "outlined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "paramsString",
+							"name": "paramsString",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "params",
+							"name": "params",
+							"type": 4,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Open The Props Dialog",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Open The Props Dialog"
+						},
+						{
+							"attributes": [],
+							"computedValue": "props",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": "props"
 						},
 						{
 							"attributes": [],
