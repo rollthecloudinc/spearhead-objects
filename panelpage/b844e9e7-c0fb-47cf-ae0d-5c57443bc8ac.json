@@ -39,9 +39,9 @@
 									],
 									"mapping": {
 										"context": "",
-										"testValue": "content_editor",
+										"testValue": "layout_editor",
 										"type": "static",
-										"value": "content_editor"
+										"value": "layout_editor"
 									}
 								},
 								{
@@ -151,9 +151,9 @@
 									],
 									"mapping": {
 										"context": "",
-										"testValue": "onPropertiesClick",
+										"testValue": "open",
 										"type": "static",
-										"value": "onPropertiesClick"
+										"value": "open"
 									}
 								},
 								{
@@ -180,6 +180,180 @@
 										"testValue": ".main-controls > .mdc-button",
 										"type": "static",
 										"value": ".main-controls > .mdc-button"
+									}
+								}
+							],
+							"paramsString": "method=:method&mouseTarget=:mouseTarget"
+						}
+					}
+				},
+				{
+					"event": {
+						"plugin": "component",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "content_editor",
+										"type": "static",
+										"value": "content_editor"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "default",
+										"type": "static",
+										"value": "default"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "1",
+										"type": "static",
+										"value": "1"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "0",
+										"type": "static",
+										"value": "0"
+									}
+								}
+							],
+							"paramsString": "role=:role&group=:group&weight=:weight&index=:index"
+						}
+					},
+					"handler": {
+						"plugin": "driver",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "onPropertiesClick",
+										"type": "static",
+										"value": "onPropertiesClick"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": ".props",
+										"type": "static",
+										"value": ".props"
 									}
 								}
 							],
