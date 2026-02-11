@@ -91,13 +91,39 @@
 									],
 									"mapping": {
 										"context": "",
-										"testValue": "1",
+										"testValue": "0",
 										"type": "static",
-										"value": "1"
+										"value": "0"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "0",
+										"type": "static",
+										"value": "0"
 									}
 								}
 							],
-							"paramsString": "role=:role&group=:group&weight=:weight"
+							"paramsString": "role=:role&group=:group&weight=:weight&index=:index"
 						}
 					},
 					"handler": {
