@@ -360,6 +360,128 @@
 							"paramsString": "method=:method&mouseTarget=:mouseTarget"
 						}
 					}
+				},
+				{
+					"event": {
+						"plugin": "dom",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "click",
+										"type": "static",
+										"value": "click"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": ".action-start",
+										"type": "static",
+										"value": ".action-start"
+									}
+								}
+							],
+							"paramsString": "type=:type&target=:target"
+						}
+					},
+					"handler": {
+						"plugin": "timeline",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "start",
+										"type": "static",
+										"value": "start"
+									}
+								},
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "default",
+										"type": "static",
+										"value": "default"
+									}
+								}
+							],
+							"paramsString": "action=:action&group=:group"
+						}
+					}
 				}
 			]
 		}
@@ -375,6 +497,55 @@
 				"settings": []
 			},
 			"panes": [
+				{
+					"contentPlugin": "button",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "Start",
+							"displayName": "text",
+							"name": "text",
+							"type": 1,
+							"value": "Start"
+						},
+						{
+							"attributes": [],
+							"computedValue": "start",
+							"displayName": "action",
+							"name": "action",
+							"type": 1,
+							"value": "start"
+						},
+						{
+							"attributes": [],
+							"computedValue": "outlined",
+							"displayName": "appearance",
+							"name": "appearance",
+							"type": 1,
+							"value": "outlined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "",
+							"displayName": "paramsString",
+							"name": "paramsString",
+							"type": 1,
+							"value": ""
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "params",
+							"name": "params",
+							"type": 4,
+							"value": null
+						}
+					]
+				},
 				{
 					"contentPlugin": "content_editor",
 					"contexts": [],
