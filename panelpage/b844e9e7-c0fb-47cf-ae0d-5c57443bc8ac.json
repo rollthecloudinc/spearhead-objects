@@ -678,14 +678,18 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
-							"computedValue": "Open The Props Dialog",
+							"computedValue": "Open The Props Dialog sad asd as d as d as d as d asd asda",
 							"displayName": "text",
 							"name": "text",
 							"type": 1,
-							"value": "Open The Props Dialog"
+							"value": "Open The Props Dialog sad asd as d as d as d as d asd asda"
 						},
 						{
 							"attributes": [],
