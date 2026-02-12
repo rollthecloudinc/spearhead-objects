@@ -1,0 +1,77 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "ee94c85c-33df-41f4-a300-713e600d2ece",
+	"interactions": {
+		"interactions": {
+			"listeners": []
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "content-type-tour",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "content_editor",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": []
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/content-type-tour",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [
+		{
+			"settings": []
+		},
+		{
+			"settings": []
+		}
+	],
+	"selection": {},
+	"site": "ipe",
+	"title": "Content Type Tour",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
