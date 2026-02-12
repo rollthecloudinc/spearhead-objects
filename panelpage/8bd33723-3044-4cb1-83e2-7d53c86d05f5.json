@@ -1,0 +1,149 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [],
+	"id": "8bd33723-3044-4cb1-83e2-7d53c86d05f5",
+	"interactions": {
+		"interactions": {
+			"listeners": [
+				{
+					"event": {
+						"plugin": "immediate",
+						"settings": {}
+					},
+					"handler": {
+						"plugin": "tour_content_type",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "snippet",
+										"type": "static",
+										"value": "snippet"
+									}
+								}
+							],
+							"paramsString": "group=:group"
+						}
+					}
+				}
+			]
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "gridless",
+	"name": "test-timeline-tour",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "timeline_nav",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "snippet",
+							"displayName": "group",
+							"name": "group",
+							"type": 1,
+							"value": "snippet"
+						}
+					]
+				},
+				{
+					"contentPlugin": "content_editor",
+					"contexts": [],
+					"label": "",
+					"locked": false,
+					"name": "",
+					"settings": []
+				}
+			],
+			"settings": [
+				{
+					"attributes": [],
+					"computedValue": "side",
+					"displayName": "mode",
+					"name": "mode",
+					"type": 1,
+					"value": "side"
+				},
+				{
+					"attributes": [],
+					"computedValue": "end",
+					"displayName": "position",
+					"name": "position",
+					"type": 1,
+					"value": "end"
+				},
+				{
+					"attributes": [],
+					"computedValue": "true",
+					"displayName": "opened",
+					"name": "opened",
+					"type": 5,
+					"value": "true"
+				},
+				{
+					"attributes": [],
+					"computedValue": "300",
+					"displayName": "width",
+					"name": "width",
+					"type": 0,
+					"value": "300"
+				}
+			],
+			"stylePlugin": "sidenav"
+		}
+	],
+	"path": "/test-timeline-tour",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"selection": {},
+	"site": "ipe",
+	"title": "Test Timeline Tour",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
