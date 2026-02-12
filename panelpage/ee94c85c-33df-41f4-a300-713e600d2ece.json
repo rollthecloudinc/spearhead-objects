@@ -15,6 +15,13 @@
 			"weight": 0,
 			"x": 0,
 			"y": 0
+		},
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 1,
+			"x": 0,
+			"y": 1
 		}
 	],
 	"id": "ee94c85c-33df-41f4-a300-713e600d2ece",
@@ -48,9 +55,21 @@
 					"label": "",
 					"locked": false,
 					"name": "",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": []
 				}
 			],
+			"settings": [],
+			"stylePlugin": ""
+		},
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [],
 			"settings": [],
 			"stylePlugin": ""
 		}
@@ -63,6 +82,9 @@
 	},
 	"prerender": {},
 	"rowSettings": [
+		{
+			"settings": []
+		},
 		{
 			"settings": []
 		},
