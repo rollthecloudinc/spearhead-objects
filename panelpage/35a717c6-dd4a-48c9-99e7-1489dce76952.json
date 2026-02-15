@@ -1,0 +1,3186 @@
+{
+	"contexts": [],
+	"displayType": "page",
+	"entityPermissions": {
+		"deleteUserIds": [],
+		"readUserIds": [
+			"*"
+		],
+		"writeUserIds": []
+	},
+	"gridItems": [
+		{
+			"cols": 100,
+			"rows": 1,
+			"weight": 0,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"id": "35a717c6-dd4a-48c9-99e7-1489dce76952",
+	"interactions": {
+		"interactions": {
+			"listeners": [
+				{
+					"event": {
+						"plugin": "immediate",
+						"settings": {}
+					},
+					"handler": {
+						"plugin": "tour_data_dependency_content_type",
+						"settings": {
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "form_autocomplete",
+										"type": "static",
+										"value": "form_autocomplete"
+									}
+								}
+							],
+							"paramsString": "group=:group"
+						}
+					}
+				}
+			]
+		}
+	},
+	"layoutSetting": {
+		"settings": []
+	},
+	"layoutType": "split",
+	"name": "autocomplete",
+	"panels": [
+		{
+			"columnSetting": {
+				"settings": []
+			},
+			"panes": [
+				{
+					"contentPlugin": "panel",
+					"contexts": [],
+					"label": "2e2ebcdf-e5e2-43e3-bfa8-33a54915be87",
+					"locked": false,
+					"name": "2e2ebcdf-e5e2-43e3-bfa8-33a54915be87",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "gridItems",
+							"name": "gridItems",
+							"type": 4,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [
+										{
+											"attributes": [
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "panelPage",
+																			"name": "panelPage",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "panel",
+																			"name": "panel",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": "0",
+																			"displayName": "pane",
+																			"name": "pane",
+																			"type": 0,
+																			"value": "0"
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "0",
+																					"displayName": "panelPage",
+																					"name": "panelPage",
+																					"type": 0,
+																					"value": "0"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "0",
+																					"displayName": "panel",
+																					"name": "panel",
+																					"type": 0,
+																					"value": "0"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "0",
+																					"displayName": "pane",
+																					"name": "pane",
+																					"type": 0,
+																					"value": "0"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "nested",
+																					"name": "nested",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "nested",
+																			"name": "nested",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "mapping",
+																	"name": "mapping",
+																	"type": 2,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "0",
+															"name": "0",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "panelPage",
+																			"name": "panelPage",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "panel",
+																			"name": "panel",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": "1",
+																			"displayName": "pane",
+																			"name": "pane",
+																			"type": 0,
+																			"value": "1"
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "0",
+																					"displayName": "panelPage",
+																					"name": "panelPage",
+																					"type": 0,
+																					"value": "0"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "0",
+																					"displayName": "panel",
+																					"name": "panel",
+																					"type": 0,
+																					"value": "0"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "0",
+																					"displayName": "pane",
+																					"name": "pane",
+																					"type": 0,
+																					"value": "0"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "nested",
+																					"name": "nested",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "nested",
+																			"name": "nested",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "mapping",
+																	"name": "mapping",
+																	"type": 2,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "1",
+															"name": "1",
+															"type": 2,
+															"value": null
+														}
+													],
+													"computedValue": null,
+													"displayName": "labels",
+													"name": "labels",
+													"type": 4,
+													"value": null
+												}
+											],
+											"computedValue": null,
+											"displayName": "settings",
+											"name": "settings",
+											"type": 2,
+											"value": null
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "gridItems",
+																	"name": "gridItems",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "settings",
+																					"name": "settings",
+																					"type": 2,
+																					"value": null
+																				},
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "text/markdown",
+																											"displayName": "Content Type",
+																											"name": "contentType",
+																											"type": 1,
+																											"value": "text/markdown"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "Overview",
+																											"displayName": "Content",
+																											"name": "content",
+																											"type": 1,
+																											"value": "Overview"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "jsScript",
+																											"name": "jsScript",
+																											"type": 1,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "snippet",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "snippet"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "0",
+																							"name": "0",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "gridItems",
+																											"name": "gridItems",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [
+																														{
+																															"attributes": [
+																																{
+																																	"attributes": [],
+																																	"computedValue": "side",
+																																	"displayName": "mode",
+																																	"name": "mode",
+																																	"type": 1,
+																																	"value": "side"
+																																},
+																																{
+																																	"attributes": [],
+																																	"computedValue": "end",
+																																	"displayName": "position",
+																																	"name": "position",
+																																	"type": 1,
+																																	"value": "end"
+																																},
+																																{
+																																	"attributes": [],
+																																	"computedValue": "true",
+																																	"displayName": "opened",
+																																	"name": "opened",
+																																	"type": 5,
+																																	"value": "true"
+																																},
+																																{
+																																	"attributes": [],
+																																	"computedValue": "300",
+																																	"displayName": "width",
+																																	"name": "width",
+																																	"type": 0,
+																																	"value": "300"
+																																}
+																															],
+																															"computedValue": null,
+																															"displayName": "settings",
+																															"name": "settings",
+																															"type": 2,
+																															"value": null
+																														},
+																														{
+																															"attributes": [
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "text/markdown",
+																																					"displayName": "Content Type",
+																																					"name": "contentType",
+																																					"type": 1,
+																																					"value": "text/markdown"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "TOC",
+																																					"displayName": "Content",
+																																					"name": "content",
+																																					"type": 1,
+																																					"value": "TOC"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "jsScript",
+																																					"name": "jsScript",
+																																					"type": 1,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "snippet",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "snippet"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "0",
+																																	"name": "0",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "gridItems",
+																																					"name": "gridItems",
+																																					"type": 4,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [
+																																								{
+																																									"attributes": [],
+																																									"computedValue": null,
+																																									"displayName": "settings",
+																																									"name": "settings",
+																																									"type": 2,
+																																									"value": null
+																																								},
+																																								{
+																																									"attributes": [
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "Praesent eget urna vulputate, interdum ante id, sagittis dolor. Quisque et nulla viverra, ullamcorper odio sit amet, suscipit libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut in ex efficitur, blandit diam sed, elementum orci. Aenean iaculis purus vitae nisi facilisis, non auctor nisi commodo. Praesent bibendum sapien odio, ut finibus est mattis vitae. Proin a lacinia ipsum. In eu tellus sit amet nisi fermentum mollis. Duis viverra placerat nunc, aliquet rutrum urna sollicitudin quis. Suspendisse potenti. Duis porttitor porta eros, vel rutrum nulla ultricies ut. Nunc finibus ornare leo, sed maximus velit sodales sit amet. Etiam fermentum suscipit interdum. Sed molestie ipsum eu diam ornare, eu euismod nibh suscipit. Maecenas porta leo nulla, non fermentum sem volutpat fringilla.\n\nCras in lectus ac lorem euismod vulputate id eget ligula. Phasellus gravida non velit vulputate ultricies. Proin faucibus placerat laoreet. Vivamus bibendum imperdiet porttitor. Donec laoreet odio non luctus malesuada. Vivamus sit amet suscipit odio, eu rutrum tellus. In feugiat ligula eu mi blandit molestie. Praesent in convallis sem. Praesent vitae luctus nibh. Vestibulum at viverra nisl. Phasellus eu neque justo. In iaculis orci vitae eros lobortis vulputate. Ut quis viverra neque.\n\nPhasellus risus odio, volutpat tempus est sit amet, elementum convallis urna. Etiam posuere scelerisque diam, sed blandit nisl tincidunt rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam iaculis gravida augue, et malesuada mauris faucibus quis. Phasellus euismod eleifend ipsum ac mollis. In sem ipsum, sodales in sagittis sed, pulvinar eu nibh. Pellentesque malesuada arcu at egestas tempus. Donec at arcu venenatis, consequat diam vitae, ornare ex. Ut suscipit, neque non vestibulum aliquam, tellus eros dignissim ligula, vitae ullamcorper odio ipsum quis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nAliquam erat volutpat. Nunc libero ligula, aliquet laoreet sapien vitae, suscipit ullamcorper velit. Sed felis dui, facilisis quis pharetra non, hendrerit sed nunc. Cras quis imperdiet lacus. Aenean finibus imperdiet ligula, non blandit enim tincidunt nec. Pellentesque a tristique ligula. Aliquam congue lacus non libero mollis, quis feugiat libero vulputate. Donec ut nulla quis dui venenatis commodo accumsan sed quam. Sed nunc leo, laoreet at accumsan in, molestie ut est. Praesent fermentum pharetra felis ac sollicitudin. Quisque imperdiet neque vel massa semper condimentum. Cras fringilla enim et elit ultrices placerat. Proin egestas justo vitae sapien dignissim, sed gravida purus rhoncus. Duis sagittis lacus massa, ac consectetur ex faucibus vitae. Nunc quis mi non augue sollicitudin mattis at quis lacus. Vivamus semper, dui eget cursus euismod, enim ligula luctus felis, quis placerat magna mauris sed mauris. ",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "Praesent eget urna vulputate, interdum ante id, sagittis dolor. Quisque et nulla viverra, ullamcorper odio sit amet, suscipit libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut in ex efficitur, blandit diam sed, elementum orci. Aenean iaculis purus vitae nisi facilisis, non auctor nisi commodo. Praesent bibendum sapien odio, ut finibus est mattis vitae. Proin a lacinia ipsum. In eu tellus sit amet nisi fermentum mollis. Duis viverra placerat nunc, aliquet rutrum urna sollicitudin quis. Suspendisse potenti. Duis porttitor porta eros, vel rutrum nulla ultricies ut. Nunc finibus ornare leo, sed maximus velit sodales sit amet. Etiam fermentum suscipit interdum. Sed molestie ipsum eu diam ornare, eu euismod nibh suscipit. Maecenas porta leo nulla, non fermentum sem volutpat fringilla.\n\nCras in lectus ac lorem euismod vulputate id eget ligula. Phasellus gravida non velit vulputate ultricies. Proin faucibus placerat laoreet. Vivamus bibendum imperdiet porttitor. Donec laoreet odio non luctus malesuada. Vivamus sit amet suscipit odio, eu rutrum tellus. In feugiat ligula eu mi blandit molestie. Praesent in convallis sem. Praesent vitae luctus nibh. Vestibulum at viverra nisl. Phasellus eu neque justo. In iaculis orci vitae eros lobortis vulputate. Ut quis viverra neque.\n\nPhasellus risus odio, volutpat tempus est sit amet, elementum convallis urna. Etiam posuere scelerisque diam, sed blandit nisl tincidunt rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam iaculis gravida augue, et malesuada mauris faucibus quis. Phasellus euismod eleifend ipsum ac mollis. In sem ipsum, sodales in sagittis sed, pulvinar eu nibh. Pellentesque malesuada arcu at egestas tempus. Donec at arcu venenatis, consequat diam vitae, ornare ex. Ut suscipit, neque non vestibulum aliquam, tellus eros dignissim ligula, vitae ullamcorper odio ipsum quis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nAliquam erat volutpat. Nunc libero ligula, aliquet laoreet sapien vitae, suscipit ullamcorper velit. Sed felis dui, facilisis quis pharetra non, hendrerit sed nunc. Cras quis imperdiet lacus. Aenean finibus imperdiet ligula, non blandit enim tincidunt nec. Pellentesque a tristique ligula. Aliquam congue lacus non libero mollis, quis feugiat libero vulputate. Donec ut nulla quis dui venenatis commodo accumsan sed quam. Sed nunc leo, laoreet at accumsan in, molestie ut est. Praesent fermentum pharetra felis ac sollicitudin. Quisque imperdiet neque vel massa semper condimentum. Cras fringilla enim et elit ultrices placerat. Proin egestas justo vitae sapien dignissim, sed gravida purus rhoncus. Duis sagittis lacus massa, ac consectetur ex faucibus vitae. Nunc quis mi non augue sollicitudin mattis at quis lacus. Vivamus semper, dui eget cursus euismod, enim ligula luctus felis, quis placerat magna mauris sed mauris. "
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "0",
+																																											"name": "0",
+																																											"type": 2,
+																																											"value": null
+																																										}
+																																									],
+																																									"computedValue": null,
+																																									"displayName": "panes",
+																																									"name": "panes",
+																																									"type": 4,
+																																									"value": null
+																																								},
+																																								{
+																																									"attributes": [],
+																																									"computedValue": "undefined",
+																																									"displayName": "name",
+																																									"name": "name",
+																																									"type": 0,
+																																									"value": "undefined"
+																																								},
+																																								{
+																																									"attributes": [],
+																																									"computedValue": "undefined",
+																																									"displayName": "label",
+																																									"name": "label",
+																																									"type": 0,
+																																									"value": "undefined"
+																																								},
+																																								{
+																																									"attributes": [],
+																																									"computedValue": "",
+																																									"displayName": "stylePlugin",
+																																									"name": "stylePlugin",
+																																									"type": 1,
+																																									"value": ""
+																																								},
+																																								{
+																																									"attributes": [
+																																										{
+																																											"attributes": [],
+																																											"computedValue": null,
+																																											"displayName": "settings",
+																																											"name": "settings",
+																																											"type": 2,
+																																											"value": null
+																																										}
+																																									],
+																																									"computedValue": null,
+																																									"displayName": "columnSetting",
+																																									"name": "columnSetting",
+																																									"type": 2,
+																																									"value": null
+																																								}
+																																							],
+																																							"computedValue": null,
+																																							"displayName": "0",
+																																							"name": "0",
+																																							"type": 2,
+																																							"value": null
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "panels",
+																																					"name": "panels",
+																																					"type": 4,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "contexts",
+																																					"name": "contexts",
+																																					"type": 4,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rowSettings",
+																																					"name": "rowSettings",
+																																					"type": 4,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [],
+																																							"computedValue": null,
+																																							"displayName": "readUserIds",
+																																							"name": "readUserIds",
+																																							"type": 4,
+																																							"value": null
+																																						},
+																																						{
+																																							"attributes": [],
+																																							"computedValue": null,
+																																							"displayName": "writeUserIds",
+																																							"name": "writeUserIds",
+																																							"type": 4,
+																																							"value": null
+																																						},
+																																						{
+																																							"attributes": [],
+																																							"computedValue": null,
+																																							"displayName": "deleteUserIds",
+																																							"name": "deleteUserIds",
+																																							"type": 4,
+																																							"value": null
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "entityPermissions",
+																																					"name": "entityPermissions",
+																																					"type": 2,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "undefined",
+																																					"displayName": "id",
+																																					"name": "id",
+																																					"type": 0,
+																																					"value": "undefined"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "gridless",
+																																					"displayName": "layoutType",
+																																					"name": "layoutType",
+																																					"type": 1,
+																																					"value": "gridless"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "page",
+																																					"displayName": "displayType",
+																																					"name": "displayType",
+																																					"type": 1,
+																																					"value": "page"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "undefined",
+																																					"displayName": "name",
+																																					"name": "name",
+																																					"type": 0,
+																																					"value": "undefined"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "undefined",
+																																					"displayName": "title",
+																																					"name": "title",
+																																					"type": 0,
+																																					"value": "undefined"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "ipe",
+																																					"displayName": "site",
+																																					"name": "site",
+																																					"type": 1,
+																																					"value": "ipe"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "undefined",
+																																					"displayName": "userId",
+																																					"name": "userId",
+																																					"type": 0,
+																																					"value": "undefined"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "undefined",
+																																					"displayName": "path",
+																																					"name": "path",
+																																					"type": 0,
+																																					"value": "undefined"
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [
+																																								{
+																																									"attributes": [],
+																																									"computedValue": null,
+																																									"displayName": "settings",
+																																									"name": "settings",
+																																									"type": 2,
+																																									"value": null
+																																								}
+																																							],
+																																							"computedValue": null,
+																																							"displayName": "dataduct",
+																																							"name": "dataduct",
+																																							"type": 2,
+																																							"value": null
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "persistence",
+																																					"name": "persistence",
+																																					"type": 2,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [
+																																								{
+																																									"attributes": [],
+																																									"computedValue": null,
+																																									"displayName": "listeners",
+																																									"name": "listeners",
+																																									"type": 4,
+																																									"value": null
+																																								}
+																																							],
+																																							"computedValue": null,
+																																							"displayName": "interactions",
+																																							"name": "interactions",
+																																							"type": 2,
+																																							"value": null
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "interactions",
+																																					"name": "interactions",
+																																					"type": 2,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [],
+																																							"computedValue": "undefined",
+																																							"displayName": "route",
+																																							"name": "route",
+																																							"type": 0,
+																																							"value": "undefined"
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "prerender",
+																																					"name": "prerender",
+																																					"type": 2,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "selection",
+																																					"name": "selection",
+																																					"type": 2,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [],
+																																							"computedValue": null,
+																																							"displayName": "settings",
+																																							"name": "settings",
+																																							"type": 2,
+																																							"value": null
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "layoutSetting",
+																																					"name": "layoutSetting",
+																																					"type": 2,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "ea65291e-66ba-4dc6-9d98-7815af41617b",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": "ea65291e-66ba-4dc6-9d98-7815af41617b"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "ea65291e-66ba-4dc6-9d98-7815af41617b",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": "ea65291e-66ba-4dc6-9d98-7815af41617b"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "panel",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "panel"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "1",
+																																	"name": "1",
+																																	"type": 2,
+																																	"value": null
+																																}
+																															],
+																															"computedValue": null,
+																															"displayName": "panes",
+																															"name": "panes",
+																															"type": 4,
+																															"value": null
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "undefined",
+																															"displayName": "name",
+																															"name": "name",
+																															"type": 0,
+																															"value": "undefined"
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "undefined",
+																															"displayName": "label",
+																															"name": "label",
+																															"type": 0,
+																															"value": "undefined"
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "sidenav",
+																															"displayName": "stylePlugin",
+																															"name": "stylePlugin",
+																															"type": 1,
+																															"value": "sidenav"
+																														},
+																														{
+																															"attributes": [
+																																{
+																																	"attributes": [],
+																																	"computedValue": null,
+																																	"displayName": "settings",
+																																	"name": "settings",
+																																	"type": 2,
+																																	"value": null
+																																}
+																															],
+																															"computedValue": null,
+																															"displayName": "columnSetting",
+																															"name": "columnSetting",
+																															"type": 2,
+																															"value": null
+																														}
+																													],
+																													"computedValue": null,
+																													"displayName": "0",
+																													"name": "0",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "panels",
+																											"name": "panels",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "contexts",
+																											"name": "contexts",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rowSettings",
+																											"name": "rowSettings",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "readUserIds",
+																													"name": "readUserIds",
+																													"type": 4,
+																													"value": null
+																												},
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "writeUserIds",
+																													"name": "writeUserIds",
+																													"type": 4,
+																													"value": null
+																												},
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "deleteUserIds",
+																													"name": "deleteUserIds",
+																													"type": 4,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "entityPermissions",
+																											"name": "entityPermissions",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "id",
+																											"name": "id",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "gridless",
+																											"displayName": "layoutType",
+																											"name": "layoutType",
+																											"type": 1,
+																											"value": "gridless"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "page",
+																											"displayName": "displayType",
+																											"name": "displayType",
+																											"type": 1,
+																											"value": "page"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "name",
+																											"name": "name",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "title",
+																											"name": "title",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "ipe",
+																											"displayName": "site",
+																											"name": "site",
+																											"type": 1,
+																											"value": "ipe"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "userId",
+																											"name": "userId",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "path",
+																											"name": "path",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [
+																														{
+																															"attributes": [],
+																															"computedValue": null,
+																															"displayName": "settings",
+																															"name": "settings",
+																															"type": 2,
+																															"value": null
+																														}
+																													],
+																													"computedValue": null,
+																													"displayName": "dataduct",
+																													"name": "dataduct",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "persistence",
+																											"name": "persistence",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [
+																														{
+																															"attributes": [],
+																															"computedValue": null,
+																															"displayName": "listeners",
+																															"name": "listeners",
+																															"type": 4,
+																															"value": null
+																														}
+																													],
+																													"computedValue": null,
+																													"displayName": "interactions",
+																													"name": "interactions",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "interactions",
+																											"name": "interactions",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [],
+																													"computedValue": "undefined",
+																													"displayName": "route",
+																													"name": "route",
+																													"type": 0,
+																													"value": "undefined"
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "prerender",
+																											"name": "prerender",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "selection",
+																											"name": "selection",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "settings",
+																													"name": "settings",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "layoutSetting",
+																											"name": "layoutSetting",
+																											"type": 2,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "5aae8d31-deeb-4c7c-8654-ff07055f1307",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": "5aae8d31-deeb-4c7c-8654-ff07055f1307"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "5aae8d31-deeb-4c7c-8654-ff07055f1307",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": "5aae8d31-deeb-4c7c-8654-ff07055f1307"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "panel",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "panel"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "1",
+																							"name": "1",
+																							"type": 2,
+																							"value": null
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "panes",
+																					"name": "panes",
+																					"type": 4,
+																					"value": null
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "name",
+																					"name": "name",
+																					"type": 0,
+																					"value": "undefined"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "label",
+																					"name": "label",
+																					"type": 0,
+																					"value": "undefined"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "",
+																					"displayName": "stylePlugin",
+																					"name": "stylePlugin",
+																					"type": 1,
+																					"value": ""
+																				},
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [],
+																							"computedValue": null,
+																							"displayName": "settings",
+																							"name": "settings",
+																							"type": 2,
+																							"value": null
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "columnSetting",
+																					"name": "columnSetting",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "0",
+																			"name": "0",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "panels",
+																	"name": "panels",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "contexts",
+																	"name": "contexts",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rowSettings",
+																	"name": "rowSettings",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "readUserIds",
+																			"name": "readUserIds",
+																			"type": 4,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "writeUserIds",
+																			"name": "writeUserIds",
+																			"type": 4,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "deleteUserIds",
+																			"name": "deleteUserIds",
+																			"type": 4,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "entityPermissions",
+																	"name": "entityPermissions",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "id",
+																	"name": "id",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "gridless",
+																	"displayName": "layoutType",
+																	"name": "layoutType",
+																	"type": 1,
+																	"value": "gridless"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "page",
+																	"displayName": "displayType",
+																	"name": "displayType",
+																	"type": 1,
+																	"value": "page"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "name",
+																	"name": "name",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "title",
+																	"name": "title",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "ipe",
+																	"displayName": "site",
+																	"name": "site",
+																	"type": 1,
+																	"value": "ipe"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "userId",
+																	"name": "userId",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "path",
+																	"name": "path",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "settings",
+																					"name": "settings",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "dataduct",
+																			"name": "dataduct",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "persistence",
+																	"name": "persistence",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "listeners",
+																					"name": "listeners",
+																					"type": 4,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "interactions",
+																			"name": "interactions",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "interactions",
+																	"name": "interactions",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "undefined",
+																			"displayName": "route",
+																			"name": "route",
+																			"type": 0,
+																			"value": "undefined"
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "prerender",
+																	"name": "prerender",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "selection",
+																	"name": "selection",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "settings",
+																			"name": "settings",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "layoutSetting",
+																	"name": "layoutSetting",
+																	"type": 2,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "9db6fa91-b024-4446-a6d8-2a0a5319b2c0",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "9db6fa91-b024-4446-a6d8-2a0a5319b2c0"
+														},
+														{
+															"attributes": [],
+															"computedValue": "9db6fa91-b024-4446-a6d8-2a0a5319b2c0",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": "9db6fa91-b024-4446-a6d8-2a0a5319b2c0"
+														},
+														{
+															"attributes": [],
+															"computedValue": "panel",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "panel"
+														}
+													],
+													"computedValue": null,
+													"displayName": "0",
+													"name": "0",
+													"type": 2,
+													"value": null
+												},
+												{
+													"attributes": [
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "gridItems",
+																	"name": "gridItems",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "settings",
+																					"name": "settings",
+																					"type": 2,
+																					"value": null
+																				},
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "text/markdown",
+																											"displayName": "Content Type",
+																											"name": "contentType",
+																											"type": 1,
+																											"value": "text/markdown"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "API",
+																											"displayName": "Content",
+																											"name": "content",
+																											"type": 1,
+																											"value": "API"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "jsScript",
+																											"name": "jsScript",
+																											"type": 1,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "snippet",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "snippet"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "0",
+																							"name": "0",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "gridItems",
+																											"name": "gridItems",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [
+																														{
+																															"attributes": [
+																																{
+																																	"attributes": [],
+																																	"computedValue": "side",
+																																	"displayName": "mode",
+																																	"name": "mode",
+																																	"type": 1,
+																																	"value": "side"
+																																},
+																																{
+																																	"attributes": [],
+																																	"computedValue": "end",
+																																	"displayName": "position",
+																																	"name": "position",
+																																	"type": 1,
+																																	"value": "end"
+																																},
+																																{
+																																	"attributes": [],
+																																	"computedValue": "true",
+																																	"displayName": "opened",
+																																	"name": "opened",
+																																	"type": 5,
+																																	"value": "true"
+																																},
+																																{
+																																	"attributes": [],
+																																	"computedValue": "300",
+																																	"displayName": "width",
+																																	"name": "width",
+																																	"type": 0,
+																																	"value": "300"
+																																}
+																															],
+																															"computedValue": null,
+																															"displayName": "settings",
+																															"name": "settings",
+																															"type": 2,
+																															"value": null
+																														},
+																														{
+																															"attributes": [
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "form_autocomplete",
+																																					"displayName": "group",
+																																					"name": "group",
+																																					"type": 1,
+																																					"value": "form_autocomplete"
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": ""
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "timeline_nav",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "timeline_nav"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "0",
+																																	"name": "0",
+																																	"type": 2,
+																																	"value": null
+																																},
+																																{
+																																	"attributes": [
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "gridItems",
+																																					"name": "gridItems",
+																																					"type": 4,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [
+																																								{
+																																									"attributes": [],
+																																									"computedValue": null,
+																																									"displayName": "settings",
+																																									"name": "settings",
+																																									"type": 2,
+																																									"value": null
+																																								},
+																																								{
+																																									"attributes": [
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "content_editor",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "content_editor"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "0",
+																																											"name": "0",
+																																											"type": 2,
+																																											"value": null
+																																										}
+																																									],
+																																									"computedValue": null,
+																																									"displayName": "panes",
+																																									"name": "panes",
+																																									"type": 4,
+																																									"value": null
+																																								},
+																																								{
+																																									"attributes": [],
+																																									"computedValue": "undefined",
+																																									"displayName": "name",
+																																									"name": "name",
+																																									"type": 0,
+																																									"value": "undefined"
+																																								},
+																																								{
+																																									"attributes": [],
+																																									"computedValue": "undefined",
+																																									"displayName": "label",
+																																									"name": "label",
+																																									"type": 0,
+																																									"value": "undefined"
+																																								},
+																																								{
+																																									"attributes": [],
+																																									"computedValue": "",
+																																									"displayName": "stylePlugin",
+																																									"name": "stylePlugin",
+																																									"type": 1,
+																																									"value": ""
+																																								},
+																																								{
+																																									"attributes": [
+																																										{
+																																											"attributes": [],
+																																											"computedValue": null,
+																																											"displayName": "settings",
+																																											"name": "settings",
+																																											"type": 2,
+																																											"value": null
+																																										}
+																																									],
+																																									"computedValue": null,
+																																									"displayName": "columnSetting",
+																																									"name": "columnSetting",
+																																									"type": 2,
+																																									"value": null
+																																								}
+																																							],
+																																							"computedValue": null,
+																																							"displayName": "0",
+																																							"name": "0",
+																																							"type": 2,
+																																							"value": null
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "panels",
+																																					"name": "panels",
+																																					"type": 4,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "contexts",
+																																					"name": "contexts",
+																																					"type": 4,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rowSettings",
+																																					"name": "rowSettings",
+																																					"type": 4,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [],
+																																							"computedValue": null,
+																																							"displayName": "readUserIds",
+																																							"name": "readUserIds",
+																																							"type": 4,
+																																							"value": null
+																																						},
+																																						{
+																																							"attributes": [],
+																																							"computedValue": null,
+																																							"displayName": "writeUserIds",
+																																							"name": "writeUserIds",
+																																							"type": 4,
+																																							"value": null
+																																						},
+																																						{
+																																							"attributes": [],
+																																							"computedValue": null,
+																																							"displayName": "deleteUserIds",
+																																							"name": "deleteUserIds",
+																																							"type": 4,
+																																							"value": null
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "entityPermissions",
+																																					"name": "entityPermissions",
+																																					"type": 2,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "undefined",
+																																					"displayName": "id",
+																																					"name": "id",
+																																					"type": 0,
+																																					"value": "undefined"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "gridless",
+																																					"displayName": "layoutType",
+																																					"name": "layoutType",
+																																					"type": 1,
+																																					"value": "gridless"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "page",
+																																					"displayName": "displayType",
+																																					"name": "displayType",
+																																					"type": 1,
+																																					"value": "page"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "undefined",
+																																					"displayName": "name",
+																																					"name": "name",
+																																					"type": 0,
+																																					"value": "undefined"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "undefined",
+																																					"displayName": "title",
+																																					"name": "title",
+																																					"type": 0,
+																																					"value": "undefined"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "ipe",
+																																					"displayName": "site",
+																																					"name": "site",
+																																					"type": 1,
+																																					"value": "ipe"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "undefined",
+																																					"displayName": "userId",
+																																					"name": "userId",
+																																					"type": 0,
+																																					"value": "undefined"
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "undefined",
+																																					"displayName": "path",
+																																					"name": "path",
+																																					"type": 0,
+																																					"value": "undefined"
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [
+																																								{
+																																									"attributes": [],
+																																									"computedValue": null,
+																																									"displayName": "settings",
+																																									"name": "settings",
+																																									"type": 2,
+																																									"value": null
+																																								}
+																																							],
+																																							"computedValue": null,
+																																							"displayName": "dataduct",
+																																							"name": "dataduct",
+																																							"type": 2,
+																																							"value": null
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "persistence",
+																																					"name": "persistence",
+																																					"type": 2,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [
+																																								{
+																																									"attributes": [],
+																																									"computedValue": null,
+																																									"displayName": "listeners",
+																																									"name": "listeners",
+																																									"type": 4,
+																																									"value": null
+																																								}
+																																							],
+																																							"computedValue": null,
+																																							"displayName": "interactions",
+																																							"name": "interactions",
+																																							"type": 2,
+																																							"value": null
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "interactions",
+																																					"name": "interactions",
+																																					"type": 2,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [],
+																																							"computedValue": "undefined",
+																																							"displayName": "route",
+																																							"name": "route",
+																																							"type": 0,
+																																							"value": "undefined"
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "prerender",
+																																					"name": "prerender",
+																																					"type": 2,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "selection",
+																																					"name": "selection",
+																																					"type": 2,
+																																					"value": null
+																																				},
+																																				{
+																																					"attributes": [
+																																						{
+																																							"attributes": [],
+																																							"computedValue": null,
+																																							"displayName": "settings",
+																																							"name": "settings",
+																																							"type": 2,
+																																							"value": null
+																																						}
+																																					],
+																																					"computedValue": null,
+																																					"displayName": "layoutSetting",
+																																					"name": "layoutSetting",
+																																					"type": 2,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "settings",
+																																			"name": "settings",
+																																			"type": 2,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "false",
+																																			"displayName": "locked",
+																																			"name": "locked",
+																																			"type": 5,
+																																			"value": "false"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": null,
+																																			"displayName": "contexts",
+																																			"name": "contexts",
+																																			"type": 4,
+																																			"value": null
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "0c900e10-5b04-4674-a8cf-151c751f2e51",
+																																			"displayName": "name",
+																																			"name": "name",
+																																			"type": 1,
+																																			"value": "0c900e10-5b04-4674-a8cf-151c751f2e51"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "0c900e10-5b04-4674-a8cf-151c751f2e51",
+																																			"displayName": "label",
+																																			"name": "label",
+																																			"type": 1,
+																																			"value": "0c900e10-5b04-4674-a8cf-151c751f2e51"
+																																		},
+																																		{
+																																			"attributes": [],
+																																			"computedValue": "panel",
+																																			"displayName": "contentPlugin",
+																																			"name": "contentPlugin",
+																																			"type": 1,
+																																			"value": "panel"
+																																		}
+																																	],
+																																	"computedValue": null,
+																																	"displayName": "1",
+																																	"name": "1",
+																																	"type": 2,
+																																	"value": null
+																																}
+																															],
+																															"computedValue": null,
+																															"displayName": "panes",
+																															"name": "panes",
+																															"type": 4,
+																															"value": null
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "undefined",
+																															"displayName": "name",
+																															"name": "name",
+																															"type": 0,
+																															"value": "undefined"
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "undefined",
+																															"displayName": "label",
+																															"name": "label",
+																															"type": 0,
+																															"value": "undefined"
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "sidenav",
+																															"displayName": "stylePlugin",
+																															"name": "stylePlugin",
+																															"type": 1,
+																															"value": "sidenav"
+																														},
+																														{
+																															"attributes": [
+																																{
+																																	"attributes": [],
+																																	"computedValue": null,
+																																	"displayName": "settings",
+																																	"name": "settings",
+																																	"type": 2,
+																																	"value": null
+																																}
+																															],
+																															"computedValue": null,
+																															"displayName": "columnSetting",
+																															"name": "columnSetting",
+																															"type": 2,
+																															"value": null
+																														}
+																													],
+																													"computedValue": null,
+																													"displayName": "0",
+																													"name": "0",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "panels",
+																											"name": "panels",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "contexts",
+																											"name": "contexts",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rowSettings",
+																											"name": "rowSettings",
+																											"type": 4,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "readUserIds",
+																													"name": "readUserIds",
+																													"type": 4,
+																													"value": null
+																												},
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "writeUserIds",
+																													"name": "writeUserIds",
+																													"type": 4,
+																													"value": null
+																												},
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "deleteUserIds",
+																													"name": "deleteUserIds",
+																													"type": 4,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "entityPermissions",
+																											"name": "entityPermissions",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "id",
+																											"name": "id",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "gridless",
+																											"displayName": "layoutType",
+																											"name": "layoutType",
+																											"type": 1,
+																											"value": "gridless"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "page",
+																											"displayName": "displayType",
+																											"name": "displayType",
+																											"type": 1,
+																											"value": "page"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "name",
+																											"name": "name",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "title",
+																											"name": "title",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "ipe",
+																											"displayName": "site",
+																											"name": "site",
+																											"type": 1,
+																											"value": "ipe"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "userId",
+																											"name": "userId",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "undefined",
+																											"displayName": "path",
+																											"name": "path",
+																											"type": 0,
+																											"value": "undefined"
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [
+																														{
+																															"attributes": [],
+																															"computedValue": null,
+																															"displayName": "settings",
+																															"name": "settings",
+																															"type": 2,
+																															"value": null
+																														}
+																													],
+																													"computedValue": null,
+																													"displayName": "dataduct",
+																													"name": "dataduct",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "persistence",
+																											"name": "persistence",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [
+																														{
+																															"attributes": [],
+																															"computedValue": null,
+																															"displayName": "listeners",
+																															"name": "listeners",
+																															"type": 4,
+																															"value": null
+																														}
+																													],
+																													"computedValue": null,
+																													"displayName": "interactions",
+																													"name": "interactions",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "interactions",
+																											"name": "interactions",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [],
+																													"computedValue": "undefined",
+																													"displayName": "route",
+																													"name": "route",
+																													"type": 0,
+																													"value": "undefined"
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "prerender",
+																											"name": "prerender",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "selection",
+																											"name": "selection",
+																											"type": 2,
+																											"value": null
+																										},
+																										{
+																											"attributes": [
+																												{
+																													"attributes": [],
+																													"computedValue": null,
+																													"displayName": "settings",
+																													"name": "settings",
+																													"type": 2,
+																													"value": null
+																												}
+																											],
+																											"computedValue": null,
+																											"displayName": "layoutSetting",
+																											"name": "layoutSetting",
+																											"type": 2,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "a5353818-a627-4aad-8f15-a1cc43115cff",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": "a5353818-a627-4aad-8f15-a1cc43115cff"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "a5353818-a627-4aad-8f15-a1cc43115cff",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": "a5353818-a627-4aad-8f15-a1cc43115cff"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "panel",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "panel"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "1",
+																							"name": "1",
+																							"type": 2,
+																							"value": null
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "panes",
+																					"name": "panes",
+																					"type": 4,
+																					"value": null
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "name",
+																					"name": "name",
+																					"type": 0,
+																					"value": "undefined"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "label",
+																					"name": "label",
+																					"type": 0,
+																					"value": "undefined"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "",
+																					"displayName": "stylePlugin",
+																					"name": "stylePlugin",
+																					"type": 1,
+																					"value": ""
+																				},
+																				{
+																					"attributes": [
+																						{
+																							"attributes": [],
+																							"computedValue": null,
+																							"displayName": "settings",
+																							"name": "settings",
+																							"type": 2,
+																							"value": null
+																						}
+																					],
+																					"computedValue": null,
+																					"displayName": "columnSetting",
+																					"name": "columnSetting",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "0",
+																			"name": "0",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "panels",
+																	"name": "panels",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "contexts",
+																	"name": "contexts",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rowSettings",
+																	"name": "rowSettings",
+																	"type": 4,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "readUserIds",
+																			"name": "readUserIds",
+																			"type": 4,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "writeUserIds",
+																			"name": "writeUserIds",
+																			"type": 4,
+																			"value": null
+																		},
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "deleteUserIds",
+																			"name": "deleteUserIds",
+																			"type": 4,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "entityPermissions",
+																	"name": "entityPermissions",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "id",
+																	"name": "id",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "gridless",
+																	"displayName": "layoutType",
+																	"name": "layoutType",
+																	"type": 1,
+																	"value": "gridless"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "page",
+																	"displayName": "displayType",
+																	"name": "displayType",
+																	"type": 1,
+																	"value": "page"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "name",
+																	"name": "name",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "title",
+																	"name": "title",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "ipe",
+																	"displayName": "site",
+																	"name": "site",
+																	"type": 1,
+																	"value": "ipe"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "userId",
+																	"name": "userId",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [],
+																	"computedValue": "undefined",
+																	"displayName": "path",
+																	"name": "path",
+																	"type": 0,
+																	"value": "undefined"
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "settings",
+																					"name": "settings",
+																					"type": 2,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "dataduct",
+																			"name": "dataduct",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "persistence",
+																	"name": "persistence",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": null,
+																					"displayName": "listeners",
+																					"name": "listeners",
+																					"type": 4,
+																					"value": null
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "interactions",
+																			"name": "interactions",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "interactions",
+																	"name": "interactions",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": "undefined",
+																			"displayName": "route",
+																			"name": "route",
+																			"type": 0,
+																			"value": "undefined"
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "prerender",
+																	"name": "prerender",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "selection",
+																	"name": "selection",
+																	"type": 2,
+																	"value": null
+																},
+																{
+																	"attributes": [
+																		{
+																			"attributes": [],
+																			"computedValue": null,
+																			"displayName": "settings",
+																			"name": "settings",
+																			"type": 2,
+																			"value": null
+																		}
+																	],
+																	"computedValue": null,
+																	"displayName": "layoutSetting",
+																	"name": "layoutSetting",
+																	"type": 2,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "settings",
+															"name": "settings",
+															"type": 2,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "false",
+															"displayName": "locked",
+															"name": "locked",
+															"type": 5,
+															"value": "false"
+														},
+														{
+															"attributes": [],
+															"computedValue": null,
+															"displayName": "contexts",
+															"name": "contexts",
+															"type": 4,
+															"value": null
+														},
+														{
+															"attributes": [],
+															"computedValue": "40bf6ca6-e580-4f75-ba0b-4806d2fcd2bf",
+															"displayName": "name",
+															"name": "name",
+															"type": 1,
+															"value": "40bf6ca6-e580-4f75-ba0b-4806d2fcd2bf"
+														},
+														{
+															"attributes": [],
+															"computedValue": "40bf6ca6-e580-4f75-ba0b-4806d2fcd2bf",
+															"displayName": "label",
+															"name": "label",
+															"type": 1,
+															"value": "40bf6ca6-e580-4f75-ba0b-4806d2fcd2bf"
+														},
+														{
+															"attributes": [],
+															"computedValue": "panel",
+															"displayName": "contentPlugin",
+															"name": "contentPlugin",
+															"type": 1,
+															"value": "panel"
+														}
+													],
+													"computedValue": null,
+													"displayName": "1",
+													"name": "1",
+													"type": 2,
+													"value": null
+												}
+											],
+											"computedValue": null,
+											"displayName": "panes",
+											"name": "panes",
+											"type": 4,
+											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "name",
+											"name": "name",
+											"type": 0,
+											"value": "undefined"
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "label",
+											"name": "label",
+											"type": 0,
+											"value": "undefined"
+										},
+										{
+											"attributes": [],
+											"computedValue": "tabs",
+											"displayName": "stylePlugin",
+											"name": "stylePlugin",
+											"type": 1,
+											"value": "tabs"
+										},
+										{
+											"attributes": [
+												{
+													"attributes": [],
+													"computedValue": null,
+													"displayName": "settings",
+													"name": "settings",
+													"type": 2,
+													"value": null
+												}
+											],
+											"computedValue": null,
+											"displayName": "columnSetting",
+											"name": "columnSetting",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "0",
+									"name": "0",
+									"type": 2,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "panels",
+							"name": "panels",
+							"type": 4,
+							"value": null
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "contexts",
+							"name": "contexts",
+							"type": 4,
+							"value": null
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "rowSettings",
+							"name": "rowSettings",
+							"type": 4,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "readUserIds",
+									"name": "readUserIds",
+									"type": 4,
+									"value": null
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "writeUserIds",
+									"name": "writeUserIds",
+									"type": 4,
+									"value": null
+								},
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "deleteUserIds",
+									"name": "deleteUserIds",
+									"type": 4,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "entityPermissions",
+							"name": "entityPermissions",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "id",
+							"name": "id",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "gridless",
+							"displayName": "layoutType",
+							"name": "layoutType",
+							"type": 1,
+							"value": "gridless"
+						},
+						{
+							"attributes": [],
+							"computedValue": "page",
+							"displayName": "displayType",
+							"name": "displayType",
+							"type": 1,
+							"value": "page"
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "name",
+							"name": "name",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "title",
+							"name": "title",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "ipe",
+							"displayName": "site",
+							"name": "site",
+							"type": 1,
+							"value": "ipe"
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "userId",
+							"name": "userId",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [],
+							"computedValue": "undefined",
+							"displayName": "path",
+							"name": "path",
+							"type": 0,
+							"value": "undefined"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": null,
+											"displayName": "settings",
+											"name": "settings",
+											"type": 2,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "dataduct",
+									"name": "dataduct",
+									"type": 2,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "persistence",
+							"name": "persistence",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [
+										{
+											"attributes": [],
+											"computedValue": null,
+											"displayName": "listeners",
+											"name": "listeners",
+											"type": 4,
+											"value": null
+										}
+									],
+									"computedValue": null,
+									"displayName": "interactions",
+									"name": "interactions",
+									"type": 2,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "interactions",
+							"name": "interactions",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "undefined",
+									"displayName": "route",
+									"name": "route",
+									"type": 0,
+									"value": "undefined"
+								}
+							],
+							"computedValue": null,
+							"displayName": "prerender",
+							"name": "prerender",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [],
+							"computedValue": null,
+							"displayName": "selection",
+							"name": "selection",
+							"type": 2,
+							"value": null
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": null,
+									"displayName": "settings",
+									"name": "settings",
+									"type": 2,
+									"value": null
+								}
+							],
+							"computedValue": null,
+							"displayName": "layoutSetting",
+							"name": "layoutSetting",
+							"type": 2,
+							"value": null
+						}
+					]
+				}
+			],
+			"settings": [],
+			"stylePlugin": ""
+		}
+	],
+	"path": "/autocomplete",
+	"persistence": {
+		"dataduct": {
+			"settings": []
+		}
+	},
+	"prerender": {},
+	"rowSettings": [
+		{
+			"settings": []
+		}
+	],
+	"selection": {},
+	"site": "ipe",
+	"title": "Autocomplete",
+	"userId": "44e8b438-a061-70ca-faa7-3d3e93c015cb"
+}
