@@ -826,11 +826,446 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "link"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
 																							"displayName": "2",
 																							"name": "2",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "Select",
+																											"displayName": "text",
+																											"name": "text",
+																											"type": 1,
+																											"value": "Select"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "/select",
+																											"displayName": "url",
+																											"name": "url",
+																											"type": 1,
+																											"value": "/select"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "text",
+																											"displayName": "appearance",
+																											"name": "appearance",
+																											"type": 1,
+																											"value": "text"
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "link",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "link"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "3",
+																							"name": "3",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "Listbox",
+																											"displayName": "text",
+																											"name": "text",
+																											"type": 1,
+																											"value": "Listbox"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "/listbox",
+																											"displayName": "url",
+																											"name": "url",
+																											"type": 1,
+																											"value": "/listbox"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "text",
+																											"displayName": "appearance",
+																											"name": "appearance",
+																											"type": 1,
+																											"value": "text"
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "link",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "link"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "4",
+																							"name": "4",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "Radiogroup",
+																											"displayName": "text",
+																											"name": "text",
+																											"type": 1,
+																											"value": "Radiogroup"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "/radiogroup",
+																											"displayName": "url",
+																											"name": "url",
+																											"type": 1,
+																											"value": "/radiogroup"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "text",
+																											"displayName": "appearance",
+																											"name": "appearance",
+																											"type": 1,
+																											"value": "text"
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "link",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "link"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "5",
+																							"name": "5",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "Autocomplete",
+																											"displayName": "text",
+																											"name": "text",
+																											"type": 1,
+																											"value": "Autocomplete"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "/autocomplete",
+																											"displayName": "url",
+																											"name": "url",
+																											"type": 1,
+																											"value": "/autocomplete"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "text",
+																											"displayName": "appearance",
+																											"name": "appearance",
+																											"type": 1,
+																											"value": "text"
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "link",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "link"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "6",
+																							"name": "6",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "Snippet",
+																											"displayName": "text",
+																											"name": "text",
+																											"type": 1,
+																											"value": "Snippet"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "/snippet",
+																											"displayName": "url",
+																											"name": "url",
+																											"type": 1,
+																											"value": "/snippet"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "text",
+																											"displayName": "appearance",
+																											"name": "appearance",
+																											"type": 1,
+																											"value": "text"
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "link",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "link"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "7",
+																							"name": "7",
 																							"type": 2,
 																							"value": null
 																						}
@@ -1331,6 +1766,252 @@
 																			"computedValue": null,
 																			"displayName": "3",
 																			"name": "3",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "_route.path",
+																					"displayName": "field",
+																					"name": "field",
+																					"type": 1,
+																					"value": "_route.path"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "=",
+																					"displayName": "operator",
+																					"name": "operator",
+																					"type": 1,
+																					"value": "="
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "/pages/panelpage/935433c3-d1c8-4301-a4c3-bd265cb7b0e3",
+																					"displayName": "value",
+																					"name": "value",
+																					"type": 1,
+																					"value": "/pages/panelpage/935433c3-d1c8-4301-a4c3-bd265cb7b0e3"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "entity",
+																					"name": "entity",
+																					"type": 0,
+																					"value": "undefined"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "4",
+																			"name": "4",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "_route.path",
+																					"displayName": "field",
+																					"name": "field",
+																					"type": 1,
+																					"value": "_route.path"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "=",
+																					"displayName": "operator",
+																					"name": "operator",
+																					"type": 1,
+																					"value": "="
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "/pages/panelpage/954cf83a-effc-41e9-ad9f-45d18a020c2a",
+																					"displayName": "value",
+																					"name": "value",
+																					"type": 1,
+																					"value": "/pages/panelpage/954cf83a-effc-41e9-ad9f-45d18a020c2a"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "entity",
+																					"name": "entity",
+																					"type": 0,
+																					"value": "undefined"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "5",
+																			"name": "5",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "_route.path",
+																					"displayName": "field",
+																					"name": "field",
+																					"type": 1,
+																					"value": "_route.path"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "=",
+																					"displayName": "operator",
+																					"name": "operator",
+																					"type": 1,
+																					"value": "="
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "/pages/panelpage/a43b1a89-ad68-4af4-87fc-f97010689410",
+																					"displayName": "value",
+																					"name": "value",
+																					"type": 1,
+																					"value": "/pages/panelpage/a43b1a89-ad68-4af4-87fc-f97010689410"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "entity",
+																					"name": "entity",
+																					"type": 0,
+																					"value": "undefined"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "6",
+																			"name": "6",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "_route.path",
+																					"displayName": "field",
+																					"name": "field",
+																					"type": 1,
+																					"value": "_route.path"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "=",
+																					"displayName": "operator",
+																					"name": "operator",
+																					"type": 1,
+																					"value": "="
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "/pages/panelpage/d863e671-ae36-487c-be8e-84e66b16a430",
+																					"displayName": "value",
+																					"name": "value",
+																					"type": 1,
+																					"value": "/pages/panelpage/d863e671-ae36-487c-be8e-84e66b16a430"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "entity",
+																					"name": "entity",
+																					"type": 0,
+																					"value": "undefined"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "7",
+																			"name": "7",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "_route.path",
+																					"displayName": "field",
+																					"name": "field",
+																					"type": 1,
+																					"value": "_route.path"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "=",
+																					"displayName": "operator",
+																					"name": "operator",
+																					"type": 1,
+																					"value": "="
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "/pages/panelpage/35a717c6-dd4a-48c9-99e7-1489dce76952",
+																					"displayName": "value",
+																					"name": "value",
+																					"type": 1,
+																					"value": "/pages/panelpage/35a717c6-dd4a-48c9-99e7-1489dce76952"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "entity",
+																					"name": "entity",
+																					"type": 0,
+																					"value": "undefined"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "8",
+																			"name": "8",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "_route.path",
+																					"displayName": "field",
+																					"name": "field",
+																					"type": 1,
+																					"value": "_route.path"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "=",
+																					"displayName": "operator",
+																					"name": "operator",
+																					"type": 1,
+																					"value": "="
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "/pages/panelpage/6a7110ef-db50-4f38-b85a-0876eb8c74fe",
+																					"displayName": "value",
+																					"name": "value",
+																					"type": 1,
+																					"value": "/pages/panelpage/6a7110ef-db50-4f38-b85a-0876eb8c74fe"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "entity",
+																					"name": "entity",
+																					"type": 0,
+																					"value": "undefined"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "9",
+																			"name": "9",
 																			"type": 2,
 																			"value": null
 																		}
@@ -2862,6 +3543,31 @@
 					"field": "_route.path",
 					"operator": "=",
 					"value": "/pages/panelpage/6faeec6f-78b7-4e2d-90a2-aa0c4af92a16"
+				},
+				{
+					"field": "_route.path",
+					"operator": "=",
+					"value": "/pages/panelpage/954cf83a-effc-41e9-ad9f-45d18a020c2a"
+				},
+				{
+					"field": "_route.path",
+					"operator": "=",
+					"value": "/pages/panelpage/a43b1a89-ad68-4af4-87fc-f97010689410"
+				},
+				{
+					"field": "_route.path",
+					"operator": "=",
+					"value": "/pages/panelpage/d863e671-ae36-487c-be8e-84e66b16a430"
+				},
+				{
+					"field": "_route.path",
+					"operator": "=",
+					"value": "/pages/panelpage/35a717c6-dd4a-48c9-99e7-1489dce76952"
+				},
+				{
+					"field": "_route.path",
+					"operator": "=",
+					"value": "/pages/panelpage/6a7110ef-db50-4f38-b85a-0876eb8c74fe"
 				}
 			]
 		}
