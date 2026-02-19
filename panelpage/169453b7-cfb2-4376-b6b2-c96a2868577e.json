@@ -28,8 +28,35 @@
 					"handler": {
 						"plugin": "tour_binding",
 						"settings": {
-							"params": [],
-							"paramsString": ""
+							"params": [
+								{
+									"flags": [
+										{
+											"enabled": false,
+											"name": "page"
+										},
+										{
+											"enabled": false,
+											"name": "limit"
+										},
+										{
+											"enabled": false,
+											"name": "offset"
+										},
+										{
+											"enabled": false,
+											"name": "searchString"
+										}
+									],
+									"mapping": {
+										"context": "",
+										"testValue": "binding",
+										"type": "static",
+										"value": "binding"
+									}
+								}
+							],
+							"paramsString": "group=:group"
 						}
 					}
 				}
