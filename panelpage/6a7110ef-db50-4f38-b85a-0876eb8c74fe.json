@@ -81,6 +81,10 @@
 					"label": "5c0eda2f-d02f-4c7c-ab23-cdd703cad4f1",
 					"locked": false,
 					"name": "5c0eda2f-d02f-4c7c-ab23-cdd703cad4f1",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -380,6 +384,31 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "snippet"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -521,6 +550,31 @@
 																																			"name": "contentPlugin",
 																																			"type": 1,
 																																			"value": "snippet"
+																																		},
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "",
+																																					"displayName": "condition",
+																																					"name": "condition",
+																																					"type": 1,
+																																					"value": ""
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rules",
+																																					"name": "rules",
+																																					"type": 4,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "rule",
+																																			"name": "rule",
+																																			"type": 2,
+																																			"value": null
 																																		}
 																																	],
 																																	"computedValue": null,
@@ -569,11 +623,118 @@
 																																														},
 																																														{
 																																															"attributes": [],
-																																															"computedValue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius ante vel porttitor dapibus. Aenean non massa magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce quis ultrices justo. Aenean porta leo vitae bibendum efficitur. Proin convallis ex orci, non sagittis eros cursus quis. Phasellus eget ultricies nisl. Maecenas egestas risus vel luctus dictum.\n\nPraesent eget urna vulputate, interdum ante id, sagittis dolor. Quisque et nulla viverra, ullamcorper odio sit amet, suscipit libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut in ex efficitur, blandit diam sed, elementum orci. Aenean iaculis purus vitae nisi facilisis, non auctor nisi commodo. Praesent bibendum sapien odio, ut finibus est mattis vitae. Proin a lacinia ipsum. In eu tellus sit amet nisi fermentum mollis. Duis viverra placerat nunc, aliquet rutrum urna sollicitudin quis. Suspendisse potenti. Duis porttitor porta eros, vel rutrum nulla ultricies ut. Nunc finibus ornare leo, sed maximus velit sodales sit amet. Etiam fermentum suscipit interdum. Sed molestie ipsum eu diam ornare, eu euismod nibh suscipit. Maecenas porta leo nulla, non fermentum sem volutpat fringilla.\n\nCras in lectus ac lorem euismod vulputate id eget ligula. Phasellus gravida non velit vulputate ultricies. Proin faucibus placerat laoreet. Vivamus bibendum imperdiet porttitor. Donec laoreet odio non luctus malesuada. Vivamus sit amet suscipit odio, eu rutrum tellus. In feugiat ligula eu mi blandit molestie. Praesent in convallis sem. Praesent vitae luctus nibh. Vestibulum at viverra nisl. Phasellus eu neque justo. In iaculis orci vitae eros lobortis vulputate. Ut quis viverra neque.\n\nPhasellus risus odio, volutpat tempus est sit amet, elementum convallis urna. Etiam posuere scelerisque diam, sed blandit nisl tincidunt rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam iaculis gravida augue, et malesuada mauris faucibus quis. Phasellus euismod eleifend ipsum ac mollis. In sem ipsum, sodales in sagittis sed, pulvinar eu nibh. Pellentesque malesuada arcu at egestas tempus. Donec at arcu venenatis, consequat diam vitae, ornare ex. Ut suscipit, neque non vestibulum aliquam, tellus eros dignissim ligula, vitae ullamcorper odio ipsum quis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. ",
+																																															"computedValue": "The **Snippet** component is a flexible content block that lets you insert custom text, Markdown, HTML, JSON, and optional JavaScript into a page. Snippets are useful when you need more control or customization than standard page components provide.\n\nSnippets render directly as part of the page and can include dynamic values through tokens.",
 																																															"displayName": "Content",
 																																															"name": "content",
 																																															"type": 1,
-																																															"value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius ante vel porttitor dapibus. Aenean non massa magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce quis ultrices justo. Aenean porta leo vitae bibendum efficitur. Proin convallis ex orci, non sagittis eros cursus quis. Phasellus eget ultricies nisl. Maecenas egestas risus vel luctus dictum.\n\nPraesent eget urna vulputate, interdum ante id, sagittis dolor. Quisque et nulla viverra, ullamcorper odio sit amet, suscipit libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut in ex efficitur, blandit diam sed, elementum orci. Aenean iaculis purus vitae nisi facilisis, non auctor nisi commodo. Praesent bibendum sapien odio, ut finibus est mattis vitae. Proin a lacinia ipsum. In eu tellus sit amet nisi fermentum mollis. Duis viverra placerat nunc, aliquet rutrum urna sollicitudin quis. Suspendisse potenti. Duis porttitor porta eros, vel rutrum nulla ultricies ut. Nunc finibus ornare leo, sed maximus velit sodales sit amet. Etiam fermentum suscipit interdum. Sed molestie ipsum eu diam ornare, eu euismod nibh suscipit. Maecenas porta leo nulla, non fermentum sem volutpat fringilla.\n\nCras in lectus ac lorem euismod vulputate id eget ligula. Phasellus gravida non velit vulputate ultricies. Proin faucibus placerat laoreet. Vivamus bibendum imperdiet porttitor. Donec laoreet odio non luctus malesuada. Vivamus sit amet suscipit odio, eu rutrum tellus. In feugiat ligula eu mi blandit molestie. Praesent in convallis sem. Praesent vitae luctus nibh. Vestibulum at viverra nisl. Phasellus eu neque justo. In iaculis orci vitae eros lobortis vulputate. Ut quis viverra neque.\n\nPhasellus risus odio, volutpat tempus est sit amet, elementum convallis urna. Etiam posuere scelerisque diam, sed blandit nisl tincidunt rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam iaculis gravida augue, et malesuada mauris faucibus quis. Phasellus euismod eleifend ipsum ac mollis. In sem ipsum, sodales in sagittis sed, pulvinar eu nibh. Pellentesque malesuada arcu at egestas tempus. Donec at arcu venenatis, consequat diam vitae, ornare ex. Ut suscipit, neque non vestibulum aliquam, tellus eros dignissim ligula, vitae ullamcorper odio ipsum quis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. "
+																																															"value": "The **Snippet** component is a flexible content block that lets you insert custom text, Markdown, HTML, JSON, and optional JavaScript into a page. Snippets are useful when you need more control or customization than standard page components provide.\n\nSnippets render directly as part of the page and can include dynamic values through tokens."
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												},
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "",
+																																															"displayName": "condition",
+																																															"name": "condition",
+																																															"type": 1,
+																																															"value": ""
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "rules",
+																																															"name": "rules",
+																																															"type": 4,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "rule",
+																																													"name": "rule",
+																																													"type": 2,
+																																													"value": null
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "0",
+																																											"name": "0",
+																																											"type": 2,
+																																											"value": null
+																																										},
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "## Overview\n\nA snippet allows you to:\n\n- Enter custom content in a variety of formats  \n- Choose how that content should be interpreted  \n- Inject optional JavaScript to enhance interactivity  \n- Use tokens that automatically populate dynamic values when the page loads  \n\nSnippets are ideal for lightweight custom sections, formatted text, embeds, or small interactive pieces without creating new templates.",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "## Overview\n\nA snippet allows you to:\n\n- Enter custom content in a variety of formats  \n- Choose how that content should be interpreted  \n- Inject optional JavaScript to enhance interactivity  \n- Use tokens that automatically populate dynamic values when the page loads  \n\nSnippets are ideal for lightweight custom sections, formatted text, embeds, or small interactive pieces without creating new templates."
 																																														},
 																																														{
 																																															"attributes": [],
@@ -632,8 +793,746 @@
 																																												}
 																																											],
 																																											"computedValue": null,
-																																											"displayName": "0",
-																																											"name": "0",
+																																											"displayName": "1",
+																																											"name": "1",
+																																											"type": 2,
+																																											"value": null
+																																										},
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "## Features\n\n- Supports **Markdown**, **HTML**, and **JSON** content  \n- Allows optional **inline JavaScript**  \n- Provides **dynamic tokens** that are replaced with real data at render time  \n- Works within any page region that accepts snippet blocks  \n- Renders directly into the final page output  ",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "## Features\n\n- Supports **Markdown**, **HTML**, and **JSON** content  \n- Allows optional **inline JavaScript**  \n- Provides **dynamic tokens** that are replaced with real data at render time  \n- Works within any page region that accepts snippet blocks  \n- Renders directly into the final page output  "
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "2",
+																																											"name": "2",
+																																											"type": 2,
+																																											"value": null
+																																										},
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "\n## Anatomy\n\nThe Snippet component consists of three main fields:\n\n### Content\nThe main body of the snippet.  \nAccepts text, Markdown, HTML, or JSON depending on your needs.\n\n### Content Type\nDetermines how the content is interpreted and displayed:\n- Markdown  \n- HTML  \n- JSON  \n\n### JavaScript (Optional)\nA custom script that runs when the snippet appears on the page.  \nUseful for adding lightweight behavior or interaction.",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "\n## Anatomy\n\nThe Snippet component consists of three main fields:\n\n### Content\nThe main body of the snippet.  \nAccepts text, Markdown, HTML, or JSON depending on your needs.\n\n### Content Type\nDetermines how the content is interpreted and displayed:\n- Markdown  \n- HTML  \n- JSON  \n\n### JavaScript (Optional)\nA custom script that runs when the snippet appears on the page.  \nUseful for adding lightweight behavior or interaction."
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "3",
+																																											"name": "3",
+																																											"type": 2,
+																																											"value": null
+																																										},
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "## Usage\n\nA snippet is used whenever you need flexible content or custom formatting.  \nAfter adding a snippet to a page, simply fill in the fields to define what it should display.\n\nTypical use cases:\n- Highlighted text or formatted notes  \n- Custom layout blocks using HTML  \n- Markdown‑based content sections  \n- Small interactive UI elements powered by simple JavaScript  \n- Structured JSON needed by other components  \n- Dynamic text that uses tokens  \n\nThe snippet will display according to the content type you select.\n",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "## Usage\n\nA snippet is used whenever you need flexible content or custom formatting.  \nAfter adding a snippet to a page, simply fill in the fields to define what it should display.\n\nTypical use cases:\n- Highlighted text or formatted notes  \n- Custom layout blocks using HTML  \n- Markdown‑based content sections  \n- Small interactive UI elements powered by simple JavaScript  \n- Structured JSON needed by other components  \n- Dynamic text that uses tokens  \n\nThe snippet will display according to the content type you select.\n"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "4",
+																																											"name": "4",
+																																											"type": 2,
+																																											"value": null
+																																										},
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "## Content Types\n\n### Markdown\nA simplified formatting language for headings, lists, emphasis, links, and more.  \nIdeal for readable, styled text without writing HTML.\n\n### HTML\nAllows precise formatting and layout control through standard HTML tags.  \nUseful for custom blocks, embeds, or styled sections.\n\n### JSON\nStructured data that can be consumed by other parts of the page or system.",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "## Content Types\n\n### Markdown\nA simplified formatting language for headings, lists, emphasis, links, and more.  \nIdeal for readable, styled text without writing HTML.\n\n### HTML\nAllows precise formatting and layout control through standard HTML tags.  \nUseful for custom blocks, embeds, or styled sections.\n\n### JSON\nStructured data that can be consumed by other parts of the page or system."
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "5",
+																																											"name": "5",
+																																											"type": 2,
+																																											"value": null
+																																										},
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "## JavaScript\n\nSnippets can include optional JavaScript for small custom behaviors.\n\nExamples include:\n- Interacting with elements inside the snippet  \n- Adding simple animations  \n- Calculating values or updating content dynamically  \n\nThe script runs once the snippet is rendered.\n\n*Note: Use JavaScript only if your organization permits it.*\n",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "## JavaScript\n\nSnippets can include optional JavaScript for small custom behaviors.\n\nExamples include:\n- Interacting with elements inside the snippet  \n- Adding simple animations  \n- Calculating values or updating content dynamically  \n\nThe script runs once the snippet is rendered.\n\n*Note: Use JavaScript only if your organization permits it.*\n"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "6",
+																																											"name": "6",
+																																											"type": 2,
+																																											"value": null
+																																										},
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "## Tokens\n\nTokens are placeholders that automatically get replaced with dynamic values when the page is displayed.\n\nExample formats:\n```\n[username]\n[date]\n[product.name]\n```\n\nTokens allow snippets to display context‑aware information without manual updates.",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "## Tokens\n\nTokens are placeholders that automatically get replaced with dynamic values when the page is displayed.\n\nExample formats:\n```\n[username]\n[date]\n[product.name]\n```\n\nTokens allow snippets to display context‑aware information without manual updates."
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "7",
+																																											"name": "7",
+																																											"type": 2,
+																																											"value": null
+																																										},
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "## Rendering Behavior\n\nWhen a page is viewed:\n- The snippet’s content is interpreted based on its content type  \n- Markdown is converted to formatted HTML  \n- HTML is displayed as written  \n- JSON is passed through as structured data  \n- Tokens are replaced with real values  \n- Optional JavaScript is executed once rendering is complete  \n\nThe final result appears seamlessly as part of the page.",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "## Rendering Behavior\n\nWhen a page is viewed:\n- The snippet’s content is interpreted based on its content type  \n- Markdown is converted to formatted HTML  \n- HTML is displayed as written  \n- JSON is passed through as structured data  \n- Tokens are replaced with real values  \n- Optional JavaScript is executed once rendering is complete  \n\nThe final result appears seamlessly as part of the page."
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "8",
+																																											"name": "8",
+																																											"type": 2,
+																																											"value": null
+																																										},
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "## Best Practices\n\n- Choose **Markdown** for general formatted text  \n- Use **HTML** only when you need layout or custom markup  \n- Keep JavaScript small and safe  \n- Use tokens to avoid manually updating repeated values  \n- Preview your snippet to verify formatting (tour may guide this)  ",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "## Best Practices\n\n- Choose **Markdown** for general formatted text  \n- Use **HTML** only when you need layout or custom markup  \n- Keep JavaScript small and safe  \n- Use tokens to avoid manually updating repeated values  \n- Preview your snippet to verify formatting (tour may guide this)  "
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "9",
+																																											"name": "9",
+																																											"type": 2,
+																																											"value": null
+																																										},
+																																										{
+																																											"attributes": [
+																																												{
+																																													"attributes": [
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "text/markdown",
+																																															"displayName": "Content Type",
+																																															"name": "contentType",
+																																															"type": 1,
+																																															"value": "text/markdown"
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": "## Limitations\n\n- Custom JavaScript may be restricted depending on your organization  \n- Complex HTML layouts should be tested for compatibility with your page theme  \n- Tokens are only replaced if supported in the page’s context ",
+																																															"displayName": "Content",
+																																															"name": "content",
+																																															"type": 1,
+																																															"value": "## Limitations\n\n- Custom JavaScript may be restricted depending on your organization  \n- Complex HTML layouts should be tested for compatibility with your page theme  \n- Tokens are only replaced if supported in the page’s context "
+																																														},
+																																														{
+																																															"attributes": [],
+																																															"computedValue": null,
+																																															"displayName": "jsScript",
+																																															"name": "jsScript",
+																																															"type": 1,
+																																															"value": null
+																																														}
+																																													],
+																																													"computedValue": null,
+																																													"displayName": "settings",
+																																													"name": "settings",
+																																													"type": 2,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "false",
+																																													"displayName": "locked",
+																																													"name": "locked",
+																																													"type": 5,
+																																													"value": "false"
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": null,
+																																													"displayName": "contexts",
+																																													"name": "contexts",
+																																													"type": 4,
+																																													"value": null
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "name",
+																																													"name": "name",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "",
+																																													"displayName": "label",
+																																													"name": "label",
+																																													"type": 1,
+																																													"value": ""
+																																												},
+																																												{
+																																													"attributes": [],
+																																													"computedValue": "snippet",
+																																													"displayName": "contentPlugin",
+																																													"name": "contentPlugin",
+																																													"type": 1,
+																																													"value": "snippet"
+																																												}
+																																											],
+																																											"computedValue": null,
+																																											"displayName": "10",
+																																											"name": "10",
 																																											"type": 2,
 																																											"value": null
 																																										}
@@ -823,6 +1722,14 @@
 																																									"name": "settings",
 																																									"type": 2,
 																																									"value": null
+																																								},
+																																								{
+																																									"attributes": [],
+																																									"computedValue": "undefined",
+																																									"displayName": "plugin",
+																																									"name": "plugin",
+																																									"type": 0,
+																																									"value": "undefined"
 																																								}
 																																							],
 																																							"computedValue": null,
@@ -952,6 +1859,31 @@
 																																			"name": "contentPlugin",
 																																			"type": 1,
 																																			"value": "panel"
+																																		},
+																																		{
+																																			"attributes": [
+																																				{
+																																					"attributes": [],
+																																					"computedValue": "",
+																																					"displayName": "condition",
+																																					"name": "condition",
+																																					"type": 1,
+																																					"value": ""
+																																				},
+																																				{
+																																					"attributes": [],
+																																					"computedValue": null,
+																																					"displayName": "rules",
+																																					"name": "rules",
+																																					"type": 4,
+																																					"value": null
+																																				}
+																																			],
+																																			"computedValue": null,
+																																			"displayName": "rule",
+																																			"name": "rule",
+																																			"type": 2,
+																																			"value": null
 																																		}
 																																	],
 																																	"computedValue": null,
@@ -1146,6 +2078,14 @@
 																															"name": "settings",
 																															"type": 2,
 																															"value": null
+																														},
+																														{
+																															"attributes": [],
+																															"computedValue": "undefined",
+																															"displayName": "plugin",
+																															"name": "plugin",
+																															"type": 0,
+																															"value": "undefined"
 																														}
 																													],
 																													"computedValue": null,
@@ -1275,6 +2215,31 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "panel"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -1469,6 +2434,14 @@
 																					"name": "settings",
 																					"type": 2,
 																					"value": null
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "plugin",
+																					"name": "plugin",
+																					"type": 0,
+																					"value": "undefined"
 																				}
 																			],
 																			"computedValue": null,
@@ -1598,6 +2571,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "panel"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -2883,6 +3881,31 @@
 															"name": "contentPlugin",
 															"type": 1,
 															"value": "panel"
+														},
+														{
+															"attributes": [
+																{
+																	"attributes": [],
+																	"computedValue": "",
+																	"displayName": "condition",
+																	"name": "condition",
+																	"type": 1,
+																	"value": ""
+																},
+																{
+																	"attributes": [],
+																	"computedValue": null,
+																	"displayName": "rules",
+																	"name": "rules",
+																	"type": 4,
+																	"value": null
+																}
+															],
+															"computedValue": null,
+															"displayName": "rule",
+															"name": "rule",
+															"type": 2,
+															"value": null
 														}
 													],
 													"computedValue": null,
@@ -3077,6 +4100,14 @@
 											"name": "settings",
 											"type": 2,
 											"value": null
+										},
+										{
+											"attributes": [],
+											"computedValue": "undefined",
+											"displayName": "plugin",
+											"name": "plugin",
+											"type": 0,
+											"value": "undefined"
 										}
 									],
 									"computedValue": null,
