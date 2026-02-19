@@ -23,6 +23,7 @@
 			"listeners": [
 				{
 					"event": {
+						"plugin": "immediate",
 						"settings": {}
 					},
 					"handler": {
