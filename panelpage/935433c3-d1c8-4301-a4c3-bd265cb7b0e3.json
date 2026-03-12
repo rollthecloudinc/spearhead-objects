@@ -933,6 +933,31 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "link"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -1015,6 +1040,31 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "link"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -1097,6 +1147,31 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "link"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -1179,6 +1254,31 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "link"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
@@ -1261,11 +1361,200 @@
 																									"name": "contentPlugin",
 																									"type": 1,
 																									"value": "link"
+																								},
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "",
+																											"displayName": "condition",
+																											"name": "condition",
+																											"type": 1,
+																											"value": ""
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": null,
+																											"displayName": "rules",
+																											"name": "rules",
+																											"type": 4,
+																											"value": null
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "rule",
+																									"name": "rule",
+																									"type": 2,
+																									"value": null
 																								}
 																							],
 																							"computedValue": null,
 																							"displayName": "7",
 																							"name": "7",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "Binding",
+																											"displayName": "text",
+																											"name": "text",
+																											"type": 1,
+																											"value": "Binding"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "/binding",
+																											"displayName": "url",
+																											"name": "url",
+																											"type": 1,
+																											"value": "/binding"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "text",
+																											"displayName": "appearance",
+																											"name": "appearance",
+																											"type": 1,
+																											"value": "text"
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "link",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "link"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "8",
+																							"name": "8",
+																							"type": 2,
+																							"value": null
+																						},
+																						{
+																							"attributes": [
+																								{
+																									"attributes": [
+																										{
+																											"attributes": [],
+																											"computedValue": "Panel Page",
+																											"displayName": "text",
+																											"name": "text",
+																											"type": 1,
+																											"value": "Panel Page"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "/panelpage",
+																											"displayName": "url",
+																											"name": "url",
+																											"type": 1,
+																											"value": "/panelpage"
+																										},
+																										{
+																											"attributes": [],
+																											"computedValue": "text",
+																											"displayName": "appearance",
+																											"name": "appearance",
+																											"type": 1,
+																											"value": "text"
+																										}
+																									],
+																									"computedValue": null,
+																									"displayName": "settings",
+																									"name": "settings",
+																									"type": 2,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "false",
+																									"displayName": "locked",
+																									"name": "locked",
+																									"type": 5,
+																									"value": "false"
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": null,
+																									"displayName": "contexts",
+																									"name": "contexts",
+																									"type": 4,
+																									"value": null
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "name",
+																									"name": "name",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "",
+																									"displayName": "label",
+																									"name": "label",
+																									"type": 1,
+																									"value": ""
+																								},
+																								{
+																									"attributes": [],
+																									"computedValue": "link",
+																									"displayName": "contentPlugin",
+																									"name": "contentPlugin",
+																									"type": 1,
+																									"value": "link"
+																								}
+																							],
+																							"computedValue": null,
+																							"displayName": "9",
+																							"name": "9",
 																							"type": 2,
 																							"value": null
 																						}
@@ -2012,6 +2301,88 @@
 																			"computedValue": null,
 																			"displayName": "9",
 																			"name": "9",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "_route.path",
+																					"displayName": "field",
+																					"name": "field",
+																					"type": 1,
+																					"value": "_route.path"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "=",
+																					"displayName": "operator",
+																					"name": "operator",
+																					"type": 1,
+																					"value": "="
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "/pages/panelpage/169453b7-cfb2-4376-b6b2-c96a2868577e",
+																					"displayName": "value",
+																					"name": "value",
+																					"type": 1,
+																					"value": "/pages/panelpage/169453b7-cfb2-4376-b6b2-c96a2868577e"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "entity",
+																					"name": "entity",
+																					"type": 0,
+																					"value": "undefined"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "10",
+																			"name": "10",
+																			"type": 2,
+																			"value": null
+																		},
+																		{
+																			"attributes": [
+																				{
+																					"attributes": [],
+																					"computedValue": "_route.path",
+																					"displayName": "field",
+																					"name": "field",
+																					"type": 1,
+																					"value": "_route.path"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "=",
+																					"displayName": "operator",
+																					"name": "operator",
+																					"type": 1,
+																					"value": "="
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "/pages/panelpage/5d414e3a-a2a3-46fb-9514-6e260c2e21cb",
+																					"displayName": "value",
+																					"name": "value",
+																					"type": 1,
+																					"value": "/pages/panelpage/5d414e3a-a2a3-46fb-9514-6e260c2e21cb"
+																				},
+																				{
+																					"attributes": [],
+																					"computedValue": "undefined",
+																					"displayName": "entity",
+																					"name": "entity",
+																					"type": 0,
+																					"value": "undefined"
+																				}
+																			],
+																			"computedValue": null,
+																			"displayName": "11",
+																			"name": "11",
 																			"type": 2,
 																			"value": null
 																		}
@@ -3568,6 +3939,16 @@
 					"field": "_route.path",
 					"operator": "=",
 					"value": "/pages/panelpage/6a7110ef-db50-4f38-b85a-0876eb8c74fe"
+				},
+				{
+					"field": "_route.path",
+					"operator": "=",
+					"value": "/pages/panelpage/169453b7-cfb2-4376-b6b2-c96a2868577e"
+				},
+				{
+					"field": "_route.path",
+					"operator": "=",
+					"value": "/pages/panelpage/5d414e3a-a2a3-46fb-9514-6e260c2e21cb"
 				}
 			]
 		}
